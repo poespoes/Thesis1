@@ -50,7 +50,6 @@ public class Monster : MonoBehaviour {
     }
 
     void OnTriggerEnter2D(Collider2D other) {
-        Debug.Log("asdasd");
         isLightened = true;
         timer = 0;
     }
