@@ -9,7 +9,7 @@ public class Player : MonoBehaviour {
     public float stopPosX;
     public float BufferDistance;
     public bool isWalking;
-    private float WalkingState;
+    public float WalkingState;
 
     void Start() {
         targetPos = transform.position.x;
