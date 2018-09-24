@@ -53,7 +53,9 @@ public class Player : MonoBehaviour {
 
             GameObject trip = GameObject.Find("TripAnimation");
             trip.GetComponent<Animate>().tripping = true;
-            Destroy(gameObject);
+            //Destroy(gameObject);
+            this.transform.position = new Vector2(136.4f, -10.5f);
+            this.gameObject.SetActive(false);
         }
     }
 }

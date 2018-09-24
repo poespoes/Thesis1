@@ -23,5 +23,6 @@ public class Animate : MonoBehaviour {
     void spawnTrippedMim() {
         TrippedMim.SetActive(true);
         Destroy(gameObject);
+        GameObject.Find("Player").SetActive(true);
     }
 }
