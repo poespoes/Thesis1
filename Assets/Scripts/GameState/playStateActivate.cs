@@ -8,11 +8,14 @@ using UnityEngine.Timeline;
 public class playStateActivate : MonoBehaviour {
 	
 	public PlayableDirector director;
+	public gameState gameState;
 
 	// Use this for initialization
 	void Start ()
 	{
+		gameState = GameObject.Find("GameManager").GetComponent<gameState>();
 		director = this.GetComponent<PlayableDirector>();
+		gameState.interactive = false;
 	}
 	
 	// Update is called once per frame
@@ -25,6 +28,7 @@ public class playStateActivate : MonoBehaviour {
 		if (playableState == "Paused")
 		{
 			Debug.Log("It has stopped playing DO THE THING");
+			gameState.interactive = true;
 		}
 
 	}
