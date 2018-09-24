@@ -9,13 +9,16 @@ namespace Cinemachine.Examples {
         public CinemachineVirtualCamera cineVCam;
         public GameObject lightBeam;
         public float lightFactor;
+        float originalOrtho;
 
 
         // Use this for initialization
         void Start() {
             cineVCam = GameObject.Find("CM vcam1").GetComponent<CinemachineVirtualCamera>();
             lightBeam = this.transform.Find("MimLight").gameObject;
-            lightFactor = 200;
+            //lightFactor = 200;
+            originalOrtho = cineVCam.m_Lens.OrthographicSize;
+            
 
         }
 
@@ -36,7 +39,21 @@ namespace Cinemachine.Examples {
 
             lightBeam.transform.localScale = new Vector3(distanceFactor, 1, 1);
 
-            cineVCam.m_Lens.OrthographicSize = 10 + (distanceFactor * 20);
+            if (lightBeam.transform.localScale.x > 1.35f)
+            {
+                lightBeam.transform.localScale = new Vector3(1.35f,1,1);
+            }
+            
+            cineVCam.m_Lens.OrthographicSize = originalOrtho + (distanceFactor * 10);
+
+            if (cineVCam.m_Lens.OrthographicSize < originalOrtho)
+            {
+                cineVCam.m_Lens.OrthographicSize = originalOrtho;
+            }
+            else if(cineVCam.m_Lens.OrthographicSize > 24.5f)
+            {
+                cineVCam.m_Lens.OrthographicSize = 24.5f;
+            }
 
 
 

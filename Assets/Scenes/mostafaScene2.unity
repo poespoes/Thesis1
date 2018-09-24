@@ -223,6 +223,7 @@ MonoBehaviour:
   TripAnimator: {fileID: 8032754}
   tripping: 0
   TrippedMim: {fileID: 1673454130}
+  m_player: {fileID: 0}
 --- !u!1 &157507750
 GameObject:
   m_ObjectHideFlags: 0
@@ -2736,6 +2737,7 @@ PlayableDirector:
     value: {fileID: 534669906}
   m_ExposedReferences:
     m_References:
+    - 41acb7f4882228e4b8a5d5a745388a55: {fileID: 1464096839}
     - b248a5f48555ef444aa8ac326ca49ab7: {fileID: 1464096839}
     - c3658d0557ecdde44a185e1ff71eabcf: {fileID: 1594241026}
 --- !u!114 &1870115155
@@ -3125,4 +3127,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cineVCam: {fileID: 0}
   lightBeam: {fileID: 0}
-  lightFactor: 0
+  lightFactor: 60
