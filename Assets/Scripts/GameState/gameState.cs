@@ -8,12 +8,14 @@ public class gameState : MonoBehaviour
 	public bool interactive;
 	public BeamStretch beamStretch;
 	public BeamController beamController;
+	public Player player;	
 
 	// Use this for initialization
 	void Start ()
 	{
 		beamStretch = GameObject.Find("Player").GetComponent<BeamStretch>();
 		beamController = GameObject.Find("MimLight").GetComponent<BeamController>();
+		player = GameObject.Find("Player").GetComponent<Player>();
 	}
 	
 	// Update is called once per frame
@@ -21,5 +23,6 @@ public class gameState : MonoBehaviour
 	{
 		beamStretch.enabled = interactive;
 		beamController.enabled = interactive;
+		player.enabled = interactive;
 	}
 }
