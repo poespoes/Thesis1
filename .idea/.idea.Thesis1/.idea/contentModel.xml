@@ -36,6 +36,8 @@
             </e>
           </e>
         </e>
+        <e p="Oi_1Movement.cs" t="Include" />
+        <e p="OiSpawner.cs" t="Include" />
         <e p="Player.cs" t="Include" />
         <e p="PlayerAnimation.cs" t="Include" />
         <e p="Scripts" t="Include">

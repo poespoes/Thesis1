@@ -394,6 +394,7 @@ MonoBehaviour:
   interactive: 0
   beamStretch: {fileID: 0}
   beamController: {fileID: 0}
+  player: {fileID: 0}
 --- !u!4 &211124091
 Transform:
   m_ObjectHideFlags: 0
@@ -607,7 +608,7 @@ Camera:
   far clip plane: 5000
   field of view: 40
   orthographic: 1
-  orthographic size: 10
+  orthographic size: 15
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1117,8 +1118,8 @@ MonoBehaviour:
   m_ScreenX: 0.5
   m_ScreenY: 0.5
   m_CameraDistance: 10
-  m_DeadZoneWidth: 0.1
-  m_DeadZoneHeight: 0.1
+  m_DeadZoneWidth: 0
+  m_DeadZoneHeight: 0
   m_DeadZoneDepth: 0
   m_UnlimitedSoftZone: 0
   m_SoftZoneWidth: 0.8
@@ -2045,13 +2046,13 @@ MonoBehaviour:
   - m_Script
   m_LockStageInInspector: 
   m_StreamingVersion: 20170927
-  m_Priority: 10
+  m_Priority: 20
   m_StandbyUpdate: 2
   m_LookAt: {fileID: 0}
   m_Follow: {fileID: 2129993523}
   m_Lens:
     FieldOfView: 40
-    OrthographicSize: 10
+    OrthographicSize: 15
     NearClipPlane: 0.1
     FarClipPlane: 5000
     Dutch: 0
@@ -2735,6 +2736,7 @@ PlayableDirector:
     value: {fileID: 534669906}
   m_ExposedReferences:
     m_References:
+    - 41acb7f4882228e4b8a5d5a745388a55: {fileID: 1464096839}
     - b248a5f48555ef444aa8ac326ca49ab7: {fileID: 1464096839}
     - c3658d0557ecdde44a185e1ff71eabcf: {fileID: 1594241026}
 --- !u!114 &1870115155
