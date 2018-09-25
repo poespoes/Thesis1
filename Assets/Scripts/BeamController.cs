@@ -9,7 +9,7 @@ public class BeamController : MonoBehaviour {
     }
 	
 	void Update () {
-        Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        Vector3 mousePos = GameObject.Find("VirtualMouse").transform.position;
         mousePos -= transform.position;
         Vector3 euler = transform.eulerAngles;
         euler.z = Mathf.Atan2(mousePos.y, mousePos.x) * Mathf.Rad2Deg;
