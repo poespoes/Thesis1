@@ -11,11 +11,14 @@ public class Player : MonoBehaviour {
     public bool isWalking;
     public float WalkingState;
     public bool canWalk;
+    public GameObject v_Mouse;
     
     void Start() {
         targetPos = transform.position.x;
         WalkingState = this.GetComponent<PlayerAnimation>().WalkingState;
         canWalk = true;
+        
+        v_Mouse = GameObject.Find("VirtualMouse");
     }
 
     void Update() {
@@ -25,7 +28,9 @@ public class Player : MonoBehaviour {
             {
                 isWalking = true;
                 this.GetComponent<PlayerAnimation>().WalkingState = 1;
-                targetPos = Camera.main.ScreenToWorldPoint(Input.mousePosition).x - BufferDistance;
+                //targetPos = Camera.main.ScreenToWorldPoint(Input.mousePosition).x - BufferDistance;
+                
+                targetPos = v_Mouse.transform.position.x - BufferDistance;
             }
         }
 

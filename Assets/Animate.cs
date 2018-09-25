@@ -7,11 +7,14 @@ public class Animate : MonoBehaviour {
     public bool tripping = false;
     public GameObject TrippedMim;
     public GameObject m_player;
+    public GameObject trip_camera;
 
     // Use this for initialization
     void Start () {
         m_player = GameObject.Find("Player");
-	}
+        trip_camera = GameObject.Find("Trip");
+        trip_camera.SetActive(false);
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -23,7 +26,9 @@ public class Animate : MonoBehaviour {
     }
     void spawnTrippedMim() {
         //TrippedMim.SetActive(true);
+        trip_camera.SetActive(true);
         m_player.SetActive(true);
+        
      
         Destroy(gameObject);
     }

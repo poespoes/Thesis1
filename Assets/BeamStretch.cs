@@ -28,8 +28,12 @@ namespace Cinemachine.Examples {
             Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
             Vector3 thisPos = this.transform.position;
+            
+            GameObject v_Mouse = GameObject.Find("VirtualMouse");
+            
+       
 
-            float distance = Vector3.Distance(mousePos, thisPos);
+            float distance = Vector3.Distance(v_Mouse.transform.position, thisPos);
 
             //if (Input.GetMouseButtonDown(1)) {
 
