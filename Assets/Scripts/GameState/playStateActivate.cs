@@ -27,7 +27,7 @@ public class playStateActivate : MonoBehaviour {
 
 		if (playableState == "Paused")
 		{
-			Debug.Log("It has stopped playing DO THE THING");
+			
 			gameState.interactive = true;
 		}
 

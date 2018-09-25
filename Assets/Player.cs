@@ -10,17 +10,23 @@ public class Player : MonoBehaviour {
     public float BufferDistance;
     public bool isWalking;
     public float WalkingState;
-
+    public bool canWalk;
+    
     void Start() {
         targetPos = transform.position.x;
         WalkingState = this.GetComponent<PlayerAnimation>().WalkingState;
+        canWalk = true;
     }
 
     void Update() {
-        if (Input.GetMouseButtonDown(0)) {
-            isWalking = true;
-            this.GetComponent<PlayerAnimation>().WalkingState = 1;
-            targetPos = Camera.main.ScreenToWorldPoint(Input.mousePosition).x - BufferDistance;
+        if (canWalk == true)
+        {
+            if (Input.GetMouseButtonDown(0))
+            {
+                isWalking = true;
+                this.GetComponent<PlayerAnimation>().WalkingState = 1;
+                targetPos = Camera.main.ScreenToWorldPoint(Input.mousePosition).x - BufferDistance;
+            }
         }
 
         float posX = transform.position.x;
@@ -47,7 +53,7 @@ public class Player : MonoBehaviour {
         Debug.Log("trytguhinuj");
     }
 
-    private void OnTriggerEnter2D(Collider2D collision) {
+   /* private void OnTriggerEnter2D(Collider2D collision) {
         if (collision.gameObject.tag == "Tripping") {
             Debug.Log("tripping");
 
@@ -57,5 +63,5 @@ public class Player : MonoBehaviour {
             this.transform.position = new Vector2(136.4f, -10.5f);
             this.gameObject.SetActive(false);
         }
-    }
+    }*/
 }
