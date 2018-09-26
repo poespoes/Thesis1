@@ -109,6 +109,9 @@
           <e p="Monster.cs" t="Include" />
           <e p="refocusCamera.cs" t="Include" />
           <e p="testScript.cs" t="Include" />
+          <e p="UI Script" t="Include">
+            <e p="UICrossFade.cs" t="Include" />
+          </e>
         </e>
         <e p="VirtualMouse.cs" t="Include" />
       </e>

@@ -30,7 +30,9 @@ namespace Cinemachine.Examples {
             Vector3 thisPos = this.transform.position;
             
             GameObject v_Mouse = GameObject.Find("VirtualMouse");
-            
+
+
+            float height = v_Mouse.transform.position.y - thisPos.y;
        
 
             float distance = Vector3.Distance(v_Mouse.transform.position, thisPos);
