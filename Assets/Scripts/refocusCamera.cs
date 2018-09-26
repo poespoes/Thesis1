@@ -8,7 +8,7 @@ namespace Cinemachine.Examples
 	{
 
 		public CinemachineVirtualCamera camera;
-		public float priority;
+		public int priority;
 		public CameraControl cameraControl;
 		
 		// Use this for initialization
@@ -30,6 +30,7 @@ namespace Cinemachine.Examples
 			if (collision.gameObject.tag == "Player")
 			{
 				priority = cameraControl.mainPriority + 1;
+				camera.m_Priority = priority;
 				cameraControl.focusedCamera = camera;
 				Debug.Log("COLLIDED WITH PLAYER");
 				

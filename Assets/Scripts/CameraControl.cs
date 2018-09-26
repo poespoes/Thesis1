@@ -7,7 +7,7 @@ namespace Cinemachine.Examples
 	public class CameraControl : MonoBehaviour
 	{
 		public CinemachineVirtualCamera focusedCamera;
-		public float mainPriority; 
+		public int mainPriority; 
 
 		// Use this for initialization
 		void Start()

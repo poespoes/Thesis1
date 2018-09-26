@@ -4,11 +4,12 @@ using UnityEngine;
 
 public class lightFollow : MonoBehaviour {
 	
-	public GameObject light = GameObject.Find("MimLight");
+	public GameObject light ;
 
 	// Use this for initialization
-	void Start () {
-		
+	void Start ()
+	{
+		light = GameObject.Find("MimLight");
 	}
 	
 	// Update is called once per frame
