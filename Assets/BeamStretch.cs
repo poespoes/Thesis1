@@ -37,7 +37,7 @@ namespace Cinemachine.Examples {
 
             //if (Input.GetMouseButtonDown(1)) {
 
-            Debug.Log("The distance is " + distance);
+            //Debug.Log("The distance is " + distance);
 
             float distanceFactor = distance / lightFactor;
 
