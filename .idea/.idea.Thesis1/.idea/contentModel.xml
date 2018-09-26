@@ -4,11 +4,62 @@
     <e p="C:\Users\93haq\.Rider2018.2\system\extResources" t="IncludeRecursive" />
     <e p="C:\Users\93haq\.Rider2018.2\system\resharper-host\Local\Transient\ReSharperHost\v182\SolutionCaches\_Thesis1.1118818447.00" t="ExcludeRecursive" />
     <e p="C:\Users\93haq\Documents\GitHubClones\New Mim\Thesis1" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Animate.cs" t="Include" />
         <e p="AnimationEndEvent.cs" t="Include" />
         <e p="BeamStretch.cs" t="Include" />
+        <e p="BlendModes" t="Include">
+          <e p="Editor" t="Include">
+            <e p="BlendModeEffectEditor.cs" t="Include" />
+            <e p="ComponentExtensionEditor.cs" t="Include" />
+            <e p="ExtensionFile.cs" t="Include" />
+            <e p="ExtensionManager.cs" t="Include" />
+            <e p="ExtensionPackage.cs" t="Include" />
+            <e p="ExtensionSources.cs" t="Include" />
+            <e p="PackagePath.cs" t="Include" />
+            <e p="ShaderResourcesEditor.cs" t="Include" />
+          </e>
+          <e p="Extensions" t="Include">
+            <e p="Components" t="Include">
+              <e p="UnityEngine.SpriteRenderer" t="Include">
+                <e p="SpriteRendererExtension.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Shaders" t="Include">
+              <e p="SpritesDefault" t="Include">
+                <e p="BlendModes-SpritesDefault-Framebuffer.shader" t="Include" />
+                <e p="BlendModes-SpritesDefault-FramebufferMasked.shader" t="Include" />
+                <e p="BlendModes-SpritesDefault-Grab.shader" t="Include" />
+                <e p="BlendModes-SpritesDefault-GrabMasked.shader" t="Include" />
+                <e p="BlendModes-SpritesDefault-Overlay.shader" t="Include" />
+                <e p="BlendModes-SpritesDefault-OverlayMasked.shader" t="Include" />
+                <e p="BlendModes-SpritesDefault-UnifiedGrab.shader" t="Include" />
+                <e p="BlendModes-SpritesDefault-UnifiedGrabMasked.shader" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Runtime" t="Include">
+            <e p="BlendMode.cs" t="Include" />
+            <e p="BlendModeEffect.cs" t="Include" />
+            <e p="ComponentExtension.cs" t="Include" />
+            <e p="MaskableGraphicExtension.cs" t="Include" />
+            <e p="MaskBehaviour.cs" t="Include" />
+            <e p="MaskMode.cs" t="Include" />
+            <e p="MaterialCache.cs" t="Include" />
+            <e p="RendererExtension.cs" t="Include" />
+            <e p="RenderMode.cs" t="Include" />
+            <e p="ShaderProperty.cs" t="Include" />
+            <e p="ShaderPropertyType.cs" t="Include" />
+            <e p="ShaderResources.cs" t="Include" />
+            <e p="ShaderUtilities.cs" t="Include" />
+          </e>
+          <e p="Shaders" t="Include">
+            <e p="BlendFunctions.cginc" t="Include" />
+            <e p="BlendModesCG.cginc" t="Include" />
+          </e>
+        </e>
         <e p="CinemachineExamples" t="Include">
           <e p="Scenes" t="Include">
             <e p="Scripting" t="Include">
@@ -43,6 +94,7 @@
         <e p="PlayerAnimation.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="BeamController.cs" t="Include" />
+          <e p="CameraControl.cs" t="Include" />
           <e p="EnvironmentalScript" t="Include">
             <e p="tripperScript.cs" t="Include" />
           </e>
@@ -51,7 +103,11 @@
             <e p="gameState.cs" t="Include" />
             <e p="playStateActivate.cs" t="Include" />
           </e>
+          <e p="Lightbringer" t="Include">
+            <e p="lightFollow.cs" t="Include" />
+          </e>
           <e p="Monster.cs" t="Include" />
+          <e p="refocusCamera.cs" t="Include" />
           <e p="testScript.cs" t="Include" />
         </e>
         <e p="VirtualMouse.cs" t="Include" />
