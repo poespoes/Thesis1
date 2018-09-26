@@ -40,11 +40,11 @@ MonoBehaviour:
   - m_Start: 0.8166666666666667
     m_ClipIn: 0
     m_Asset: {fileID: 114731843217236328}
-    m_Duration: 5
+    m_Duration: 3.2
     m_TimeScale: 1
     m_ParentTrack: {fileID: 114646372000127668}
-    m_EaseInDuration: 0
-    m_EaseOutDuration: 0
+    m_EaseInDuration: 2.45
+    m_EaseOutDuration: 1.66
     m_BlendInDuration: -1
     m_BlendOutDuration: -1
     m_MixInCurve:
@@ -104,7 +104,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: CinemachineShot
+    m_DisplayName: CM vcam3
     m_Version: 1
   m_Version: 1
 --- !u!114 &114706670920736508
@@ -138,5 +138,5 @@ MonoBehaviour:
   m_Name: CinemachineShot
   m_EditorClassIdentifier: 
   VirtualCamera:
-    exposedName: 
+    exposedName: 85a01ed8d619f0841922472721292f25
     defaultValue: {fileID: 0}
