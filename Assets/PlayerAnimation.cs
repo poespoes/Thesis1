@@ -8,13 +8,14 @@ public class PlayerAnimation : MonoBehaviour {
     public float WalkingState = 0;
     
 
+
     // Use this for initialization
-    void Start () {
+    void Start() {
         sr = GetComponent<SpriteRenderer>();
     }
-	
-	// Update is called once per frame
-	void Update () {
+
+    // Update is called once per frame
+    void Update() {
         if (WalkingState == 0) {
             PlayerAnimator.SetBool("MimWalk", false);
             PlayerAnimator.SetBool("MimScareWalk", false);
@@ -36,4 +37,24 @@ public class PlayerAnimation : MonoBehaviour {
             PlayerAnimator.SetBool("MimVeryScareWalk", true);
         }
     }
+
+    private void OnTriggerStay2D(Collider2D collision) {
+        //collide fearstate2
+        if (collision.gameObject.tag == "FearState2") {
+            Debug.Log("Walking State = 2");
+            WalkingState = 2;
+        }
+        if (collision.gameObject.tag == "FearState3") {
+            Debug.Log("Walking State = 3");
+            WalkingState = 3;
+        }
+    }
+
+        private void OnTriggerExit2D(Collider2D collision) {
+        if (collision.gameObject.tag == "FearState2" || collision.gameObject.tag == "FearState3") {
+            Debug.Log("Walking State = 1");
+            WalkingState = 1;
+        }
+    }
+
 }

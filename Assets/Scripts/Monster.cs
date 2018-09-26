@@ -6,6 +6,7 @@ public class Monster : MonoBehaviour {
 
     public GameObject MonsterPrefab;
     public List<Sprite> spriteList;
+    public float maxIndex;
     public float frameDuration;
     public float frameReverseDuration;
     bool isLightened = false;
@@ -50,21 +51,30 @@ public class Monster : MonoBehaviour {
             }
         }
 
-        if(currentIndex == 3) {
+        if(currentIndex == maxIndex) {
             Debug.Log("Monster spawns!");
+            GameObject newMonsterObj = Instantiate(MonsterPrefab);
+            newMonsterObj.transform.position = transform.position;
+            Destroy(this);
         }
         //if REACHES last index, destroy and instantiate monster
     }
 
-    void OnTriggerEnter2D(Collider2D other) {
-        Debug.Log("OI contacted");
-        isLightened = true;
-        timer = 0;
+    void OnTriggerEnter2D(Collider2D collision) {
+        if (collision.gameObject.tag == "MimLight") {
+            Debug.Log("OI contacted");
+            isLightened = true;
+            timer = 0;
+        }
     }
 
-    void OnTriggerExit2D(Collider2D other) {
-        afterFirstContact = true;
-        isLightened = false;
-        timer = 0;
+    void OnTriggerExit2D(Collider2D collision) {
+        if (collision.gameObject.tag == "MimLight") {
+            Debug.Log("OI triggered");
+            afterFirstContact = true;
+            isLightened = false;
+            timer = 0;
+        }
+        
     }
 }

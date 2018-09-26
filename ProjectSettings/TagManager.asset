@@ -6,6 +6,9 @@ TagManager:
   tags:
   - other
   - Tripping
+  - MimLight
+  - FearState2
+  - FearState3
   layers:
   - Default
   - TransparentFX
