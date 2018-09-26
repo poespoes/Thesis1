@@ -129,8 +129,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/VirtualMouse.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
+            <state relative-caret-position="400">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
               <folding>
                 <marker date="1537913482893" expanded="false" signature="6:78" ph="..." />
                 <marker date="1537913482893" expanded="true" signature="122:775" ph="{...}" />
@@ -299,12 +299,12 @@
       <workItem from="1537812531036" duration="2259000" />
       <workItem from="1537820690944" duration="2519000" />
       <workItem from="1537889881361" duration="2744000" />
-      <workItem from="1537897440074" duration="6301000" />
+      <workItem from="1537897440074" duration="6901000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18134000" />
+    <option name="totallyTimeSpent" value="18734000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -483,8 +483,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/VirtualMouse.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
+        <state relative-caret-position="400">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
           <folding>
             <marker date="1537913482893" expanded="false" signature="6:78" ph="..." />
             <marker date="1537913482893" expanded="true" signature="122:775" ph="{...}" />
