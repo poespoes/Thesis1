@@ -1,11 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Cinemachine.Examples;
 using UnityEngine;
 
-public class BeamController : MonoBehaviour {
+public class BeamController : MonoBehaviour
+{
 
+    public BeamStretch beamStretch;
+    
     void Start () {
         //Cursor.visible = false;
+
+        beamStretch = GameObject.Find("Player").GetComponent<BeamStretch>();
     }
 	
 	void Update () {
@@ -18,6 +24,11 @@ public class BeamController : MonoBehaviour {
         if (Input.GetMouseButtonDown(1)) {
             //toggle light on/off
             GetComponent<SpriteRenderer>().enabled = !GetComponent<SpriteRenderer>().enabled;
+            GetComponent<SpriteMask>().enabled = !GetComponent<SpriteMask>().enabled;
+
+
+            //beamStretch.enabled = !beamStretch.enabled;
+
         }
 	}
 }
