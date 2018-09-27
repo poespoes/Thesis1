@@ -73,8 +73,9 @@ public class Animate : MonoBehaviour {
         //v_Mouse.transform.position = new Vector3(-15,-6);
         lightBringer.canActivate = true;
         PodLight.SetBool("isGlowing",true);
+        GameObject.Find("Vine").GetComponent<vineAttack>().canAttack = true;
         Destroy(gameObject);
 
-        GameObject.Find("Vine").GetComponent<vineAttack>().canAttack = true;
+        
     }
 }

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class vineAttack : MonoBehaviour {
 
@@ -31,6 +32,9 @@ public class vineAttack : MonoBehaviour {
 				Debug.Log("END SCENE");
 				vineAnimator.SetBool("isAttacking", true);
 				vineAnimator.SetBool("isGlowing", false);
+				
+				GameObject blackout = GameObject.Find("BlackoutPanel");
+				blackout.GetComponent<Image>().CrossFadeAlpha(255,5.0f,false);
 			}
 		}
 	}
