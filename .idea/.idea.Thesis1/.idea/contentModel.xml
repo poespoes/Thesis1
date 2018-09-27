@@ -95,8 +95,11 @@
         <e p="PlayerAnimation.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="BeamController.cs" t="Include" />
+          <e p="BeamStretchHorizontalOnly.cs" t="Include" />
+          <e p="BeamStretchVerticalOnly.cs" t="Include" />
           <e p="CameraControl.cs" t="Include" />
           <e p="EnvironmentalScript" t="Include">
+            <e p="letThereBeLight.cs" t="Include" />
             <e p="tripperScript.cs" t="Include" />
           </e>
           <e p="GameState" t="Include">

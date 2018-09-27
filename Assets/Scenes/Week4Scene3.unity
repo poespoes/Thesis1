@@ -226,6 +226,7 @@ MonoBehaviour:
   tripping: 0
   TrippedMim: {fileID: 1673454130}
   m_player: {fileID: 0}
+  PodLight: {fileID: 0}
   trip_camera2: {fileID: 0}
   blackout: {fileID: 0}
 --- !u!114 &8032756
@@ -3986,6 +3987,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bfac007c993f70246a08b18bfe85f667, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  beamStretch: {fileID: 0}
 --- !u!331 &1514100087
 SpriteMask:
   m_ObjectHideFlags: 0
@@ -4137,6 +4139,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MonsterAnimator: {fileID: 1541622676}
   maxFearDuration: 2
+  speedPercent: 10
+  player: {fileID: 0}
 --- !u!212 &1541622675
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4466,7 +4470,7 @@ GameObject:
   - component: {fileID: 1646626444}
   m_Layer: 0
   m_Name: FearState3
-  m_TagString: FearState3
+  m_TagString: FearState2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5832,7 +5836,7 @@ GameObject:
   - component: {fileID: 2099049782}
   m_Layer: 0
   m_Name: FearState2
-  m_TagString: FearState2
+  m_TagString: FearState3
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

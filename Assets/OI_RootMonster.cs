@@ -8,17 +8,25 @@ public class OI_RootMonster : MonoBehaviour {
     bool isLitUp = false;
     private float fearTimer = 0;
     public float maxFearDuration;
+    public float speedPercent;
+    private float actualSpeed;
 
+    public GameObject player;
 
     void Start () {
-        
-	}
+        player = GameObject.Find("Player");
+        actualSpeed = (speedPercent / 100) * 1;
+    }
 	
 
 	void Update () {
         if(inAtkRange == false && isLitUp == false) {
             MonsterAnimator.SetBool("isWalking", true);
             //moves toward player
+
+            transform.position = Vector2.MoveTowards(transform.position,
+                new Vector2(player.transform.position.x, transform.position.y), actualSpeed);
+
         }
         
         if(inAtkRange == true) {
