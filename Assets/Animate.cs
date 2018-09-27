@@ -62,7 +62,7 @@ public class Animate : MonoBehaviour {
         //GameObject.Find("BlackoutPanel").GetComponent<UICrossFade>().willFadeOut = true;
         Debug.Log("BlackoutSent");
         
-        //GameObject.Find("GameManager").GetComponent<gameState>().interactive = false;
+        GameObject.Find("GameManager").GetComponent<gameState>().interactive = false;
         blackout.GetComponent<Image>().CrossFadeAlpha(255,5.0f,false);
 
         //blackout.GetComponent<UICrossFade>().willFadeOut=true;
