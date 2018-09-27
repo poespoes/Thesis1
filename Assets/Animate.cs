@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Cinemachine.Examples;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -12,7 +13,11 @@ public class Animate : MonoBehaviour {
    
     public GameObject trip_camera2;
     public GameObject blackout;
+    public GameObject v_Mouse;
 
+    public letThereBeLight lightBringer;
+    
+    
     // Use this for initialization
     void Start () {
         m_player = GameObject.Find("Player");
@@ -20,7 +25,10 @@ public class Animate : MonoBehaviour {
         trip_camera2 = GameObject.Find("Trip2");
 
         blackout = GameObject.Find("BlackoutPanel");
-        
+
+        v_Mouse = GameObject.Find("VirtualCamera");
+
+        lightBringer = GameObject.Find("GameManager").GetComponent<letThereBeLight>();
         
         trip_camera2.SetActive(false);
     }
@@ -37,9 +45,9 @@ public class Animate : MonoBehaviour {
         //TrippedMim.SetActive(true);
        
         m_player.SetActive(true);
-        
-     
-        
+
+
+        lightBringer.canActivate = true;
     }
 
     void cameraActivate()

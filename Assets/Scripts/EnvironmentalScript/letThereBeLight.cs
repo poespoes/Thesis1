@@ -3,30 +3,45 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class letThereBeLight : MonoBehaviour {
-	public GameObject blackout;
-	public bool canActivate;
-	public bool hasActivated;
+namespace Cinemachine.Examples
+{
+	public class letThereBeLight : MonoBehaviour
+	{
+		public CinemachineVirtualCamera cineVCam;
+		public GameObject blackout;
+		public bool canActivate;
+		public bool hasActivated;
+		public GameObject player;
 
-	// Use this for initialization
-	void Start () {
-		
-		blackout = GameObject.Find("BlackoutPanel");
 
-		canActivate = false;
-		hasActivated = false;
-
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		if (canActivate == true & hasActivated == false)
+		// Use this for initialization
+		void Start()
 		{
-			if (Input.GetMouseButtonDown(1))
+			
+			cineVCam = GameObject.Find("CM vcam7").GetComponent<CinemachineVirtualCamera>();
+
+			blackout = GameObject.Find("BlackoutPanel");
+
+			canActivate = false;
+			hasActivated = false;
+
+			player = GameObject.Find("Player");
+
+		}
+
+		// Update is called once per frame
+		void Update()
+		{
+			if (canActivate == true & hasActivated == false)
 			{
-				Debug.Log("LET THERE BE LIGHT");
-				blackout.GetComponent<Image>().CrossFadeAlpha(0.1f, 10.0f, false);
-				hasActivated = false;
+				if (Input.GetMouseButtonDown(1))
+				{
+					Debug.Log("LET THERE BE LIGHT");
+					blackout.GetComponent<Image>().CrossFadeAlpha(0.1f, 2.0f, false);
+					hasActivated = true;
+
+					cineVCam.Follow = player.transform;
+				}
 			}
 		}
 	}

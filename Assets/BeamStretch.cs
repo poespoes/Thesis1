@@ -61,10 +61,24 @@ namespace Cinemachine.Examples {
                 cineVCam.m_Lens.OrthographicSize = 24.5f;
             }
 
+            float heightFactor = (height / lightFactor)+0.5f;
+            if (heightFactor > 0.75f)
+            {
+                heightFactor = 0.75f;
+            }
 
-           
+            if (heightFactor < 0)
+            {
+                heightFactor = 0;
+            }
 
             //}
+            
+            var cineComposer = cineVCam.GetCinemachineComponent<CinemachineFramingTransposer>();
+
+            //cineComposer.m_ScreenY = cineComposer.m_ScreenY + distanceFactor;
+
+            cineComposer.m_ScreenY = heightFactor;
         }
     }
 }

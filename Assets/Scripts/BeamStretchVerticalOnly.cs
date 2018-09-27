@@ -33,11 +33,24 @@ namespace Cinemachine.Examples
 			Debug.Log("The Height is "+ height);
 			
 			float distanceFactor = height / lightFactor;
+
+			if (distanceFactor > 1)
+			{
+				distanceFactor = 1;
+			}
+
+			if (distanceFactor < -1)
+			{
+				distanceFactor = -1;
+			}
 			
 			var cineComposer = cineVCam.GetCinemachineComponent<CinemachineFramingTransposer>();
 
-			cineComposer.m_ScreenY = cineComposer.m_ScreenY + distanceFactor;
+			//cineComposer.m_ScreenY = cineComposer.m_ScreenY + distanceFactor;
 
+			cineComposer.m_ScreenY = distanceFactor;
+			
+			
 
 		}
 	}
