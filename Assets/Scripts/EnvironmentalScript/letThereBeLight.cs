@@ -37,10 +37,17 @@ namespace Cinemachine.Examples
 				if (Input.GetMouseButtonDown(1))
 				{
 					Debug.Log("LET THERE BE LIGHT");
-					blackout.GetComponent<Image>().CrossFadeAlpha(0.1f, 2.0f, false);
+					blackout.GetComponent<Image>().CrossFadeAlpha(0.1f, 0.1f, false);
 					hasActivated = true;
 
 					cineVCam.Follow = player.transform;
+					
+					GameObject v_cam = GameObject.Find("VirtualCamera");
+					v_cam.transform.position = GameObject.Find("PodScale").transform.position;
+					
+					GameObject.Find("GameManager").GetComponent<gameState>().interactive = true;
+					
+					
 				}
 			}
 		}

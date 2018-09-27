@@ -120,7 +120,11 @@
           <e p="UI Script" t="Include">
             <e p="UICrossFade.cs" t="Include" />
           </e>
+          <e p="VineScript" t="Include">
+            <e p="Vine Prototype.cs" t="Include" />
+          </e>
         </e>
+        <e p="vineAttack.cs" t="Include" />
         <e p="VirtualMouse.cs" t="Include" />
       </e>
       <e p="Library" t="ExcludeRecursive" />

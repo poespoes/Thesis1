@@ -38,6 +38,8 @@ public class Animate : MonoBehaviour {
         if (tripping == true) {
             Debug.Log("tripping");
             TripAnimator.SetBool("MimTrip", true);
+
+            
         }
 
     }
@@ -47,7 +49,7 @@ public class Animate : MonoBehaviour {
         m_player.SetActive(true);
 
 
-        lightBringer.canActivate = true;
+        
     }
 
     void cameraActivate()
@@ -60,7 +62,7 @@ public class Animate : MonoBehaviour {
         //GameObject.Find("BlackoutPanel").GetComponent<UICrossFade>().willFadeOut = true;
         Debug.Log("BlackoutSent");
         
-        
+        //GameObject.Find("GameManager").GetComponent<gameState>().interactive = false;
         blackout.GetComponent<Image>().CrossFadeAlpha(255,5.0f,false);
 
         //blackout.GetComponent<UICrossFade>().willFadeOut=true;
@@ -68,6 +70,8 @@ public class Animate : MonoBehaviour {
 
     void podGlow()
     {
+        //v_Mouse.transform.position = new Vector3(-15,-6);
+        lightBringer.canActivate = true;
         PodLight.SetBool("isGlowing",true);
         Destroy(gameObject);
     }

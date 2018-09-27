@@ -30,7 +30,7 @@ namespace Cinemachine.Examples
 
 			float height = v_Mouse.transform.position.y - thisPos.y;
 			
-			Debug.Log("The Height is "+ height);
+//			Debug.Log("The Height is "+ height);
 			
 			float distanceFactor = height / lightFactor;
 
