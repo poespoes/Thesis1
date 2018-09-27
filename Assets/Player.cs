@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour {
     
@@ -12,13 +13,17 @@ public class Player : MonoBehaviour {
     public float WalkingState;
     public bool canWalk;
     public GameObject v_Mouse;
+
+    private GameObject blackout;
     
+
     void Start() {
         targetPos = transform.position.x;
         WalkingState = this.GetComponent<PlayerAnimation>().WalkingState;
         canWalk = true;
         
         v_Mouse = GameObject.Find("VirtualMouse");
+        blackout = GameObject.Find("BlackoutPanel");
     }
 
     void Update() {
@@ -34,10 +39,20 @@ public class Player : MonoBehaviour {
             }
         }
 
-        float posX = transform.position.x;
-        posX = Mathf.MoveTowards(posX, targetPos, moveSpeed * Time.deltaTime);
-        transform.position = new Vector3(posX, transform.position.y);
+        if (canWalk == true) {
+            float posX = transform.position.x;
+            posX = Mathf.MoveTowards(posX, targetPos, moveSpeed * Time.deltaTime);
+            transform.position = new Vector3(posX, transform.position.y);
+        }
 
+        if(canWalk == false) {
+            Debug.Log("canWalk = false");
+            //blackout.GetComponent<Canvas>().sortingOrder = 99;
+            blackout.GetComponent<Image>().CrossFadeAlpha(255, 2.0f, false);
+            //transform.position = new Vector3(transform.position.x, transform.position.y);
+            this.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeAll;
+            
+        }
         //Mim trips
         /*if (transform.position.x >= stopPosX) {
             Destroy(gameObject);

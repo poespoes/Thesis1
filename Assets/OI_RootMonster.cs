@@ -17,8 +17,8 @@ public class OI_RootMonster : MonoBehaviour {
     void Start () {
         player = GameObject.Find("Player");
         actualSpeed = (speedPercent / 100) * 1;
-        deathCollider = GetComponent<Deathcollider>();
-
+        deathCollider = GetComponentInChildren<Deathcollider>();
+        
     }
 
 
@@ -31,12 +31,9 @@ public class OI_RootMonster : MonoBehaviour {
 
         }
 
-        //MOSTAFA HELPPPPPP~! I dunno what I did wrong. DEATH TRIGGERED in the child script.
         if (deathCollider.deathTriggered == true) {
             Debug.Log("Kill!Kill!");
-
-            //monster stops moving
-            //freezes player
+            player.GetComponent<Player>().canWalk = false;
             MonsterAnimator.SetBool("isWalking", false);
             MonsterAnimator.SetBool("isAttacking", true);
         }
