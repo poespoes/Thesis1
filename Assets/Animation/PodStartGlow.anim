@@ -311,7 +311,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.08235294
+        value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -321,8 +321,8 @@ AnimationClip:
       - serializedVersion: 3
         time: 0.33333334
         value: 0.08235294
-        inSlope: 0
-        outSlope: 0
+        inSlope: 0.37291902
+        outSlope: 0.37291902
         tangentMode: 136
         weightedMode: 0
         inWeight: 0.33333334
@@ -622,7 +622,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.16862746
+        value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -632,8 +632,8 @@ AnimationClip:
       - serializedVersion: 3
         time: 0.33333334
         value: 0.16862746
-        inSlope: 0
-        outSlope: 0
+        inSlope: 0.44548202
+        outSlope: 0.44548202
         tangentMode: 136
         weightedMode: 0
         inWeight: 0.33333334
@@ -1160,7 +1160,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.16078432
+        value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1208,6 +1208,34 @@ AnimationClip:
       m_RotationOrder: 4
     attribute: m_Color.a
     path: glowOverlay
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 20
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 4.8333335
+        value: 20
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_SortingOrder
+    path: base
     classID: 212
     script: {fileID: 0}
   m_PPtrCurves: []
@@ -1280,6 +1308,13 @@ AnimationClip:
       script: {fileID: 0}
       typeID: 212
       customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 3233087073
+      attribute: 3762991556
+      script: {fileID: 0}
+      typeID: 212
+      customType: 26
       isPPtrCurve: 0
     - serializedVersion: 2
       path: 4008409069
@@ -1828,7 +1863,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.08235294
+        value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1838,8 +1873,8 @@ AnimationClip:
       - serializedVersion: 3
         time: 0.33333334
         value: 0.08235294
-        inSlope: 0
-        outSlope: 0
+        inSlope: 0.37291902
+        outSlope: 0.37291902
         tangentMode: 136
         weightedMode: 0
         inWeight: 0.33333334
@@ -2139,7 +2174,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.16862746
+        value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -2149,8 +2184,8 @@ AnimationClip:
       - serializedVersion: 3
         time: 0.33333334
         value: 0.16862746
-        inSlope: 0
-        outSlope: 0
+        inSlope: 0.44548202
+        outSlope: 0.44548202
         tangentMode: 136
         weightedMode: 0
         inWeight: 0.33333334
@@ -2677,7 +2712,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.16078432
+        value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -2725,6 +2760,34 @@ AnimationClip:
       m_RotationOrder: 4
     attribute: m_Color.a
     path: glowOverlay
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 20
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 4.8333335
+        value: 20
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_SortingOrder
+    path: base
     classID: 212
     script: {fileID: 0}
   m_EulerEditorCurves: []
