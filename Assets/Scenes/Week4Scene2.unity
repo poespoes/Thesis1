@@ -1719,6 +1719,12 @@ Prefab:
       propertyPath: m_TagString
       value: MimLight
       objectReference: {fileID: 0}
+    - target: {fileID: 212142427213609890, guid: b753c71b72113fe44aaec54e676c0533,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ebcd8d5aa912fbb4d9d30cf7722ac4bb,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b753c71b72113fe44aaec54e676c0533, type: 2}
   m_IsPrefabAsset: 0
@@ -5951,6 +5957,52 @@ MonoBehaviour:
         Culture=neutral, PublicKeyToken=null
   m_LegacyBlendHint: 0
   m_ComponentOwner: {fileID: 1566668998}
+--- !u!1001 &2014602987
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4221968278224648, guid: 94c06e3818b22b84abfc96aad200dc08, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4221968278224648, guid: 94c06e3818b22b84abfc96aad200dc08, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4221968278224648, guid: 94c06e3818b22b84abfc96aad200dc08, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4221968278224648, guid: 94c06e3818b22b84abfc96aad200dc08, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4221968278224648, guid: 94c06e3818b22b84abfc96aad200dc08, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4221968278224648, guid: 94c06e3818b22b84abfc96aad200dc08, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4221968278224648, guid: 94c06e3818b22b84abfc96aad200dc08, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4221968278224648, guid: 94c06e3818b22b84abfc96aad200dc08, type: 2}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 1642139384350216, guid: 94c06e3818b22b84abfc96aad200dc08, type: 2}
+      propertyPath: m_Name
+      value: Overimagination (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 94c06e3818b22b84abfc96aad200dc08, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1 &2014832585
 GameObject:
   m_ObjectHideFlags: 0
