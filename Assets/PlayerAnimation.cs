@@ -40,13 +40,15 @@ public class PlayerAnimation : MonoBehaviour {
 
     private void OnTriggerStay2D(Collider2D collision) {
         //collide fearstate2
-        if (collision.gameObject.tag == "FearState2") {
-            Debug.Log("Walking State = 2");
-            WalkingState = 2;
-        }
+        
         if (collision.gameObject.tag == "FearState3") {
             Debug.Log("Walking State = 3");
             WalkingState = 3;
+        } else {
+            if (collision.gameObject.tag == "FearState2") {
+                Debug.Log("Walking State = 2");
+                WalkingState = 2;
+            }
         }
     }
 

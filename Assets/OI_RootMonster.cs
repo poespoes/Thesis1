@@ -17,34 +17,40 @@ public class OI_RootMonster : MonoBehaviour {
         player = GameObject.Find("Player");
         actualSpeed = (speedPercent / 100) * 1;
     }
-	
 
-	void Update () {
-        if(inAtkRange == false && isLitUp == false) {
+
+    void Update() {
+        if (inAtkRange == false && isLitUp == false) {
             MonsterAnimator.SetBool("isWalking", true);
             //moves toward player
-
             transform.position = Vector2.MoveTowards(transform.position,
                 new Vector2(player.transform.position.x, transform.position.y), actualSpeed);
 
         }
-        
-        if(inAtkRange == true) {
+
+        if (inAtkRange == true) {
             //monster stops moving
             //freezes player
             MonsterAnimator.SetBool("isWalking", false);
-            MonsterAnimator.SetBool("isAttacking", true);   
+            MonsterAnimator.SetBool("isAttacking", true);
         }
 
         //if islitup and run away for maxfearduration
-        if(isLitUp == true) {
+        if (isLitUp == true) {
             fearTimer += Time.deltaTime;
         }
         //if ran away > maxfearduration and no longer collided with mimlight, then feartimer resets
-        if(fearTimer >= maxFearDuration) {
+        if (fearTimer >= maxFearDuration) {
             fearTimer = 0;
             isLitUp = false;
         }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision) {
+
+        if (collision.gameObject.tag == "MimLight") {
+            isLitUp = true;
+        }     
     }
 
 }

@@ -2850,6 +2850,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1117114459}
   - component: {fileID: 1117114460}
+  - component: {fileID: 1117114461}
   m_Layer: 0
   m_Name: DeathCollider
   m_TagString: Untagged
@@ -2879,7 +2880,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.18795413, y: -4.9197245}
@@ -2895,6 +2896,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 4.0787206, y: 10.839451}
   m_EdgeRadius: 0
+--- !u!114 &1117114461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1117114458}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d64a4d177b6fa3b42ac239d585a94807, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1127970463
 GameObject:
   m_ObjectHideFlags: 0
@@ -4103,6 +4115,7 @@ GameObject:
   - component: {fileID: 1541622675}
   - component: {fileID: 1541622674}
   - component: {fileID: 1541622676}
+  - component: {fileID: 1541622677}
   m_Layer: 0
   m_Name: OI_RootMonster
   m_TagString: Untagged
@@ -4205,6 +4218,21 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!70 &1541622677
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1541622672}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.51351476, y: 1.7140006}
+  m_Size: {x: 6.957851, y: 6.957851}
+  m_Direction: 0
 --- !u!1 &1566668997
 GameObject:
   m_ObjectHideFlags: 3
@@ -4469,7 +4497,7 @@ GameObject:
   - component: {fileID: 1646626443}
   - component: {fileID: 1646626444}
   m_Layer: 0
-  m_Name: FearState3
+  m_Name: FearState2
   m_TagString: FearState2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5835,7 +5863,7 @@ GameObject:
   - component: {fileID: 2099049781}
   - component: {fileID: 2099049782}
   m_Layer: 0
-  m_Name: FearState2
+  m_Name: FearState3
   m_TagString: FearState3
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
