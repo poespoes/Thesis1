@@ -36,7 +36,7 @@ namespace Cinemachine.Examples
 
 				trip.GetComponent<Animate>().tripping = true;
 				//Destroy(gameObject);
-				player.transform.position = new Vector2(136.4f, -10.5f);
+				player.transform.position = new Vector2(136.9f, -13.06f);
 				player.gameObject.SetActive(false);
 
 

@@ -14,6 +14,7 @@ public class Animate : MonoBehaviour {
     public GameObject trip_camera2;
     public GameObject blackout;
     public GameObject v_Mouse;
+    public Sprite sprite1;
 
     public letThereBeLight lightBringer;
     
@@ -38,14 +39,14 @@ public class Animate : MonoBehaviour {
         if (tripping == true) {
             Debug.Log("tripping");
             TripAnimator.SetBool("MimTrip", true);
-
+            
             
         }
 
     }
     void spawnTrippedMim() {
         //TrippedMim.SetActive(true);
-       
+        m_player.GetComponent<SpriteRenderer>().sprite = sprite1;
         m_player.SetActive(true);
 
 

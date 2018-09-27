@@ -6,7 +6,8 @@ using UnityEngine.UI;
 public class vineAttack : MonoBehaviour {
 
 	public Animator vineAnimator;
-
+    public SpriteRenderer ScreenDark;
+   
 	public bool canAttack;
 	// Use this for initialization
 	void Start ()
@@ -33,9 +34,13 @@ public class vineAttack : MonoBehaviour {
 				vineAnimator.SetBool("isAttacking", true);
 				vineAnimator.SetBool("isGlowing", false);
 				
-				GameObject blackout = GameObject.Find("BlackoutPanel");
-				blackout.GetComponent<Image>().CrossFadeAlpha(255,5.0f,false);
+				//GameObject blackout = GameObject.Find("BlackoutPanel");
+				//blackout.GetComponent<Image>().CrossFadeAlpha(255,5.0f,false);
 			}
 		}
 	}
+
+    void ScreenToDark() {
+        ScreenDark.sortingOrder = 99;
+    }
 }

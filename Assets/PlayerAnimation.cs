@@ -7,6 +7,7 @@ public class PlayerAnimation : MonoBehaviour {
     private SpriteRenderer sr;
     public float WalkingState = 0;
     
+    
 
 
     // Use this for initialization
