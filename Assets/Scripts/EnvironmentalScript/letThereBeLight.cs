@@ -43,7 +43,7 @@ namespace Cinemachine.Examples
 					cineVCam.Follow = player.transform;
 					
 					GameObject v_cam = GameObject.Find("VirtualCamera");
-					v_cam.transform.position = GameObject.Find("PodScale").transform.position;
+					//v_cam.transform.position = GameObject.Find("PodScale").transform.position;
 					
 					GameObject.Find("GameManager").GetComponent<gameState>().interactive = true;
 					

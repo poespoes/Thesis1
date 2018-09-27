@@ -117,6 +117,9 @@
           </e>
           <e p="refocusCamera.cs" t="Include" />
           <e p="testScript.cs" t="Include" />
+          <e p="TestScripts" t="Include">
+            <e p="OiTestScript.cs" t="Include" />
+          </e>
           <e p="UI Script" t="Include">
             <e p="UICrossFade.cs" t="Include" />
           </e>

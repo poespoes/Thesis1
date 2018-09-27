@@ -48,9 +48,9 @@ public class Player : MonoBehaviour {
         if(canWalk == false) {
             Debug.Log("canWalk = false");
             //blackout.GetComponent<Canvas>().sortingOrder = 99;
-            blackout.GetComponent<Image>().CrossFadeAlpha(255, 2.0f, false);
+            //blackout.GetComponent<Image>().CrossFadeAlpha(255, 2.0f, false);
             //transform.position = new Vector3(transform.position.x, transform.position.y);
-            this.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeAll;
+            //this.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeAll;
             
         }
         //Mim trips

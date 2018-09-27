@@ -74,5 +74,7 @@ public class Animate : MonoBehaviour {
         lightBringer.canActivate = true;
         PodLight.SetBool("isGlowing",true);
         Destroy(gameObject);
+
+        GameObject.Find("Vine").GetComponent<vineAttack>().canAttack = true;
     }
 }

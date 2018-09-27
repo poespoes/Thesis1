@@ -5,10 +5,12 @@ using UnityEngine;
 public class vineAttack : MonoBehaviour {
 
 	public Animator vineAnimator;
-	
+
+	public bool canAttack;
 	// Use this for initialization
 	void Start ()
 	{
+		canAttack = false;
 
 		vineAnimator = this.GetComponent<Animator>();
 		
@@ -24,10 +26,12 @@ public class vineAttack : MonoBehaviour {
 	{
 		if (collision.gameObject.tag == "MimLight")
 		{
-			Debug.Log("END SCENE");
-			vineAnimator.SetBool("isAttacking", true);	
-			vineAnimator.SetBool("isGlowing", false);	
-			
+			if (canAttack == true)
+			{
+				Debug.Log("END SCENE");
+				vineAnimator.SetBool("isAttacking", true);
+				vineAnimator.SetBool("isGlowing", false);
+			}
 		}
 	}
 }
