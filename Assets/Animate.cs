@@ -8,6 +8,7 @@ public class Animate : MonoBehaviour {
     public bool tripping = false;
     public GameObject TrippedMim;
     public GameObject m_player;
+    public Animator PodLight;
    
     public GameObject trip_camera2;
     public GameObject blackout;
@@ -38,7 +39,7 @@ public class Animate : MonoBehaviour {
         m_player.SetActive(true);
         
      
-        Destroy(gameObject);
+        
     }
 
     void cameraActivate()
@@ -51,8 +52,15 @@ public class Animate : MonoBehaviour {
         //GameObject.Find("BlackoutPanel").GetComponent<UICrossFade>().willFadeOut = true;
         Debug.Log("BlackoutSent");
         
-        blackout.GetComponent<Image>().CrossFadeAlpha(255,4,false);
+        
+        blackout.GetComponent<Image>().CrossFadeAlpha(255,5.0f,false);
 
         //blackout.GetComponent<UICrossFade>().willFadeOut=true;
+    }
+
+    void podGlow()
+    {
+        PodLight.SetBool("isGlowing",true);
+        Destroy(gameObject);
     }
 }

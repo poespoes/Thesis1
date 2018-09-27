@@ -27,6 +27,9 @@ namespace Cinemachine.Examples
 			if (collision.gameObject.tag == "Player")
 			{
 				Debug.Log("tripping");
+				
+				GameObject.Find("MimLight").GetComponent<SpriteRenderer>().enabled =
+					!GameObject.Find("MimLight").GetComponent<SpriteRenderer>().enabled;
 
 				GameObject trip = this.gameObject;
 				GameObject player = GameObject.Find("Player");
@@ -35,6 +38,8 @@ namespace Cinemachine.Examples
 				//Destroy(gameObject);
 				player.transform.position = new Vector2(136.4f, -10.5f);
 				player.gameObject.SetActive(false);
+
+
 
 				player.GetComponent<Player>().canWalk = false;
 				player.GetComponent<Player>().isWalking = false;

@@ -17,7 +17,11 @@ public class UICrossFade : MonoBehaviour
 		
 		canvas = this.gameObject;
 		
-		canvas.GetComponent<Image>().CrossFadeAlpha(0,2.0f,false);
+		canvas.GetComponent<Image>().CrossFadeAlpha(0.1f,10.0f,false);
+		
+		//canvas.GetComponent<Image>().CrossFadeAlpha(255,10.0f,false);
+		
+		
 	}
 	
 	// Update is called once per frame
@@ -25,24 +29,26 @@ public class UICrossFade : MonoBehaviour
 		if (willFadeIn == true)
 		{
 			fadeIn();
-			willFadeIn = false;
+			
 		}
 		
 		if (willFadeOut == true)
 		{
 			fadeIn();
-			willFadeOut = false;
+			
 		}
 	}
 
 	void fadeIn()
 	{
 		canvas.GetComponent<Image>().CrossFadeAlpha(0,2.0f,false);
+		//willFadeIn = false;
 	}
 
 	void fadeOut()
 	{
 		canvas.GetComponent<Image>().CrossFadeAlpha(255,2,false);
 		Debug.Log("BlackoutReceived");
+		//willFadeOut = false;
 	}
 }

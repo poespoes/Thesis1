@@ -17,5 +17,7 @@ public class lightFollow : MonoBehaviour {
 	{
 		this.transform.position = light.transform.position;
 		this.transform.rotation = light.transform.rotation;
+
+		
 	}
 }
