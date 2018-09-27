@@ -4126,6 +4126,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bfac007c993f70246a08b18bfe85f667, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  beamStretch: {fileID: 0}
 --- !u!331 &1514100087
 SpriteMask:
   m_ObjectHideFlags: 0
