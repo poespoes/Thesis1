@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Deathcollider : MonoBehaviour {
-    bool deathTriggered;
+    public bool deathTriggered;
 
 	// Use this for initialization
 	void Start () {
-		
-	}
+        
+
+    }
 	
 	// Update is called once per frame
 	void Update () {

@@ -14,6 +14,7 @@ public class Monster : MonoBehaviour {
     int currentIndex = 0;
 
     bool afterFirstContact = false;
+    bool hasSpawned = false;
 
     //Animator anim;
 
@@ -51,11 +52,12 @@ public class Monster : MonoBehaviour {
             }
         }
 
-        if(currentIndex == maxIndex) {
+        if(currentIndex == maxIndex && hasSpawned == false) {
             Debug.Log("Monster spawns!");
             GameObject newMonsterObj = Instantiate(MonsterPrefab);
             newMonsterObj.transform.position = transform.position;
-            Destroy(this);
+            Destroy(gameObject);
+            
         }
         //if REACHES last index, destroy and instantiate monster
     }
