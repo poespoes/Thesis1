@@ -88,6 +88,7 @@
           </e>
         </e>
         <e p="Oi_1Movement.cs" t="Include" />
+        <e p="OI_RootMonster.cs" t="Include" />
         <e p="OiSpawn.cs" t="Include" />
         <e p="OiSpawner.cs" t="Include" />
         <e p="Player.cs" t="Include" />

@@ -22,13 +22,13 @@ public class UICrossFade : MonoBehaviour
 	
 	// Update is called once per frame
 	void Update () {
-		if (willFadeIn = true)
+		if (willFadeIn == true)
 		{
 			fadeIn();
 			willFadeIn = false;
 		}
 		
-		if (willFadeOut = true)
+		if (willFadeOut == true)
 		{
 			fadeIn();
 			willFadeOut = false;
@@ -42,7 +42,7 @@ public class UICrossFade : MonoBehaviour
 
 	void fadeOut()
 	{
-		canvas.GetComponent<Image>().CrossFadeAlpha(1,0.2f,false);
+		canvas.GetComponent<Image>().CrossFadeAlpha(255,2,false);
 		Debug.Log("BlackoutReceived");
 	}
 }
