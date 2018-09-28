@@ -36,7 +36,18 @@ public class Player : MonoBehaviour {
                 //targetPos = Camera.main.ScreenToWorldPoint(Input.mousePosition).x - BufferDistance;
                 
                 targetPos = v_Mouse.transform.position.x - BufferDistance;
+                //Debug.Log("Moving to" + targetPos);
             }
+
+            if (Input.GetAxisRaw("Horizontal") != 0)
+            {
+                isWalking = true;
+                this.GetComponent<PlayerAnimation>().WalkingState = 1;
+                
+                targetPos = (this.transform.position.x + Input.GetAxis("Horizontal"));
+                //Debug.Log("Moving to" + targetPos);
+            }
+
         }
 
         if (canWalk == true) {
