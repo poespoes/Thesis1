@@ -11,6 +11,8 @@ namespace Cinemachine.Examples {
         public float lightFactor;
         float originalOrtho;
 
+        public float maxStretch;
+
 
         // Use this for initialization
         void Start() {
@@ -18,7 +20,11 @@ namespace Cinemachine.Examples {
             lightBeam = this.transform.Find("MimLight").gameObject;
             //lightFactor = 200;
             originalOrtho = cineVCam.m_Lens.OrthographicSize;
-            
+
+            if (maxStretch == null)
+            {
+                maxStretch = 26.0f;
+            }
 
         }
 
@@ -67,9 +73,9 @@ namespace Cinemachine.Examples {
                 heightFactor = 0.75f;
             }
 
-            if (heightFactor < 0)
+            if (heightFactor < 0.3f)
             {
-                heightFactor = 0;
+                heightFactor = 0.4f;
             }
 
             //}
