@@ -23,27 +23,31 @@ public class OI_RootMonster : MonoBehaviour {
 
 
     void Update() {
-        if (inAtkRange == false && isLitUp == false) {
+        if (isLitUp == true) {
             MonsterAnimator.SetBool("isWalking", true);
-            //moves toward player
+            Debug.Log("Running away!");
+            fearTimer += Time.deltaTime;
             transform.position = Vector2.MoveTowards(transform.position,
-                new Vector2(player.transform.position.x, transform.position.y), actualSpeed);
-
+                new Vector2(-player.transform.position.x, transform.position.y), actualSpeed);
+        } else {
+            if (inAtkRange == false && isLitUp == false) {
+                MonsterAnimator.SetBool("isWalking", true);
+                transform.position = Vector2.MoveTowards(transform.position,
+                    new Vector2(player.transform.position.x, transform.position.y), actualSpeed);
+            }
         }
+        
 
         if (deathCollider.deathTriggered == true) {
             Debug.Log("Kill!Kill!");
+            //screendark
             player.GetComponent<Player>().canWalk = false;
             MonsterAnimator.SetBool("isWalking", false);
             MonsterAnimator.SetBool("isAttacking", true);
         }
 
         //if islitup and run away for maxfearduration
-        if (isLitUp == true && inAtkRange == false) {
-            fearTimer += Time.deltaTime;
-            transform.position = Vector2.MoveTowards(transform.position,
-                new Vector2(-player.transform.position.x, transform.position.y), actualSpeed);
-        }
+        
         //if ran away > maxfearduration and no longer collided with mimlight, then feartimer resets
         if (fearTimer >= maxFearDuration) {
             fearTimer = 0;

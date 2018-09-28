@@ -58,6 +58,12 @@ namespace Cinemachine.Examples {
             
             cineVCam.m_Lens.OrthographicSize = originalOrtho + (distanceFactor * 10);
 
+
+            if (cineVCam.m_Lens.OrthographicSize < 18.2f) {
+                cineVCam.m_Lens.OrthographicSize = 18.2f;
+            }
+
+
             if (cineVCam.m_Lens.OrthographicSize < originalOrtho)
             {
                 cineVCam.m_Lens.OrthographicSize = originalOrtho;

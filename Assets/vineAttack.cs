@@ -41,6 +41,7 @@ public class vineAttack : MonoBehaviour {
 	}
 
     void ScreenToDark() {
-        ScreenDark.sortingOrder = 99;
+            ScreenDark.sortingOrder = 99;
+    
     }
 }
