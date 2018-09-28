@@ -114,6 +114,7 @@
           <e p="Monster.cs" t="Include" />
           <e p="Overimagination" t="Include">
             <e p="Deathcollider.cs" t="Include" />
+            <e p="OI_Body.cs" t="Include" />
           </e>
           <e p="refocusCamera.cs" t="Include" />
           <e p="testScript.cs" t="Include" />

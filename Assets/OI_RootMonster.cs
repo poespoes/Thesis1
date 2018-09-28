@@ -7,6 +7,8 @@ public class OI_RootMonster : MonoBehaviour {
     public float maxFearDuration;
     public float speedPercent;
     private float actualSpeed;
+
+    public GameObject player;    
     
 
     void Start () {

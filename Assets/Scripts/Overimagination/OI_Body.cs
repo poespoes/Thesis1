@@ -11,15 +11,24 @@ public class OI_Body : MonoBehaviour {
     public float speedPercent;
     private float actualSpeed;
 
+    public GameObject parentMonster;
+
     public GameObject player;
     public GameObject OIMonster;
     private Deathcollider deathCollider;
 
     // Use this for initialization
-    void Start () {
-        GameObject.Find("New_OIMonster").GetComponent<Script>().isWalking =
-            GameObject.Find("New_OIMonster").GetComponen
-        deathCollider = GetComponent<Deathcollider>();
+    void Start ()
+    {
+
+       // parentMonster.GetComponent<OI_RootMonster>().isWalking = true;
+        
+     
+          
+            
+        deathCollider = parentMonster.transform.Find("DeathCollider").GetComponent<Deathcollider>();
+
+        parentMonster = this.transform.parent.gameObject;
     }
 	
 	// Update is called once per frame
@@ -27,7 +36,7 @@ public class OI_Body : MonoBehaviour {
         //if LitUp == true
         MonsterAnimator.SetBool("isWalking", true);
         //if LitUp == false
-        MonsterAnimator.SetBool("isWalking", true);
+       // MonsterAnimator.SetBool("isWalking", true);
 
         //if DeathCollider is true
         if (deathCollider.deathTriggered == true) {
