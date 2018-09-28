@@ -3,51 +3,35 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class OI_RootMonster : MonoBehaviour {
-    public Animator MonsterAnimator;
-    bool inAtkRange = false;
-    bool isLitUp = false;
     private float fearTimer = 0;
     public float maxFearDuration;
     public float speedPercent;
     private float actualSpeed;
-
-    public GameObject player;
-    private Deathcollider deathCollider;
+    
 
     void Start () {
         player = GameObject.Find("Player");
         actualSpeed = (speedPercent / 100) * 1;
-        deathCollider = GetComponentInChildren<Deathcollider>();
         
     }
 
 
     void Update() {
+
+        //Running to the player
+        if (inAtkRange == false && isLitUp == false) {
+            transform.position = Vector2.MoveTowards(transform.position,
+            new Vector2(player.transform.position.x, transform.position.y), actualSpeed);
+        }
+
+        //Running away from the player
         if (isLitUp == true) {
-            MonsterAnimator.SetBool("isWalking", true);
             Debug.Log("Running away!");
             fearTimer += Time.deltaTime;
             transform.position = Vector2.MoveTowards(transform.position,
                 new Vector2(-player.transform.position.x, transform.position.y), actualSpeed);
-        } else {
-            if (inAtkRange == false && isLitUp == false) {
-                MonsterAnimator.SetBool("isWalking", true);
-                transform.position = Vector2.MoveTowards(transform.position,
-                    new Vector2(player.transform.position.x, transform.position.y), actualSpeed);
-            }
-        }
-        
-
-        if (deathCollider.deathTriggered == true) {
-            Debug.Log("Kill!Kill!");
-            //screendark
-            player.GetComponent<Player>().canWalk = false;
-            MonsterAnimator.SetBool("isWalking", false);
-            MonsterAnimator.SetBool("isAttacking", true);
         }
 
-        //if islitup and run away for maxfearduration
-        
         //if ran away > maxfearduration and no longer collided with mimlight, then feartimer resets
         if (fearTimer >= maxFearDuration) {
             fearTimer = 0;
@@ -55,11 +39,6 @@ public class OI_RootMonster : MonoBehaviour {
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D collision) {
 
-        if (collision.gameObject.tag == "MimLight") {
-            isLitUp = true;
-        }     
-    }
 
 }
