@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class OI_Body : MonoBehaviour {
     public Animator MonsterAnimator;
+    public bool isLitUp = false;
     bool inAtkRange = false;
-    bool isLitUp = false;
     private float fearTimer = 0;
     public float maxFearDuration;
     public float speedPercent;
@@ -15,30 +15,30 @@ public class OI_Body : MonoBehaviour {
 
     public GameObject player;
     public GameObject OIMonster;
-    private Deathcollider deathCollider;
+    public Deathcollider deathCollider;
 
     // Use this for initialization
     void Start ()
     {
-
-       // parentMonster.GetComponent<OI_RootMonster>().isWalking = true;
-        
-     
-          
-            
+        parentMonster = this.transform.parent.gameObject;
         deathCollider = parentMonster.transform.Find("DeathCollider").GetComponent<Deathcollider>();
 
-        parentMonster = this.transform.parent.gameObject;
+        player = GameObject.Find("Player");
+        MonsterAnimator = this.GetComponent<Animator>();
+
     }
 	
 	// Update is called once per frame
 	void Update () {
-        //if LitUp == true
-        MonsterAnimator.SetBool("isWalking", true);
-        //if LitUp == false
-       // MonsterAnimator.SetBool("isWalking", true);
+        
+        if (deathCollider.deathTriggered == false) {
+            MonsterAnimator.SetBool("isWalking", true);
+        }
 
-        //if DeathCollider is true
+        //if LitUp == false
+        // MonsterAnimator.SetBool("isWalking", true);
+
+
         if (deathCollider.deathTriggered == true) {
             Debug.Log("Kill!Kill!");
             player.GetComponent<Player>().canWalk = false;
@@ -47,9 +47,12 @@ public class OI_Body : MonoBehaviour {
         }
     }
 
+
+
     private void OnTriggerEnter2D(Collider2D collision) {
 
         if (collision.gameObject.tag == "MimLight") {
+            Debug.Log("Monster is lit up!");
             isLitUp = true;
         }
     }

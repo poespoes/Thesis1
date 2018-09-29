@@ -18,6 +18,7 @@ public class Deathcollider : MonoBehaviour {
 
     private void OnTriggerEnter2D(Collider2D collision) {
         if (collision.gameObject.tag == "Player") {
+            Debug.Log("deathTriggered = true");
             deathTriggered = true;
         }
     }
