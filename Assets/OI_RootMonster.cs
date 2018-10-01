@@ -61,7 +61,7 @@ public class OI_RootMonster : MonoBehaviour {
         }
         else
         {
-            playerAnim.WalkingState = 1;
+            //playerAnim.WalkingState = 1;
         }
     }
 
