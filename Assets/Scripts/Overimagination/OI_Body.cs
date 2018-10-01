@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class OI_Body : MonoBehaviour {
     public Animator MonsterAnimator;
@@ -17,6 +19,10 @@ public class OI_Body : MonoBehaviour {
     public GameObject OIMonster;
     public Deathcollider deathCollider;
 
+    public Image blackOutCanvas;
+    
+    
+
     // Use this for initialization
     void Start ()
     {
@@ -25,6 +31,8 @@ public class OI_Body : MonoBehaviour {
 
         player = GameObject.Find("Player");
         MonsterAnimator = this.GetComponent<Animator>();
+
+        blackOutCanvas = GameObject.Find("BlackoutPanel").GetComponent<Image>();
 
     }
 	
@@ -44,6 +52,8 @@ public class OI_Body : MonoBehaviour {
             player.GetComponent<Player>().canWalk = false;
             MonsterAnimator.SetBool("isWalking", false);
             MonsterAnimator.SetBool("isAttacking", true);
+            blackOutCanvas.CrossFadeAlpha(255,6,false);
+            Invoke("Restart",2.0f);
         }
     }
 
@@ -55,5 +65,10 @@ public class OI_Body : MonoBehaviour {
             Debug.Log("Monster is lit up!");
             isLitUp = true;
         }
+    }
+
+    public void Restart()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }
