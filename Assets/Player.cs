@@ -15,6 +15,7 @@ public class Player : MonoBehaviour {
     public GameObject v_Mouse;
 
     private GameObject blackout;
+    public Animator playerAnimator;
     
 
     void Start() {
@@ -24,6 +25,8 @@ public class Player : MonoBehaviour {
         
         v_Mouse = GameObject.Find("VirtualMouse");
         blackout = GameObject.Find("BlackoutPanel");
+
+        playerAnimator = this.GetComponent<Animator>();
     }
 
     void Update() {
@@ -46,6 +49,12 @@ public class Player : MonoBehaviour {
                 
                 targetPos = (this.transform.position.x + Input.GetAxis("Horizontal"));
                 //Debug.Log("Moving to" + targetPos);
+                
+                playerAnimator.SetBool("MimIsWalking",true);
+            }
+            else
+            {
+                playerAnimator.SetBool("MimIsWalking",false);
             }
 
         }

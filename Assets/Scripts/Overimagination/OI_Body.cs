@@ -52,7 +52,7 @@ public class OI_Body : MonoBehaviour {
             player.GetComponent<Player>().canWalk = false;
             MonsterAnimator.SetBool("isWalking", false);
             MonsterAnimator.SetBool("isAttacking", true);
-            blackOutCanvas.CrossFadeAlpha(255,2,false);
+            blackOutCanvas.CrossFadeAlpha(255,6,false);
             Invoke("Restart",2.0f);
         }
     }
