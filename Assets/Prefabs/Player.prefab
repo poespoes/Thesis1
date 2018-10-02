@@ -104,7 +104,6 @@ GameObject:
   - component: {fileID: 4501726911908370}
   - component: {fileID: 212619314886026856}
   - component: {fileID: 114319060240253122}
-  - component: {fileID: 114372764793689308}
   m_Layer: 0
   m_Name: Pink30
   m_TagString: Untagged
@@ -127,7 +126,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1597750316874910
 GameObject:
   m_ObjectHideFlags: 0
@@ -159,9 +158,8 @@ GameObject:
   - component: {fileID: 114900193604008522}
   - component: {fileID: 70861040433700220}
   - component: {fileID: 114420652464687344}
+  - component: {fileID: 50536602736421906}
   - component: {fileID: 114912527815074656}
-  - component: {fileID: 50433081368956954}
-  - component: {fileID: 114696207071072090}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -273,7 +271,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1647147466446410}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 43.3, y: -3.2813287, z: 0}
+  m_LocalPosition: {x: -72.5, y: 52.6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4755221057089036}
@@ -347,7 +345,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1893457322716846}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 11.650002, y: 4.53, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children: []
   m_Father: {fileID: 4646567080950492}
@@ -373,7 +371,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1575218326986766}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 3.46, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4501726911908370}
@@ -448,7 +446,7 @@ Transform:
   m_Father: {fileID: 4143227185828010}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!50 &50433081368956954
+--- !u!50 &50536602736421906
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 1
@@ -459,15 +457,15 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 5
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 0
+  m_GravityScale: 2
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!70 &70134264270742432
 CapsuleCollider2D:
   m_ObjectHideFlags: 1
@@ -492,7 +490,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.8496208, y: -1.7801647}
@@ -576,18 +574,6 @@ MonoBehaviour:
   unifiedGrabEnabled: 0
   shareMaterial: 0
   componentExtension: {fileID: 0}
---- !u!114 &114372764793689308
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1573145175538534}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1105176b957f7904fadf57351a1035a2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  light: {fileID: 0}
 --- !u!114 &114420652464687344
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -699,20 +685,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   light: {fileID: 1270122880770936}
---- !u!114 &114696207071072090
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1647147466446410}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a0652ac2f3fcf294091662490ed7f6e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cineVCam: {fileID: 0}
-  lightBeam: {fileID: 0}
-  lightFactor: 100
 --- !u!114 &114713038478887108
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -738,12 +710,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 3
+  jumpAmount: 20
   stopPosX: 115.65
   BufferDistance: 2.5
   isWalking: 0
   WalkingState: 0
   canWalk: 0
   v_Mouse: {fileID: 0}
+  playerAnimator: {fileID: 0}
+  canJump: 0
 --- !u!114 &114900193604008522
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -852,7 +827,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 50
-  m_Sprite: {fileID: 21300000, guid: 74306a46c8558374b9c513efa8165e7c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ebcd8d5aa912fbb4d9d30cf7722ac4bb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

@@ -20,6 +20,8 @@ public class OI_Body : MonoBehaviour {
     public Deathcollider deathCollider;
 
     public Image blackOutCanvas;
+
+    private bool firstEntered;
     
     
 
@@ -33,6 +35,8 @@ public class OI_Body : MonoBehaviour {
         MonsterAnimator = this.GetComponent<Animator>();
 
         blackOutCanvas = GameObject.Find("BlackoutPanel").GetComponent<Image>();
+
+        firstEntered = false;
 
     }
 	
@@ -64,6 +68,15 @@ public class OI_Body : MonoBehaviour {
         if (collision.gameObject.tag == "MimLight") {
             Debug.Log("Monster is lit up!");
             isLitUp = true;
+
+            if (firstEntered == false)
+            {
+                GameObject virtualMouse = GameObject.Find("VirtualMouse");
+
+
+                firstEntered = true;
+            }
+            
         }
     }
 
