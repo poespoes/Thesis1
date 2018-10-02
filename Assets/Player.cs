@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class Player : MonoBehaviour {
     
     public float moveSpeed;
+    public float jumpAmount;
     float targetPos;
     public float stopPosX;
     public float BufferDistance;
@@ -17,9 +18,10 @@ public class Player : MonoBehaviour {
     private GameObject blackout;
     public Animator playerAnimator;
 
-    public float velocityX;
-    public float velocityY;
-    
+    private float velocityX;
+    private float velocityY;
+
+    public bool canJump;
 
     void Start() {
         targetPos = transform.position.x;
@@ -100,7 +102,25 @@ public class Player : MonoBehaviour {
         }
 
         velocityY = this.GetComponent<Rigidbody2D>().velocity.y;
+        if (velocityY == 0)
+        {
+            
+            canJump = true;
+        }
+        else
+        {
+            Debug.Log("I CANNOT JUMP");
+            canJump = false;
+        }
 
+        if (Input.GetButtonDown("Jump"))
+        {
+            if (canJump = true)
+            {
+                Debug.Log("I CAN JUMP");
+                this.GetComponent<Rigidbody2D>().AddForce((Vector2.up)*100*jumpAmount);
+            }
+        }
        
     }
 
