@@ -16,6 +16,9 @@ public class Player : MonoBehaviour {
 
     private GameObject blackout;
     public Animator playerAnimator;
+
+    public float velocityX;
+    public float velocityY;
     
 
     void Start() {
@@ -51,6 +54,14 @@ public class Player : MonoBehaviour {
                 //Debug.Log("Moving to" + targetPos);
                 
                 playerAnimator.SetBool("MimIsWalking",true);
+                if (Input.GetAxisRaw("Horizontal") > 0)
+                {
+                    this.GetComponent<SpriteRenderer>().flipX = false;
+                }
+                else
+                {
+                    this.GetComponent<SpriteRenderer>().flipX = true;
+                }
             }
             else
             {
@@ -87,6 +98,10 @@ public class Player : MonoBehaviour {
             this.GetComponent<PlayerAnimation>().WalkingState = 0;
             //Debug.Log("stop walking");
         }
+
+        velocityY = this.GetComponent<Rigidbody2D>().velocity.y;
+
+       
     }
 
     public void Say() {
