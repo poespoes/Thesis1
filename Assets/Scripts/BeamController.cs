@@ -7,6 +7,7 @@ public class BeamController : MonoBehaviour
 {
 
     public BeamStretch beamStretch;
+    public bool isOn;
     
     void Start () {
         //Cursor.visible = false;
@@ -23,12 +24,16 @@ public class BeamController : MonoBehaviour
 
         if (Input.GetMouseButtonDown(1)) {
             //toggle light on/off
-            GetComponent<SpriteRenderer>().enabled = !GetComponent<SpriteRenderer>().enabled;
-            GetComponent<SpriteMask>().enabled = !GetComponent<SpriteMask>().enabled;
+            //GetComponent<SpriteRenderer>().enabled = !GetComponent<SpriteRenderer>().enabled;
+            //GetComponent<SpriteMask>().enabled = !GetComponent<SpriteMask>().enabled;
 
+            isOn = !isOn;
 
             //beamStretch.enabled = !beamStretch.enabled;
 
         }
+	    
+		GetComponent<SpriteRenderer>().enabled = isOn;
+		GetComponent<SpriteMask>().enabled = isOn;
 	}
 }
