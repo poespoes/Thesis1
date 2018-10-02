@@ -99,6 +99,9 @@
           <e p="BeamStretchVerticalOnly.cs" t="Include" />
           <e p="CameraControl.cs" t="Include" />
           <e p="EnvironmentalScript" t="Include">
+            <e p="Intro" t="Include">
+              <e p="introScript.cs" t="Include" />
+            </e>
             <e p="letThereBeLight.cs" t="Include" />
             <e p="tripperScript.cs" t="Include" />
           </e>
