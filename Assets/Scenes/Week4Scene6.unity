@@ -5058,6 +5058,16 @@ Prefab:
       propertyPath: componentExtension
       value: 
       objectReference: {fileID: 428733201}
+    - target: {fileID: 114713038478887108, guid: b753c71b72113fe44aaec54e676c0533,
+        type: 2}
+      propertyPath: horizontalSpeed
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114713038478887108, guid: b753c71b72113fe44aaec54e676c0533,
+        type: 2}
+      propertyPath: verticalSpeed
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b753c71b72113fe44aaec54e676c0533, type: 2}
   m_IsPrefabAsset: 0
