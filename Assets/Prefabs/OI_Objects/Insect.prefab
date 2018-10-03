@@ -131,7 +131,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1076233365169986}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 70.48, y: 20.21, z: 0}
+  m_LocalPosition: {x: 50.8, y: 11.9, z: 0}
   m_LocalScale: {x: 4.4793, y: 4.4793, z: 4.4793}
   m_Children: []
   m_Father: {fileID: 4170251701460532}
@@ -195,7 +195,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -2.5500948, y: 0.5003562}
+  m_Offset: {x: -5.339992, y: 2.2235274}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -206,7 +206,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 5.3380694, y: 4.0977864}
+  m_Size: {x: 10.917865, y: 1.9643338}
   m_EdgeRadius: 0
 --- !u!61 &61412373760729110
 BoxCollider2D:
@@ -244,17 +244,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e26113e9fb362942b6166d1aa0bc740, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterPrefab: {fileID: 1287848835197300, guid: d6a5468adba4e7b4e9499a94e25535f1,
+  MonsterPrefab: {fileID: 1742410607900734, guid: a2db7acdb71ab3d4f8659d3f7ab857f8,
     type: 2}
   spriteList:
   - {fileID: 0}
-  - {fileID: 21300000, guid: 4dfe1455f1e3cf84a9bf5e06e502d99c, type: 3}
-  - {fileID: 21300000, guid: 47efee1539e849343a86d30f412d10f6, type: 3}
-  - {fileID: 21300000, guid: 17c353a0c754cca4e8ddcbaba8cd0879, type: 3}
-  - {fileID: 21300000, guid: 4ecd2b08bb2c948458d0d63407b42271, type: 3}
-  - {fileID: 21300000, guid: 4a65ed639dfee084a9772a87316290d4, type: 3}
-  - {fileID: 21300000, guid: d75daefc97a1d4b40a4a183ac451a73a, type: 3}
-  maxIndex: 6
+  - {fileID: 21300000, guid: 1a5d36f8ea225c94e8d81c897c4e44a3, type: 3}
+  - {fileID: 21300000, guid: d5eafe13f83401a4da404a17efc3d6f9, type: 3}
+  - {fileID: 21300000, guid: 077725f5ab0fb494da8b521eecbbb056, type: 3}
+  - {fileID: 21300000, guid: 6b5f0a93d583c114bb4d78f9ddb583f3, type: 3}
+  maxIndex: 4
   frameDuration: 1.5
   frameReverseDuration: 0.5
 --- !u!212 &212007496730849244

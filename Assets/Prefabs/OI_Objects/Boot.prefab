@@ -114,7 +114,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1219884804139014}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -111.89766, y: -19.670738, z: 0}
+  m_LocalPosition: {x: -94.5, y: -9.799999, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4171963098144274}
@@ -244,7 +244,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e26113e9fb362942b6166d1aa0bc740, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterPrefab: {fileID: 1287848835197300, guid: d6a5468adba4e7b4e9499a94e25535f1,
+  MonsterPrefab: {fileID: 1429524706256744, guid: 3d27fcfab248a564bb2c28b1fd261322,
     type: 2}
   spriteList:
   - {fileID: 0}
@@ -252,7 +252,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 5476116da2c36cc44b67c9094dc24e87, type: 3}
   - {fileID: 21300000, guid: db29dc400f345ea42bdff9ee8339f673, type: 3}
   - {fileID: 21300000, guid: 0b1222e5c802e934a94a3b2bb3692c08, type: 3}
-  maxIndex: 6
+  maxIndex: 4
   frameDuration: 1.5
   frameReverseDuration: 0.5
 --- !u!212 &212054264136925774

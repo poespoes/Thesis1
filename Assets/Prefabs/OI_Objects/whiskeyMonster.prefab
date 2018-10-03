@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4353222144749416}
   - component: {fileID: 114776718310101956}
   m_Layer: 0
-  m_Name: New_OIMonster
+  m_Name: whiskeyMonster
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -57,7 +57,7 @@ GameObject:
   - component: {fileID: 50705043162185198}
   - component: {fileID: 212741983754311760}
   - component: {fileID: 114643784200737532}
-  - component: {fileID: 95306428765715394}
+  - component: {fileID: 95498257426267832}
   m_Layer: 0
   m_Name: Body
   m_TagString: Untagged
@@ -158,18 +158,18 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.027570248, y: 0.6619741}
+  m_Offset: {x: -2.8025303, y: 0.7681066}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 18.46, y: 24.25}
+    oldSize: {x: 21.6, y: 19.130001}
     newSize: {x: 18.46, y: 24.25}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 6.378892, y: 3.3976767}
+  m_Size: {x: 12.039093, y: 8.704119}
   m_EdgeRadius: 0
 --- !u!61 &61892413352233826
 BoxCollider2D:
@@ -183,7 +183,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.18795419, y: -8.224319}
+  m_Offset: {x: -4.40873, y: -0.54918003}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -194,9 +194,9 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 4.0787206, y: 11.9321575}
+  m_Size: {x: 13.272092, y: 14.836031}
   m_EdgeRadius: 0
---- !u!95 &95306428765715394
+--- !u!95 &95498257426267832
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 1
@@ -205,7 +205,7 @@ Animator:
   m_GameObject: {fileID: 1675148312811716}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 10b31ba612afc8c4b99b5998c97f0d66, type: 2}
+  m_Controller: {fileID: 9100000, guid: 9d133a113b3b12043b6abb2641013c52, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -233,6 +233,7 @@ MonoBehaviour:
   player: {fileID: 0}
   OIMonster: {fileID: 0}
   deathCollider: {fileID: 0}
+  blackOutCanvas: {fileID: 0}
 --- !u!114 &114776718310101956
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -248,6 +249,8 @@ MonoBehaviour:
   speedPercent: 10
   player: {fileID: 0}
   OIbody: {fileID: 0}
+  distance: 0
+  playerAnim: {fileID: 0}
 --- !u!114 &114906414073773946
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -295,7 +298,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 99
-  m_Sprite: {fileID: 21300000, guid: d8a8328bef8612246b0f96d88090fc93, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 00680297becd74347b74489724b8dd9f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
