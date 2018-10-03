@@ -56,6 +56,7 @@ GameObject:
   - component: {fileID: 331504518814105538}
   - component: {fileID: 114188073100884136}
   - component: {fileID: 114450999254649600}
+  - component: {fileID: 70308787155234358}
   m_Layer: 0
   m_Name: MimLight
   m_TagString: MimLight
@@ -216,7 +217,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1845497055862086
 GameObject:
   m_ObjectHideFlags: 1
@@ -524,7 +525,7 @@ Rigidbody2D:
   m_Mass: 2
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 2
+  m_GravityScale: 5
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -545,6 +546,21 @@ CapsuleCollider2D:
   m_Offset: {x: 0.046640582, y: -1.2828028}
   m_Size: {x: 0.5932426, y: 3.565575}
   m_Direction: 0
+--- !u!70 &70308787155234358
+CapsuleCollider2D:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1270122880770936}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 14.064768, y: -0.000000007720502}
+  m_Size: {x: 35.76526, y: 5.5047345}
+  m_Direction: 1
 --- !u!70 &70861040433700220
 CapsuleCollider2D:
   m_ObjectHideFlags: 1
@@ -834,8 +850,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6537bf396acbce4da9e1131c612da58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 3
-  jumpAmount: 10
+  moveSpeed: 6
+  jumpAmount: 20
   stopPosX: 115.65
   BufferDistance: 2.5
   isWalking: 0
