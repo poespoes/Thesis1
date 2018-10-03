@@ -12,26 +12,26 @@
     <session id="2054692397">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="13" />
+          <entry key="project.closed" value="14" />
           <entry key="project.open.time.10" value="3" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.7" value="2" />
+          <entry key="project.open.time.7" value="3" />
           <entry key="project.open.time.8" value="4" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="15" />
+          <entry key="project.opened" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="16569" />
+          <entry key="cs" value="16692" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="16569" />
+          <entry key="C#" value="16692" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -88,11 +88,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/OI_RootMonster.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
-              <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+            <state relative-caret-position="176">
+              <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
               <folding>
                 <marker date="1538530046842" expanded="false" signature="6:78" ph="..." />
                 <marker date="1538530046842" expanded="true" signature="124:2160" ph="{...}" />
@@ -177,22 +177,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Overimagination/OI_Body.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-391">
+            <state relative-caret-position="905">
+              <caret line="69" column="61" selection-start-line="69" selection-start-column="61" selection-end-line="69" selection-end-column="61" />
               <folding>
-                <marker date="1538501880239" expanded="false" signature="6:135" ph="..." />
-                <marker date="1538501880239" expanded="true" signature="174:2212" ph="{...}" />
-                <marker date="1538501880239" expanded="true" signature="675:1062" ph="{...}" />
-                <marker date="1538501880239" expanded="true" signature="1117:1703" ph="{...}" />
-                <marker date="1538501880239" expanded="true" signature="1179:1246" ph="{...}" />
-                <marker date="1538501880239" expanded="true" signature="1256:1330" ph="/* if LitUp == false ... */" />
-                <marker date="1538501880239" expanded="true" signature="1383:1697" ph="{...}" />
-                <marker date="1538501880239" expanded="true" signature="1763:2103" ph="{...}" />
-                <marker date="1538501880239" expanded="true" signature="1818:2097" ph="{...}" />
-                <marker date="1538501880239" expanded="true" signature="1932:2074" ph="{...}" />
-                <marker date="1538501880239" expanded="true" signature="2130:2210" ph="{...}" />
+                <marker date="1538548103705" expanded="false" signature="6:135" ph="..." />
+                <marker date="1538548103705" expanded="true" signature="174:2441" ph="{...}" />
+                <marker date="1538548103705" expanded="true" signature="675:1062" ph="{...}" />
+                <marker date="1538548103705" expanded="true" signature="1117:1932" ph="{...}" />
+                <marker date="1538548103705" expanded="true" signature="1179:1246" ph="{...}" />
+                <marker date="1538548103705" expanded="true" signature="1256:1330" ph="/* if LitUp == false ... */" />
+                <marker date="1538548103705" expanded="true" signature="1383:1697" ph="{...}" />
+                <marker date="1538548103705" expanded="true" signature="1759:1842" ph="{...}" />
+                <marker date="1538548103705" expanded="true" signature="1852:1926" ph="{...}" />
+                <marker date="1538548103705" expanded="true" signature="1992:2332" ph="{...}" />
+                <marker date="1538548103705" expanded="true" signature="2047:2326" ph="{...}" />
+                <marker date="1538548103705" expanded="true" signature="2161:2303" ph="{...}" />
+                <marker date="1538548103705" expanded="true" signature="2359:2439" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -286,13 +289,13 @@
         <option value="$PROJECT_DIR$/Assets/Animate.cs" />
         <option value="$PROJECT_DIR$/Assets/vineAttack.cs" />
         <option value="$PROJECT_DIR$/Assets/BeamStretch.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Overimagination/OI_Body.cs" />
         <option value="$PROJECT_DIR$/Assets/PlayerAnimation.cs" />
         <option value="$PROJECT_DIR$/Assets/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/OI_RootMonster.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnvironmentalScript/Intro/introScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnvironmentalScript/Intro/handDropSceneChange.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BeamController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Overimagination/OI_Body.cs" />
       </list>
     </option>
   </component>
@@ -314,10 +317,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="FileSystemExplorer" />
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
       </pane>
+      <pane id="FileSystemExplorer" />
       <pane id="UnityExplorer">
         <option name="show-hidden-items" value="false" />
       </pane>
@@ -381,11 +384,12 @@
       <workItem from="1538405761665" duration="7561000" />
       <workItem from="1538489970444" duration="12830000" />
       <workItem from="1538546568656" duration="1290000" />
+      <workItem from="1538547929855" duration="406000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77757000" />
+    <option name="totallyTimeSpent" value="78163000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -399,7 +403,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21108742" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21321961" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -678,29 +682,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Overimagination/OI_Body.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-391">
-          <folding>
-            <marker date="1538501880239" expanded="false" signature="6:135" ph="..." />
-            <marker date="1538501880239" expanded="true" signature="174:2212" ph="{...}" />
-            <marker date="1538501880239" expanded="true" signature="675:1062" ph="{...}" />
-            <marker date="1538501880239" expanded="true" signature="1117:1703" ph="{...}" />
-            <marker date="1538501880239" expanded="true" signature="1179:1246" ph="{...}" />
-            <marker date="1538501880239" expanded="true" signature="1256:1330" ph="/* if LitUp == false ... */" />
-            <marker date="1538501880239" expanded="true" signature="1383:1697" ph="{...}" />
-            <marker date="1538501880239" expanded="true" signature="1763:2103" ph="{...}" />
-            <marker date="1538501880239" expanded="true" signature="1818:2097" ph="{...}" />
-            <marker date="1538501880239" expanded="true" signature="1932:2074" ph="{...}" />
-            <marker date="1538501880239" expanded="true" signature="2130:2210" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/OI_RootMonster.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+        <state relative-caret-position="176">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
           <folding>
             <marker date="1538530046842" expanded="false" signature="6:78" ph="..." />
             <marker date="1538530046842" expanded="true" signature="124:2160" ph="{...}" />
@@ -712,6 +697,28 @@
             <marker date="1538530046842" expanded="true" signature="1825:1937" ph="{...}" />
             <marker date="1538530046842" expanded="true" signature="1968:2073" ph="{...}" />
             <marker date="1538530046842" expanded="true" signature="2086:2149" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Overimagination/OI_Body.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="905">
+          <caret line="69" column="61" selection-start-line="69" selection-start-column="61" selection-end-line="69" selection-end-column="61" />
+          <folding>
+            <marker date="1538548103705" expanded="false" signature="6:135" ph="..." />
+            <marker date="1538548103705" expanded="true" signature="174:2441" ph="{...}" />
+            <marker date="1538548103705" expanded="true" signature="675:1062" ph="{...}" />
+            <marker date="1538548103705" expanded="true" signature="1117:1932" ph="{...}" />
+            <marker date="1538548103705" expanded="true" signature="1179:1246" ph="{...}" />
+            <marker date="1538548103705" expanded="true" signature="1256:1330" ph="/* if LitUp == false ... */" />
+            <marker date="1538548103705" expanded="true" signature="1383:1697" ph="{...}" />
+            <marker date="1538548103705" expanded="true" signature="1759:1842" ph="{...}" />
+            <marker date="1538548103705" expanded="true" signature="1852:1926" ph="{...}" />
+            <marker date="1538548103705" expanded="true" signature="1992:2332" ph="{...}" />
+            <marker date="1538548103705" expanded="true" signature="2047:2326" ph="{...}" />
+            <marker date="1538548103705" expanded="true" signature="2161:2303" ph="{...}" />
+            <marker date="1538548103705" expanded="true" signature="2359:2439" ph="{...}" />
           </folding>
         </state>
       </provider>
