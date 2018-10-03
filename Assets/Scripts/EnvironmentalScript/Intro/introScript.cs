@@ -21,5 +21,7 @@ public class introScript : MonoBehaviour
 			handAnimator.SetBool("willShake",true);
 			Debug.Log("Shaken not stirred");
 		}
+		
+		
 	}
 }
