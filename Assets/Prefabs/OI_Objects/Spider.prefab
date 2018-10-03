@@ -140,7 +140,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1193781202894540}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -94.5, y: -9.799999, z: 0}
+  m_LocalPosition: {x: -134.5, y: -9.799999, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4006647184260994}
@@ -195,7 +195,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -2.5500948, y: 0.5003562}
+  m_Offset: {x: 4.8671474, y: 0.5003562}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -206,7 +206,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 5.3380694, y: 4.0977864}
+  m_Size: {x: 5.8827496, y: 4.0977864}
   m_EdgeRadius: 0
 --- !u!61 &61829029688198236
 BoxCollider2D:
@@ -244,7 +244,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e26113e9fb362942b6166d1aa0bc740, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterPrefab: {fileID: 1287848835197300, guid: d6a5468adba4e7b4e9499a94e25535f1,
+  MonsterPrefab: {fileID: 1749278115529854, guid: b3638fe73134be148bbf73ef2513fddf,
     type: 2}
   spriteList:
   - {fileID: 0}
