@@ -36,6 +36,12 @@ public class PlayerAnimation : MonoBehaviour {
             PlayerAnimator.SetBool("MimScareWalk", false);
             PlayerAnimator.SetBool("MimVeryScareWalk", true);
         }
+        if (WalkingState == 4 && this.GetComponent<Player>().isWalking == true) {
+            PlayerAnimator.SetBool("MimWalk", false);
+            PlayerAnimator.SetBool("MimScareWalk", false);
+            PlayerAnimator.SetBool("MimVeryScareWalk", false);
+            PlayerAnimator.SetBool("MimJumping",true);
+        }
     }
 
     private void OnTriggerStay2D(Collider2D collision) {

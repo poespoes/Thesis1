@@ -111,6 +111,7 @@ public class Player : MonoBehaviour {
         {
             Debug.Log("I CANNOT JUMP");
             canJump = false;
+            playerAnimator.SetBool("MimJumping",false);
         }
 
         if (Input.GetButtonDown("Jump"))
@@ -119,6 +120,8 @@ public class Player : MonoBehaviour {
             {
                 Debug.Log("I CAN JUMP");
                 this.GetComponent<Rigidbody2D>().AddForce((Vector2.up)*100*jumpAmount);
+                //this.GetComponent<PlayerAnimation>().WalkingState = 4;
+                playerAnimator.SetBool("MimJumping",true);
             }
         }
        

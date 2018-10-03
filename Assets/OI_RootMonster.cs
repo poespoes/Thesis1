@@ -46,7 +46,11 @@ public class OI_RootMonster : MonoBehaviour {
         }
 
 
-        distance = Vector3.Distance(this.transform.position, player.transform.position);
+        //distance = Vector3.Distance(this.transform.position, player.transform.position);
+
+        distance = Vector2.Distance(transform.position,
+            new Vector2(player.transform.position.x, transform.position.y));
+        
         //Debug.Log(distance + "metres away. Gonna getch ya");
 
         if (distance < 30)
