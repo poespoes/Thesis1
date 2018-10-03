@@ -26,17 +26,18 @@ public class OI_RootMonster : MonoBehaviour {
         
         //Running to the player
         if (OIbody.isLitUp == false) {
-            Debug.Log("walking!");
+            Debug.Log("Moving Towards Player!");
             transform.position = Vector2.MoveTowards(transform.position,
             new Vector2(player.transform.position.x, transform.position.y), actualSpeed);
         }
-
-        //Running away from the player
+        
         if (OIbody.isLitUp == true) {
             Debug.Log("Running away!");
             fearTimer += Time.deltaTime;
             transform.position = Vector2.MoveTowards(transform.position,
                 new Vector2(-player.transform.position.x, transform.position.y), actualSpeed);
+            
+            
         }
 
         //if ran away > maxfearduration and no longer collided with mimlight, then feartimer resets
