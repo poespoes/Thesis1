@@ -59,6 +59,16 @@ public class OI_Body : MonoBehaviour {
             blackOutCanvas.CrossFadeAlpha(255,6,false);
             Invoke("Restart",2.0f);
         }
+
+	    if (player.transform.position.x > transform.position.x)
+	    {
+	        this.GetComponent<SpriteRenderer>().flipX = true;
+	        
+	    }
+	    else
+	    {
+	        this.GetComponent<SpriteRenderer>().flipX = false;
+	    }
     }
 
 
