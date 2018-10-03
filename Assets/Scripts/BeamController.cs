@@ -38,5 +38,6 @@ public class BeamController : MonoBehaviour
 	    
 		GetComponent<SpriteRenderer>().enabled = isOn;
 		GetComponent<SpriteMask>().enabled = isOn;
+		this.GetComponent<Collider2D>().enabled = isOn;
 	}
 }

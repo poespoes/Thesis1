@@ -25,12 +25,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="16528" />
+          <entry key="cs" value="16569" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="16528" />
+          <entry key="C#" value="16569" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -192,11 +192,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnvironmentalScript/Intro/handDropSceneChange.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="528">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
               <folding>
                 <marker date="1538533757023" expanded="true" signature="6:135" ph="..." />
                 <marker date="1538533757023" expanded="true" signature="185:601" ph="{...}" />
@@ -209,19 +209,19 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/BeamController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+            <state relative-caret-position="592">
+              <caret line="40" column="55" selection-start-line="40" selection-start-column="55" selection-end-line="40" selection-end-column="55" />
               <folding>
-                <marker date="1538533719367" expanded="false" signature="6:106" ph="..." />
-                <marker date="1538533719367" expanded="true" signature="151:1112" ph="{...}" />
-                <marker date="1538533719367" expanded="true" signature="236:355" ph="{...}" />
-                <marker date="1538533719367" expanded="true" signature="374:1110" ph="{...}" />
-                <marker date="1538533719367" expanded="true" signature="395:654" ph="{...}" />
-                <marker date="1538533719367" expanded="true" signature="691:1007" ph="{...}" />
-                <marker date="1538533719367" expanded="true" signature="705:910" ph="/* toggle light on/off ... */" />
+                <marker date="1538539226513" expanded="false" signature="6:106" ph="..." />
+                <marker date="1538539226513" expanded="true" signature="151:1162" ph="{...}" />
+                <marker date="1538539226513" expanded="true" signature="236:355" ph="{...}" />
+                <marker date="1538539226513" expanded="true" signature="374:1160" ph="{...}" />
+                <marker date="1538539226513" expanded="true" signature="395:654" ph="{...}" />
+                <marker date="1538539226513" expanded="true" signature="691:1007" ph="{...}" />
+                <marker date="1538539226513" expanded="true" signature="705:910" ph="/* toggle light on/off ... */" />
               </folding>
             </state>
           </provider>
@@ -302,8 +302,8 @@
         <option value="$PROJECT_DIR$/Assets/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/OI_RootMonster.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnvironmentalScript/Intro/introScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/BeamController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnvironmentalScript/Intro/handDropSceneChange.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BeamController.cs" />
       </list>
     </option>
   </component>
@@ -390,12 +390,12 @@
       <workItem from="1538066428089" duration="2843000" />
       <workItem from="1538148612210" duration="4685000" />
       <workItem from="1538405761665" duration="7561000" />
-      <workItem from="1538489970444" duration="11933000" />
+      <workItem from="1538489970444" duration="12280000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75570000" />
+    <option name="totallyTimeSpent" value="75917000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -782,26 +782,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BeamController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-          <folding>
-            <marker date="1538533719367" expanded="false" signature="6:106" ph="..." />
-            <marker date="1538533719367" expanded="true" signature="151:1112" ph="{...}" />
-            <marker date="1538533719367" expanded="true" signature="236:355" ph="{...}" />
-            <marker date="1538533719367" expanded="true" signature="374:1110" ph="{...}" />
-            <marker date="1538533719367" expanded="true" signature="395:654" ph="{...}" />
-            <marker date="1538533719367" expanded="true" signature="691:1007" ph="{...}" />
-            <marker date="1538533719367" expanded="true" signature="705:910" ph="/* toggle light on/off ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnvironmentalScript/Intro/handDropSceneChange.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
           <folding>
             <marker date="1538533757023" expanded="true" signature="6:135" ph="..." />
             <marker date="1538533757023" expanded="true" signature="185:601" ph="{...}" />
@@ -809,6 +793,22 @@
             <marker date="1538533757023" expanded="true" signature="402:409" ph="{...}" />
             <marker date="1538533757023" expanded="true" signature="427:504" ph="{...}" />
             <marker date="1538533757023" expanded="true" signature="523:599" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BeamController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="592">
+          <caret line="40" column="55" selection-start-line="40" selection-start-column="55" selection-end-line="40" selection-end-column="55" />
+          <folding>
+            <marker date="1538539226513" expanded="false" signature="6:106" ph="..." />
+            <marker date="1538539226513" expanded="true" signature="151:1162" ph="{...}" />
+            <marker date="1538539226513" expanded="true" signature="236:355" ph="{...}" />
+            <marker date="1538539226513" expanded="true" signature="374:1160" ph="{...}" />
+            <marker date="1538539226513" expanded="true" signature="395:654" ph="{...}" />
+            <marker date="1538539226513" expanded="true" signature="691:1007" ph="{...}" />
+            <marker date="1538539226513" expanded="true" signature="705:910" ph="/* toggle light on/off ... */" />
           </folding>
         </state>
       </provider>
