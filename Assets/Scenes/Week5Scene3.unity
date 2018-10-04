@@ -1547,7 +1547,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 534669902}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -72.49999, y: 51.159996, z: -10}
+  m_LocalPosition: {x: -72.5, y: 51.159996, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1710877340}
@@ -3653,6 +3653,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   extendedComponent: {fileID: 1518519376}
   shaderProperties: []
+--- !u!4 &1324814674 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4143227185828010, guid: b753c71b72113fe44aaec54e676c0533,
+    type: 2}
+  m_PrefabInternal: {fileID: 555764296}
 --- !u!1001 &1330121739
 Prefab:
   m_ObjectHideFlags: 0
@@ -4236,7 +4241,7 @@ MonoBehaviour:
   m_Priority: 20
   m_StandbyUpdate: 2
   m_LookAt: {fileID: 0}
-  m_Follow: {fileID: 0}
+  m_Follow: {fileID: 1324814674}
   m_Lens:
     FieldOfView: 40
     OrthographicSize: 24
