@@ -33,10 +33,14 @@ public class Player : MonoBehaviour {
 
         playerAnimator = this.GetComponent<Animator>();
     }
-
+    
     void Update() {
+   
+        
         if (canWalk == true)
         {
+            
+            
             if (Input.GetMouseButtonDown(0))
             {
                 isWalking = true;
@@ -102,7 +106,8 @@ public class Player : MonoBehaviour {
         }
 
         velocityY = this.GetComponent<Rigidbody2D>().velocity.y;
-        if (velocityY == 0)
+       
+        /*if (velocityY == 0)
         {
             
             canJump = true;
@@ -112,28 +117,35 @@ public class Player : MonoBehaviour {
             Debug.Log("I CANNOT JUMP");
             canJump = false;
             playerAnimator.SetBool("MimJumping",false);
-        }
+        }*/
 
 
         Vector3 RayCastPoint = new Vector3(transform.position.x, transform.position.y+1,transform.position.z);
         RaycastHit2D hit = Physics2D.Raycast(RayCastPoint, Vector2.down, 1f);
-        Debug.Log(hit.collider.name);
-        
-        if (hit.collider.transform.tag=="ground")
+       /* if (hit != null)
         {
-            Debug.Log("Raycast touching ground");
-            
-        }
-        
+            Debug.Log(hit.collider.name);
+
+            if (hit.collider.transform.tag == "ground")
+            {
+                Debug.Log("Raycast touching ground");
+
+            }
+        }*/
+
 
         if (Input.GetButtonDown("Jump"))
         {
-            if (canJump = true)
+            if (canJump == true)
             {
                 Debug.Log("I CAN JUMP");
                 this.GetComponent<Rigidbody2D>().AddForce((Vector2.up)*100*jumpAmount);
                 //this.GetComponent<PlayerAnimation>().WalkingState = 4;
                 playerAnimator.SetBool("MimJumping",true);
+            }
+            else
+            {
+                Debug.Log("Can't Jump");
             }
         }
        
@@ -143,7 +155,22 @@ public class Player : MonoBehaviour {
         Debug.Log("trytguhinuj");
     }
 
-   /* private void OnTriggerEnter2D(Collider2D collision) {
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        Debug.Log("Collided");
+        
+        if (other.gameObject.tag == "ground")
+        {
+           canJump = true;
+        }
+    }
+    
+    private void OnCollisionExit2D(Collision2D other)
+    {
+        canJump = false;
+    }
+
+    /* private void OnTriggerEnter2D(Collider2D collision) {
         if (collision.gameObject.tag == "Tripping") {
             Debug.Log("tripping");
 
