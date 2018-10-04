@@ -734,8 +734,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 203239455}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -59.61827, y: 7.2443223, z: -0.71875}
-  m_LocalScale: {x: 23.351145, y: 23.351145, z: 23.351145}
+  m_LocalPosition: {x: -69.3, y: 7.2443223, z: -0.71875}
+  m_LocalScale: {x: 41.247463, y: 41.247463, z: 41.247463}
   m_Children: []
   m_Father: {fileID: 1080490475}
   m_RootOrder: 0
@@ -870,7 +870,7 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 436027332}
+  - {fileID: 1008352887}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -936,7 +936,7 @@ GameObject:
   - component: {fileID: 333118754}
   m_Layer: 0
   m_Name: lvlBaseExport2
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1421,39 +1421,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   extendedComponent: {fileID: 404038276}
   shaderProperties: []
---- !u!21 &436027332
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: Sprites/Default
-  m_Shader: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _AlphaTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - PixelSnap: 0
-    - _EnableExternalAlpha: 0
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Flip: {r: 1, g: 1, b: 1, a: 1}
-    - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &465834886
 GameObject:
   m_ObjectHideFlags: 0
@@ -2023,8 +1990,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 598759019}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -242.31827, y: 36.044323, z: -0.71875}
-  m_LocalScale: {x: 23.351145, y: 23.351145, z: 23.351145}
+  m_LocalPosition: {x: -236.6, y: 39.5, z: -0.71875}
+  m_LocalScale: {x: 39.58874, y: 198.1385, z: 48.621754}
   m_Children: []
   m_Father: {fileID: 1080490475}
   m_RootOrder: 1
@@ -3453,6 +3420,39 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!21 &1008352887
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Sprites/Default
+  m_Shader: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - PixelSnap: 0
+    - _EnableExternalAlpha: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Flip: {r: 1, g: 1, b: 1, a: 1}
+    - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &1010736281
 Prefab:
   m_ObjectHideFlags: 0
@@ -3670,7 +3670,7 @@ GameObject:
   - component: {fileID: 1108304300}
   m_Layer: 0
   m_Name: Colliders
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3751,7 +3751,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1116215638
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5091,8 +5091,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1412953302}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 168.98174, y: -0.2556777, z: -0.71875}
-  m_LocalScale: {x: 23.351145, y: 23.351145, z: 23.351145}
+  m_LocalPosition: {x: 181.9, y: -0.2556777, z: -0.71875}
+  m_LocalScale: {x: 43.580242, y: 43.580242, z: 43.580242}
   m_Children: []
   m_Father: {fileID: 1080490475}
   m_RootOrder: 2
@@ -6648,7 +6648,7 @@ GameObject:
   - component: {fileID: 1738463688}
   m_Layer: 0
   m_Name: GameObject
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7460,7 +7460,7 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 436027332}
+  - {fileID: 1008352887}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7654,7 +7654,7 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 436027332}
+  - {fileID: 1008352887}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

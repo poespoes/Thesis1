@@ -98,7 +98,7 @@ public class Player : MonoBehaviour {
             //WalkingState = 0;
 
             this.GetComponent<PlayerAnimation>().WalkingState = 0;
-            //Debug.Log("stop walking");
+            Debug.Log("stop walking");
         }
 
         velocityY = this.GetComponent<Rigidbody2D>().velocity.y;
@@ -113,6 +113,18 @@ public class Player : MonoBehaviour {
             canJump = false;
             playerAnimator.SetBool("MimJumping",false);
         }
+
+
+        Vector3 RayCastPoint = new Vector3(transform.position.x, transform.position.y+1,transform.position.z);
+        RaycastHit2D hit = Physics2D.Raycast(RayCastPoint, Vector2.down, 1f);
+        Debug.Log(hit.collider.name);
+        
+        if (hit.collider.transform.tag=="ground")
+        {
+            Debug.Log("Raycast touching ground");
+            
+        }
+        
 
         if (Input.GetButtonDown("Jump"))
         {

@@ -9,6 +9,7 @@ TagManager:
   - MimLight
   - FearState2
   - FearState3
+  - ground
   layers:
   - Default
   - TransparentFX
