@@ -635,7 +635,7 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 706485581}
+  - {fileID: 1837364993}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1922,11 +1922,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4353222144749416, guid: d6a5468adba4e7b4e9499a94e25535f1, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -58.8
+      value: -40.3
       objectReference: {fileID: 0}
     - target: {fileID: 4353222144749416, guid: d6a5468adba4e7b4e9499a94e25535f1, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 30.834187
+      value: 48.3
       objectReference: {fileID: 0}
     - target: {fileID: 4353222144749416, guid: d6a5468adba4e7b4e9499a94e25535f1, type: 2}
       propertyPath: m_LocalPosition.z
@@ -2180,39 +2180,6 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3558fc3d91c83604c8dab7bad6b11a11, type: 2}
   m_IsPrefabAsset: 0
---- !u!21 &706485581
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: Sprites/Default
-  m_Shader: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _AlphaTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - PixelSnap: 0
-    - _EnableExternalAlpha: 0
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Flip: {r: 1, g: 1, b: 1, a: 1}
-    - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &707153560
 GameObject:
   m_ObjectHideFlags: 3
@@ -3788,11 +3755,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4494967639601954, guid: 3d27fcfab248a564bb2c28b1fd261322, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -58.8
+      value: -30.5
       objectReference: {fileID: 0}
     - target: {fileID: 4494967639601954, guid: 3d27fcfab248a564bb2c28b1fd261322, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 30.834187
+      value: 52.7
       objectReference: {fileID: 0}
     - target: {fileID: 4494967639601954, guid: 3d27fcfab248a564bb2c28b1fd261322, type: 2}
       propertyPath: m_LocalPosition.z
@@ -5457,6 +5424,39 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!21 &1837364993
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Sprites/Default
+  m_Shader: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - PixelSnap: 0
+    - _EnableExternalAlpha: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Flip: {r: 1, g: 1, b: 1, a: 1}
+    - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1844173540
 GameObject:
   m_ObjectHideFlags: 0
@@ -5817,7 +5817,7 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 706485581}
+  - {fileID: 1837364993}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6011,7 +6011,7 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 706485581}
+  - {fileID: 1837364993}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
