@@ -142,6 +142,8 @@ public class Player : MonoBehaviour {
                 this.GetComponent<Rigidbody2D>().AddForce((Vector2.up)*100*jumpAmount);
                 //this.GetComponent<PlayerAnimation>().WalkingState = 4;
                 playerAnimator.SetBool("MimJumping",true);
+                
+                
             }
             else
             {
@@ -162,12 +164,14 @@ public class Player : MonoBehaviour {
         if (other.gameObject.tag == "ground")
         {
            canJump = true;
+           playerAnimator.SetBool("MimJumping",false);
         }
     }
     
     private void OnCollisionExit2D(Collision2D other)
     {
         canJump = false;
+        
     }
 
     /* private void OnTriggerEnter2D(Collider2D collision) {
