@@ -98,6 +98,7 @@
           <e p="BeamStretchHorizontalOnly.cs" t="Include" />
           <e p="BeamStretchVerticalOnly.cs" t="Include" />
           <e p="CameraControl.cs" t="Include" />
+          <e p="death.cs" t="Include" />
           <e p="EnvironmentalScript" t="Include">
             <e p="Intro" t="Include">
               <e p="handDropSceneChange.cs" t="Include" />

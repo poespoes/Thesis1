@@ -17,7 +17,7 @@ public class UICrossFade : MonoBehaviour
 		
 		canvas = this.gameObject;
 		
-		canvas.GetComponent<Image>().CrossFadeAlpha(0.1f,2.0f,false);
+		canvas.GetComponent<Image>().CrossFadeAlpha(0.1f,6.0f,false);
 		
 		//canvas.GetComponent<Image>().CrossFadeAlpha(255,10.0f,false);
 		

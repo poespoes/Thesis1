@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class vineAttack : MonoBehaviour {
 
@@ -34,14 +35,22 @@ public class vineAttack : MonoBehaviour {
 				vineAnimator.SetBool("isAttacking", true);
 				vineAnimator.SetBool("isGlowing", false);
 				
-				//GameObject blackout = GameObject.Find("BlackoutPanel");
-				//blackout.GetComponent<Image>().CrossFadeAlpha(255,5.0f,false);
+				
 			}
 		}
 	}
 
     void ScreenToDark() {
-            ScreenDark.sortingOrder = 99;
-    
+            //ScreenDark.sortingOrder = 99;
+	    GameObject blackout = GameObject.Find("BlackoutPanel");
+	    blackout.GetComponent<Image>().CrossFadeAlpha(255,5.0f,false);
+	    Invoke("Restart",2);
+	    
+	    
     }
+
+	void Restart()
+	{
+		SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+	}
 }
