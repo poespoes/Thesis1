@@ -44,6 +44,7 @@ public class Player : MonoBehaviour {
         {
             
             
+            /*
             if (Input.GetMouseButtonDown(0))
             {
                 isWalking = true;
@@ -53,6 +54,7 @@ public class Player : MonoBehaviour {
                 targetPos = v_Mouse.transform.position.x - BufferDistance;
                 //Debug.Log("Moving to" + targetPos);
             }
+            */
 
             if (Input.GetAxisRaw("Horizontal") != 0)
             {
