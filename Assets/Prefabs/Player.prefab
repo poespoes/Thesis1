@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4926129209784004}
   - component: {fileID: 212292732474044706}
   - component: {fileID: 114009099541321042}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: MimShadowEdge (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37,7 +37,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4076767355281782}
   - component: {fileID: 212658689875701226}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: MimDarknessBlack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57,7 +57,7 @@ GameObject:
   - component: {fileID: 114188073100884136}
   - component: {fileID: 114450999254649600}
   - component: {fileID: 70308787155234358}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: MimLight
   m_TagString: MimLight
   m_Icon: {fileID: 0}
@@ -73,7 +73,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4485924973427278}
   - component: {fileID: 212114480921941222}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: MimDarknessGray
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -89,7 +89,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4755221057089036}
   - component: {fileID: 212750467501340680}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: MimBody
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -105,7 +105,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4993505950470164}
   - component: {fileID: 212407200621830486}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: MimLeafON
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -123,7 +123,7 @@ GameObject:
   - component: {fileID: 212619314886026856}
   - component: {fileID: 114319060240253122}
   - component: {fileID: 114414774755898776}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Pink30
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -139,7 +139,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4646567080950492}
   - component: {fileID: 114662166964095366}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: LightEffects
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -156,7 +156,7 @@ GameObject:
   - component: {fileID: 4642671044200462}
   - component: {fileID: 114713038478887108}
   - component: {fileID: 212246684075367858}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: VirtualMouse
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -179,7 +179,7 @@ GameObject:
   - component: {fileID: 114420652464687344}
   - component: {fileID: 50612281883408966}
   - component: {fileID: 114912527815074656}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -195,7 +195,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4953215145226236}
   - component: {fileID: 212447043991957572}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: MimLeafOFF
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -211,7 +211,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4690882048851990}
   - component: {fileID: 70134264270742432}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Collider
   m_TagString: MimLight
   m_Icon: {fileID: 0}
@@ -229,7 +229,7 @@ GameObject:
   - component: {fileID: 212394306250878064}
   - component: {fileID: 114345789808893842}
   - component: {fileID: 114763351405126002}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: VignetteFollowMim
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -246,7 +246,7 @@ GameObject:
   - component: {fileID: 4622546978902330}
   - component: {fileID: 212142427213609890}
   - component: {fileID: 114585203768660072}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: MimShadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -264,7 +264,7 @@ GameObject:
   - component: {fileID: 212459446413913680}
   - component: {fileID: 114459849583945890}
   - component: {fileID: 114432137503546152}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: FollowMim
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -281,7 +281,7 @@ GameObject:
   - component: {fileID: 4920054060857152}
   - component: {fileID: 212723821339598892}
   - component: {fileID: 114626656347335710}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: MimShadowEdge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -308,7 +308,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1647147466446410}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -72.5, y: 52.6, z: 0}
+  m_LocalPosition: {x: -88.2, y: 50.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4920054060857152}
@@ -558,8 +558,8 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 14.064768, y: -0.000000007720502}
-  m_Size: {x: 35.76526, y: 5.5047345}
+  m_Offset: {x: 19.532934, y: -0.0000006595767}
+  m_Size: {x: 24.828999, y: 5.5047774}
   m_Direction: 1
 --- !u!70 &70861040433700220
 CapsuleCollider2D:
@@ -851,7 +851,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 6
-  jumpAmount: 20
+  jumpAmount: 30
   stopPosX: 115.65
   BufferDistance: 2.5
   isWalking: 0
@@ -860,6 +860,8 @@ MonoBehaviour:
   v_Mouse: {fileID: 0}
   playerAnimator: {fileID: 0}
   canJump: 0
+  playerScaredSpeed: 3
+  playerVeryScaredSpeed: 2
 --- !u!114 &114763351405126002
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -885,6 +887,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PlayerAnimator: {fileID: 95953325392803090}
   WalkingState: 0
+  player: {fileID: 0}
 --- !u!114 &114912527815074656
 MonoBehaviour:
   m_ObjectHideFlags: 1

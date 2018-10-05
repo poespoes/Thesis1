@@ -34,13 +34,13 @@ public class PlayerAnimation : MonoBehaviour {
             PlayerAnimator.SetBool("MimWalk", false);
             PlayerAnimator.SetBool("MimScareWalk", true);
             PlayerAnimator.SetBool("MimVeryScareWalk", false);
-            player.moveSpeed = 4;
+            player.moveSpeed = player.playerScaredSpeed;
         }
         if (WalkingState == 3 && this.GetComponent<Player>().isWalking == true) {
             PlayerAnimator.SetBool("MimWalk", false);
             PlayerAnimator.SetBool("MimScareWalk", false);
             PlayerAnimator.SetBool("MimVeryScareWalk", true);
-            player.moveSpeed = 3;
+            player.moveSpeed = player.playerVeryScaredSpeed;
         }
         if (WalkingState == 4 && this.GetComponent<Player>().isWalking == true) {
             PlayerAnimator.SetBool("MimWalk", false);

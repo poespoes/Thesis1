@@ -23,6 +23,9 @@ public class Player : MonoBehaviour {
 
     public bool canJump;
 
+    public float playerScaredSpeed;
+    public float playerVeryScaredSpeed;
+
     void Start() {
         targetPos = transform.position.x;
         WalkingState = this.GetComponent<PlayerAnimation>().WalkingState;
