@@ -6,12 +6,15 @@ public class PlayerAnimation : MonoBehaviour {
     public Animator PlayerAnimator;
     private SpriteRenderer sr;
     public float WalkingState = 0;
+
+    public Player player;
     
     
 
     // Use this for initialization
     void Start() {
         sr = GetComponent<SpriteRenderer>();
+        player = GameObject.Find("Player").GetComponent<Player>();
     }
 
     // Update is called once per frame
@@ -25,16 +28,19 @@ public class PlayerAnimation : MonoBehaviour {
             PlayerAnimator.SetBool("MimWalk", true);
             PlayerAnimator.SetBool("MimScareWalk", false);
             PlayerAnimator.SetBool("MimVeryScareWalk", false);
+            player.moveSpeed = 6;
         }
         if (WalkingState == 2 && this.GetComponent<Player>().isWalking == true) {
             PlayerAnimator.SetBool("MimWalk", false);
             PlayerAnimator.SetBool("MimScareWalk", true);
             PlayerAnimator.SetBool("MimVeryScareWalk", false);
+            player.moveSpeed = 4;
         }
         if (WalkingState == 3 && this.GetComponent<Player>().isWalking == true) {
             PlayerAnimator.SetBool("MimWalk", false);
             PlayerAnimator.SetBool("MimScareWalk", false);
             PlayerAnimator.SetBool("MimVeryScareWalk", true);
+            player.moveSpeed = 3;
         }
         if (WalkingState == 4 && this.GetComponent<Player>().isWalking == true) {
             PlayerAnimator.SetBool("MimWalk", false);
