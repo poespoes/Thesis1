@@ -65,6 +65,7 @@ public class Player : MonoBehaviour {
                 //Debug.Log("Moving to" + targetPos);
                 
                 playerAnimator.SetBool("MimIsWalking",true);
+                Debug.Log("Is Walking");
                 if (Input.GetAxisRaw("Horizontal") > 0)
                 {
                     this.GetComponent<SpriteRenderer>().flipX = false;
@@ -77,6 +78,7 @@ public class Player : MonoBehaviour {
             else
             {
                 playerAnimator.SetBool("MimIsWalking",false);
+                Debug.Log("Not Walking");
             }
 
         }
