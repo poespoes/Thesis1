@@ -62,12 +62,12 @@ public class OI_Body : MonoBehaviour {
 
 	    if (player.transform.position.x > transform.position.x)
 	    {
-	        this.GetComponent<SpriteRenderer>().flipX = true;
+	       this.GetComponent<SpriteRenderer>().flipY = true;
 	        
 	    }
 	    else
 	    {
-	        this.GetComponent<SpriteRenderer>().flipX = false;
+	       this.GetComponent<SpriteRenderer>().flipY = false;
 	    }
     }
 

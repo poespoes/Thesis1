@@ -27,15 +27,29 @@ public class OI_RootMonster : MonoBehaviour {
         //Running to the player
         if (OIbody.isLitUp == false) {
             Debug.Log("Moving Towards Player!");
+            
+            /*transform.position = Vector2.MoveTowards(transform.position,
+            new Vector2(player.transform.position.x, transform.position.y), actualSpeed);*/
+
             transform.position = Vector2.MoveTowards(transform.position,
-            new Vector2(player.transform.position.x, transform.position.y), actualSpeed);
+                new Vector2(player.transform.position.x, player.transform.position.y), actualSpeed);
+
+            //Vector3 moveDir = player.transform.position - transform.position;\
+            Vector3 moveDir = transform.position - player.transform.position;
+            
+            if (moveDir != Vector3.zero) 
+            {
+                float angle = Mathf.Atan2(moveDir.y, moveDir.x) * Mathf.Rad2Deg;
+                transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
+            }
+
         }
         
         if (OIbody.isLitUp == true) {
             Debug.Log("Running away!");
             fearTimer += Time.deltaTime;
             transform.position = Vector2.MoveTowards(transform.position,
-                new Vector2(-player.transform.position.x, transform.position.y), actualSpeed);
+                new Vector2(player.transform.position.x, player.transform.position.y), -1*actualSpeed);
             
             
         }
