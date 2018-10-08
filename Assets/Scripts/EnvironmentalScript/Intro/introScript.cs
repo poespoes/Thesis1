@@ -2,26 +2,33 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class introScript : MonoBehaviour
+namespace Cinemachine.Examples
 {
-	public Animator handAnimator;
+	public class introScript : MonoBehaviour
+	{
+		public Animator handAnimator;
+		
+		// Use this for initialization
+		void Start()
+		{
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
-	
-	void OnTriggerEnter2D(Collider2D collision) {
-		if (collision.gameObject.tag == "MimLight") {
-			handAnimator.SetBool("willShake",true);
-			Debug.Log("Shaken not stirred");
 		}
-		
-		
+
+		// Update is called once per frame
+		void Update()
+		{
+
+		}
+
+		void OnTriggerEnter2D(Collider2D collision)
+		{
+			if (collision.gameObject.tag == "MimLight")
+			{
+				handAnimator.SetBool("willShake", true);
+				Debug.Log("Shaken not stirred");
+			}
+
+
+		}
 	}
 }
