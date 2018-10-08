@@ -145,7 +145,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -4.8211026, y: 2.5740995}
+  m_Offset: {x: -4.8211026, y: 1.5005426}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -156,7 +156,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.8633387, y: 0.31786537}
+  m_Size: {x: 2.8633385, y: 2.4649792}
   m_EdgeRadius: 0
 --- !u!61 &61773134681609444
 BoxCollider2D:
@@ -170,7 +170,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 4.226265, y: 2.5740995}
+  m_Offset: {x: 4.226265, y: 2.0923758}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -181,7 +181,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.0708082, y: 0.31786537}
+  m_Size: {x: 1.0708084, y: 1.281313}
   m_EdgeRadius: 0
 --- !u!61 &61778879603107212
 BoxCollider2D:
@@ -195,7 +195,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -2.2, y: 3.77}
+  m_Offset: {x: -2.2, y: 2.8065515}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -206,7 +206,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.8633387, y: 0.31786537}
+  m_Size: {x: 2.863339, y: 2.2447624}
   m_EdgeRadius: 0
 --- !u!61 &61936306877278372
 BoxCollider2D:
@@ -220,7 +220,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 1.6043954, y: 4.5}
+  m_Offset: {x: 1.6043954, y: 3.5778408}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -231,7 +231,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 5.5521317, y: 0.31786537}
+  m_Size: {x: 5.5521317, y: 2.1621835}
   m_EdgeRadius: 0
 --- !u!212 &212178586225536538
 SpriteRenderer:

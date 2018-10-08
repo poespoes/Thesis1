@@ -53,6 +53,7 @@ GameObject:
   - component: {fileID: 4925440227089536}
   - component: {fileID: 61566605598303904}
   - component: {fileID: 61381551208408432}
+  - component: {fileID: 60204080756083404}
   m_Layer: 0
   m_Name: S3
   m_TagString: ground
@@ -131,6 +132,38 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &60204080756083404
+PolygonCollider2D:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1164726805265016}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -1.4606323, y: 2.6022415}
+      - {x: -1.4761276, y: 0.8678131}
+      - {x: -2.691574, y: 1.2123222}
+      - {x: -2.6367416, y: -3.3206367}
+      - {x: 3.87051, y: -3.4528236}
+      - {x: 3.3654327, y: -2.3295937}
+      - {x: 2.335415, y: -2.0231857}
+      - {x: 2.0967026, y: 2.5342255}
 --- !u!61 &61381551208408432
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -143,7 +176,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.76936626, y: 2.8099995}
+  m_Offset: {x: 0.76936626, y: 2.655777}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -154,7 +187,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 5.602072, y: 0.12570381}
+  m_Size: {x: 5.602072, y: 0.4341488}
   m_EdgeRadius: 0
 --- !u!61 &61566605598303904
 BoxCollider2D:
