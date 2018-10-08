@@ -13,6 +13,8 @@ namespace Cinemachine.Examples {
 
         public float maxStretch;
 
+        public float minStretch;
+
 
         // Use this for initialization
         void Start() {
@@ -25,6 +27,8 @@ namespace Cinemachine.Examples {
             {
                 maxStretch = 26.0f;
             }
+
+            minStretch = cineVCam.m_Lens.OrthographicSize;
 
         }
 
@@ -59,8 +63,8 @@ namespace Cinemachine.Examples {
             cineVCam.m_Lens.OrthographicSize = originalOrtho + (distanceFactor * 10);
 
 
-            if (cineVCam.m_Lens.OrthographicSize < 18.2f) {
-                cineVCam.m_Lens.OrthographicSize = 18.2f;
+            if (cineVCam.m_Lens.OrthographicSize < minStretch) {
+                cineVCam.m_Lens.OrthographicSize = minStretch;
             }
 
 

@@ -2279,7 +2279,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1287848835197300, guid: d6a5468adba4e7b4e9499a94e25535f1, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 212741983754311760, guid: d6a5468adba4e7b4e9499a94e25535f1,
         type: 2}
@@ -6444,6 +6444,11 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 114420652464687344, guid: b753c71b72113fe44aaec54e676c0533,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b753c71b72113fe44aaec54e676c0533, type: 2}
   m_IsPrefabAsset: 0
@@ -6687,66 +6692,6 @@ PolygonCollider2D:
       - {x: -2.3883212, y: -1.1091061}
       - {x: 0.9016991, y: -1.4653826}
       - {x: 6.4588223, y: -0.86102676}
---- !u!1001 &1777734940
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4353222144749416, guid: d6a5468adba4e7b4e9499a94e25535f1, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: -185.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 4353222144749416, guid: d6a5468adba4e7b4e9499a94e25535f1, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: -43
-      objectReference: {fileID: 0}
-    - target: {fileID: 4353222144749416, guid: d6a5468adba4e7b4e9499a94e25535f1, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4353222144749416, guid: d6a5468adba4e7b4e9499a94e25535f1, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4353222144749416, guid: d6a5468adba4e7b4e9499a94e25535f1, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4353222144749416, guid: d6a5468adba4e7b4e9499a94e25535f1, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4353222144749416, guid: d6a5468adba4e7b4e9499a94e25535f1, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4353222144749416, guid: d6a5468adba4e7b4e9499a94e25535f1, type: 2}
-      propertyPath: m_RootOrder
-      value: 23
-      objectReference: {fileID: 0}
-    - target: {fileID: 1287848835197300, guid: d6a5468adba4e7b4e9499a94e25535f1, type: 2}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 212741983754311760, guid: d6a5468adba4e7b4e9499a94e25535f1,
-        type: 2}
-      propertyPath: m_FlipX
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 212741983754311760, guid: d6a5468adba4e7b4e9499a94e25535f1,
-        type: 2}
-      propertyPath: m_FlipY
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1287848835197300, guid: d6a5468adba4e7b4e9499a94e25535f1, type: 2}
-      propertyPath: m_Name
-      value: whiskeyMonster (1)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: d6a5468adba4e7b4e9499a94e25535f1, type: 2}
-  m_IsPrefabAsset: 0
 --- !u!1 &1805370845
 GameObject:
   m_ObjectHideFlags: 0
