@@ -325,8 +325,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1647147466446410}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -92.4, y: 41.4, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -92.4, y: 42.68, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4920054060857152}
@@ -736,15 +736,16 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1647147466446410}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d312da44a17ffdd4d99bd3f166f54a53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cineVCam: {fileID: 0}
   lightBeam: {fileID: 0}
-  lightFactor: 10
+  lightFactor: 60
   maxStretch: 0
+  minStretch: 0
 --- !u!114 &114432137503546152
 MonoBehaviour:
   m_ObjectHideFlags: 1
