@@ -67,12 +67,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="776" />
+          <entry key="cs" value="784" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="776" />
+          <entry key="C#" value="784" />
         </counts>
       </usages-collector>
     </session>
@@ -157,7 +157,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnvironmentalScript/Intro/handDropSceneChange.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="464">
@@ -175,10 +175,50 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraControl.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <marker date="1538841409980" expanded="false" signature="6:78" ph="..." />
+                <marker date="1538841409980" expanded="true" signature="110:410" ph="{...}" />
+                <marker date="1538841409980" expanded="true" signature="156:408" ph="{...}" />
+                <marker date="1538841409980" expanded="true" signature="285:297" ph="{...}" />
+                <marker date="1538841409980" expanded="true" signature="351:403" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.cinemachine@2.2.7/Runtime/Behaviours/CinemachineBrain.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="608">
               <caret line="38" column="100" selection-start-line="38" selection-start-column="100" selection-end-line="38" selection-end-column="100" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/BeamController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="736">
+              <caret line="81" column="9" selection-start-line="81" selection-start-column="9" selection-end-line="81" selection-end-column="9" />
+              <folding>
+                <marker date="1539036350330" expanded="false" signature="6:106" ph="..." />
+                <marker date="1539036350330" expanded="true" signature="151:3183" ph="{...}" />
+                <marker date="1539036350330" expanded="true" signature="624:898" ph="{...}" />
+                <marker date="1539036350330" expanded="true" signature="917:2745" ph="{...}" />
+                <marker date="1539036350330" expanded="true" signature="938:1197" ph="{...}" />
+                <marker date="1539036350330" expanded="true" signature="1234:1550" ph="{...}" />
+                <marker date="1539036350330" expanded="true" signature="1248:1453" ph="/* toggle light on/off ... */" />
+                <marker date="1539036350330" expanded="true" signature="1811:1934" ph="/* TODO ... */" />
+                <marker date="1539036350330" expanded="true" signature="1949:2274" ph="{...}" />
+                <marker date="1539036350330" expanded="true" signature="1994:2122" ph="{...}" />
+                <marker date="1539036350330" expanded="true" signature="2136:2267" ph="{...}" />
+                <marker date="1539036350330" expanded="true" signature="2768:3181" ph="{...}" />
+                <marker date="1539036350330" expanded="true" signature="2836:3056" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -207,28 +247,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/BeamController.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1184">
-              <caret line="77" selection-start-line="77" selection-end-line="77" />
-              <folding>
-                <marker date="1538841409974" expanded="false" signature="6:106" ph="..." />
-                <marker date="1538841409974" expanded="true" signature="151:3124" ph="{...}" />
-                <marker date="1538841409974" expanded="true" signature="624:898" ph="{...}" />
-                <marker date="1538841409974" expanded="true" signature="917:2686" ph="{...}" />
-                <marker date="1538841409974" expanded="true" signature="938:1197" ph="{...}" />
-                <marker date="1538841409974" expanded="true" signature="1234:1550" ph="{...}" />
-                <marker date="1538841409974" expanded="true" signature="1248:1453" ph="/* toggle light on/off ... */" />
-                <marker date="1538841409974" expanded="true" signature="1811:1934" ph="/* TODO ... */" />
-                <marker date="1538841409974" expanded="true" signature="1972:2088" ph="{...}" />
-                <marker date="1538841409974" expanded="true" signature="2709:3122" ph="{...}" />
-                <marker date="1538841409974" expanded="true" signature="2777:2997" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/BeamStretch.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="189">
@@ -247,21 +265,6 @@
                 <marker date="1539026347673" expanded="true" signature="2198:2284" ph="{...}" />
                 <marker date="1539026347673" expanded="true" signature="2385:2451" ph="{...}" />
                 <marker date="1539026347673" expanded="true" signature="2489:2554" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameState/gameState.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
-              <folding>
-                <marker date="1538856244207" expanded="true" signature="6:106" ph="..." />
-                <marker date="1538856244207" expanded="true" signature="146:706" ph="{...}" />
-                <marker date="1538856244207" expanded="true" signature="318:535" ph="{...}" />
-                <marker date="1538856244207" expanded="true" signature="589:704" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -341,7 +344,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/BeamStretchVerticalOnly.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnvironmentalScript/letThereBeLight.cs" />
         <option value="$PROJECT_DIR$/Assets/Animate.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/BeamController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI Script/UICrossFade.cs" />
         <option value="$PROJECT_DIR$/Assets/vineAttack.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnvironmentalScript/enviromentalDeath.cs" />
@@ -354,6 +356,7 @@
         <option value="$USER_HOME$/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.cinemachine@2.2.7/Runtime/Behaviours/CinemachineBrain.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnvironmentalScript/Intro/introScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnvironmentalScript/Intro/handDropSceneChange.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BeamController.cs" />
       </list>
     </option>
   </component>
@@ -451,7 +454,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98718000" />
+    <option name="totallyTimeSpent" value="98744000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -463,7 +466,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1932" height="1047" extended-state="1" />
+    <frame x="-7" y="0" width="1932" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22435898" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -551,8 +555,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraControl.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        <state relative-caret-position="288">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <marker date="1538841409980" expanded="false" signature="6:78" ph="..." />
+            <marker date="1538841409980" expanded="true" signature="110:410" ph="{...}" />
+            <marker date="1538841409980" expanded="true" signature="156:408" ph="{...}" />
+            <marker date="1538841409980" expanded="true" signature="285:297" ph="{...}" />
+            <marker date="1538841409980" expanded="true" signature="351:403" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -651,20 +662,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/BeamController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1184">
-          <caret line="77" selection-start-line="77" selection-end-line="77" />
+        <state relative-caret-position="736">
+          <caret line="81" column="9" selection-start-line="81" selection-start-column="9" selection-end-line="81" selection-end-column="9" />
           <folding>
-            <marker date="1538841409974" expanded="false" signature="6:106" ph="..." />
-            <marker date="1538841409974" expanded="true" signature="151:3124" ph="{...}" />
-            <marker date="1538841409974" expanded="true" signature="624:898" ph="{...}" />
-            <marker date="1538841409974" expanded="true" signature="917:2686" ph="{...}" />
-            <marker date="1538841409974" expanded="true" signature="938:1197" ph="{...}" />
-            <marker date="1538841409974" expanded="true" signature="1234:1550" ph="{...}" />
-            <marker date="1538841409974" expanded="true" signature="1248:1453" ph="/* toggle light on/off ... */" />
-            <marker date="1538841409974" expanded="true" signature="1811:1934" ph="/* TODO ... */" />
-            <marker date="1538841409974" expanded="true" signature="1972:2088" ph="{...}" />
-            <marker date="1538841409974" expanded="true" signature="2709:3122" ph="{...}" />
-            <marker date="1538841409974" expanded="true" signature="2777:2997" ph="{...}" />
+            <marker date="1539036350330" expanded="false" signature="6:106" ph="..." />
+            <marker date="1539036350330" expanded="true" signature="151:3183" ph="{...}" />
+            <marker date="1539036350330" expanded="true" signature="624:898" ph="{...}" />
+            <marker date="1539036350330" expanded="true" signature="917:2745" ph="{...}" />
+            <marker date="1539036350330" expanded="true" signature="938:1197" ph="{...}" />
+            <marker date="1539036350330" expanded="true" signature="1234:1550" ph="{...}" />
+            <marker date="1539036350330" expanded="true" signature="1248:1453" ph="/* toggle light on/off ... */" />
+            <marker date="1539036350330" expanded="true" signature="1811:1934" ph="/* TODO ... */" />
+            <marker date="1539036350330" expanded="true" signature="1949:2274" ph="{...}" />
+            <marker date="1539036350330" expanded="true" signature="1994:2122" ph="{...}" />
+            <marker date="1539036350330" expanded="true" signature="2136:2267" ph="{...}" />
+            <marker date="1539036350330" expanded="true" signature="2768:3181" ph="{...}" />
+            <marker date="1539036350330" expanded="true" signature="2836:3056" ph="{...}" />
           </folding>
         </state>
       </provider>

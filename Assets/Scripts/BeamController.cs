@@ -69,12 +69,19 @@ public class BeamController : MonoBehaviour
         // Lerp the beam thrown-away animation
 
         // Hold left mouse button to increase the max range of beam
-        if (Input.GetMouseButton(0)) {
-            leftMouseHoldTimer = Mathf.MoveTowards(leftMouseHoldTimer, maxHoldDuration, Time.deltaTime);
-        } else {
-            leftMouseHoldTimer = Mathf.MoveTowards(leftMouseHoldTimer, 0, Time.deltaTime * beamShrinkRate);
-        }
-        currentBeamRange = Mathf.Lerp(0, maxBeamRange, leftMouseHoldTimer / maxHoldDuration);
+	    if (isOn)
+	    {
+	        if (Input.GetMouseButton(0))
+	        {
+	            leftMouseHoldTimer = Mathf.MoveTowards(leftMouseHoldTimer, maxHoldDuration, Time.deltaTime);
+	        }
+	        else
+	        {
+	            leftMouseHoldTimer = Mathf.MoveTowards(leftMouseHoldTimer, 0, Time.deltaTime * beamShrinkRate);
+	        }
+	    }
+
+	    currentBeamRange = Mathf.Lerp(0, maxBeamRange, leftMouseHoldTimer / maxHoldDuration);
         Color c = otherBeamSR.color;
         c.a = currentBeamRange / maxBeamRange;
         otherBeamSR.color = c;
