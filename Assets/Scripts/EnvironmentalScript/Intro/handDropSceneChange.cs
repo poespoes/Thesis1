@@ -23,7 +23,7 @@ public class handDropSceneChange : MonoBehaviour
 	void blackOut()
 	{
 		blackOutCanvas.CrossFadeAlpha(255,5,false);
-		Invoke("NextScene",2);
+		Invoke("NextScene",4);
 	}
 
 	void NextScene()

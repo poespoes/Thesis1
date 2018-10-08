@@ -7,6 +7,7 @@ namespace Cinemachine.Examples
 	public class introScript : MonoBehaviour
 	{
 		public Animator handAnimator;
+		public CinemachineVirtualCamera vcam;
 		
 		// Use this for initialization
 		void Start()
@@ -26,6 +27,12 @@ namespace Cinemachine.Examples
 			{
 				handAnimator.SetBool("willShake", true);
 				Debug.Log("Shaken not stirred");
+
+				SpriteRenderer vine = GameObject.Find("7_vine").GetComponent<SpriteRenderer>();
+				vine.sortingOrder = 25;
+
+				vcam.Priority = 25;
+
 			}
 
 
