@@ -326,7 +326,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1647147466446410}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -86.9, y: 51.82, z: 0}
+  m_LocalPosition: {x: -74.7, y: 47.2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4920054060857152}
@@ -914,7 +914,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6537bf396acbce4da9e1131c612da58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 6
+  moveSpeed: 8
   jumpAmount: 30
   stopPosX: 115.65
   BufferDistance: 2.5
@@ -924,8 +924,8 @@ MonoBehaviour:
   v_Mouse: {fileID: 0}
   playerAnimator: {fileID: 0}
   canJump: 0
-  playerScaredSpeed: 3
-  playerVeryScaredSpeed: 2
+  playerScaredSpeed: 4
+  playerVeryScaredSpeed: 3
 --- !u!114 &114763351405126002
 MonoBehaviour:
   m_ObjectHideFlags: 1
