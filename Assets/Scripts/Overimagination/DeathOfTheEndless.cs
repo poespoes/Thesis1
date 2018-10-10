@@ -19,6 +19,7 @@ public class DeathOfTheEndless : MonoBehaviour {
 		if(other.transform.tag=="monster")
 		{
 			Destroy(other.transform.parent.gameObject);
+			Debug.Log("Destroy Monster");
 		}
 	}
 }
