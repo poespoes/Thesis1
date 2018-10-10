@@ -15,6 +15,8 @@ namespace Cinemachine.Examples {
 
         public float minStretch;
 
+        BeamController beamController;
+
 
         // Use this for initialization
         void Start() {
@@ -29,6 +31,8 @@ namespace Cinemachine.Examples {
             }
 
             minStretch = cineVCam.m_Lens.OrthographicSize;
+
+            beamController = GameObject.Find("MimLight").GetComponent<BeamController>();
 
         }
 
@@ -47,9 +51,13 @@ namespace Cinemachine.Examples {
 
             float distance = Vector3.Distance(v_Mouse.transform.position, thisPos);
 
+            // Constraint the position inside the max range
+            if (distance > beamController.currentBeamRange)
+                distance = beamController.currentBeamRange;
+
             //if (Input.GetMouseButtonDown(1)) {
 
-            //Debug.Log("The distance is " + distance);
+                //Debug.Log("The distance is " + distance);
 
             float distanceFactor = distance / lightFactor;
 
