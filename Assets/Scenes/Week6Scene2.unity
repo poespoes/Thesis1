@@ -1709,7 +1709,7 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 1189324792}
+  - {fileID: 361879355}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2375,6 +2375,39 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 13.012543, y: 12.028156}
   m_EdgeRadius: 0
+--- !u!21 &361879355
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Sprites/Default
+  m_Shader: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - PixelSnap: 0
+    - _EnableExternalAlpha: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Flip: {r: 1, g: 1, b: 1, a: 1}
+    - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &365806105
 GameObject:
   m_ObjectHideFlags: 0
@@ -3813,7 +3846,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 589909660}
   m_LocalRotation: {x: -0, y: -0, z: -0.70732737, w: 0.7068862}
-  m_LocalPosition: {x: -19.3, y: 50.4, z: 0}
+  m_LocalPosition: {x: -19.3, y: 61.4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 529490860}
@@ -3999,7 +4032,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 644549553}
   m_LocalRotation: {x: -0, y: -0, z: -0.70732737, w: 0.7068862}
-  m_LocalPosition: {x: -19.300003, y: -31.8, z: 0}
+  m_LocalPosition: {x: -19.300003, y: -43.8, z: 0}
   m_LocalScale: {x: 1.0000002, y: 1.0000002, z: 1}
   m_Children: []
   m_Father: {fileID: 529490860}
@@ -5654,7 +5687,7 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 1189324792}
+  - {fileID: 361879355}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7005,6 +7038,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1101481178 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1270122880770936, guid: b753c71b72113fe44aaec54e676c0533,
+    type: 2}
+  m_PrefabInternal: {fileID: 1705935760}
+--- !u!114 &1101481179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1101481178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffbdbde9157898b4f97bcf7782d37044, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timer: 60
+  timeRemaining: 0
+  redOutPanel: {fileID: 0}
 --- !u!1 &1103975483
 GameObject:
   m_ObjectHideFlags: 0
@@ -7107,7 +7159,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1105594891}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -63.4, y: 0, z: 0}
+  m_LocalPosition: {x: -87.1, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 529490860}
@@ -7786,39 +7838,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!21 &1189324792
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: Sprites/Default
-  m_Shader: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _AlphaTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - PixelSnap: 0
-    - _EnableExternalAlpha: 0
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Flip: {r: 1, g: 1, b: 1, a: 1}
-    - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1209985971
 GameObject:
   m_ObjectHideFlags: 3
@@ -9080,7 +9099,7 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 1189324792}
+  - {fileID: 361879355}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -10405,7 +10424,7 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 1189324792}
+  - {fileID: 361879355}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -11105,7 +11124,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1632098993}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 57.2, y: 0, z: 0}
+  m_LocalPosition: {x: 75.4, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 529490860}
@@ -11781,7 +11800,7 @@ Prefab:
         type: 2}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 1189324792}
+      objectReference: {fileID: 361879355}
     - target: {fileID: 212619314886026856, guid: b753c71b72113fe44aaec54e676c0533,
         type: 2}
       propertyPath: m_Materials.Array.data[0]
@@ -13034,7 +13053,7 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 1189324792}
+  - {fileID: 361879355}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -13384,7 +13403,7 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 1189324792}
+  - {fileID: 361879355}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
