@@ -56,12 +56,12 @@ GameObject:
   - component: {fileID: 4100512182982132}
   - component: {fileID: 212961126413304010}
   m_Layer: 0
-  m_Name: BottleDARK
+  m_Name: RootBottleDARK
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!1 &1839320199509696
 GameObject:
   m_ObjectHideFlags: 0
@@ -97,7 +97,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1839320199509696}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 60.7, y: 28.4, z: 0}
+  m_LocalPosition: {x: 60.89, y: 28.59, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4929707143351858}
@@ -126,7 +126,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1397328622579368}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.3, y: 1.2, z: 0}
+  m_LocalPosition: {x: -0.26, y: -0.15, z: 0}
   m_LocalScale: {x: 4.6091, y: 4.6091, z: 4.6091}
   m_Children: []
   m_Father: {fileID: 4173644194566638}
@@ -176,11 +176,16 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -0.623592, y: 1.8574369}
-      - {x: -1.9903778, y: 1.2184216}
-      - {x: -0.4578694, y: -2.497911}
-      - {x: 1.3153089, y: -1.9782503}
-      - {x: 1.8864434, y: 1.2963707}
+    - - {x: 2.090151, y: 1.8464605}
+      - {x: 1.0439318, y: 2.732282}
+      - {x: -1.8037404, y: 2.6620216}
+      - {x: -2.9344494, y: 2.115892}
+      - {x: -3.0796664, y: 0.5648444}
+      - {x: -2.1379476, y: -4.2986665}
+      - {x: -0.87081754, y: -4.244371}
+      - {x: -0.3546189, y: -2.5658634}
+      - {x: 0.8225319, y: -1.6938518}
+      - {x: 1.1982181, y: -0.34252235}
 --- !u!114 &114393438671150468
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -196,11 +201,14 @@ MonoBehaviour:
     type: 2}
   spriteList:
   - {fileID: 0}
-  - {fileID: 21300000, guid: 01ccad14686b6684bbb8e66868781e08, type: 3}
-  - {fileID: 21300000, guid: 518540e4b136f3847be98d0dd85eb614, type: 3}
-  - {fileID: 21300000, guid: 8f8b3b310801d7d4eae9b2e37e91553b, type: 3}
-  maxIndex: 3
-  frameDuration: 1.5
+  - {fileID: 21300000, guid: eb81741a8223efe4daa8c72dbb26534f, type: 3}
+  - {fileID: 21300000, guid: 1c3fda3374d9e7c40ba48421ac7e38a6, type: 3}
+  - {fileID: 21300000, guid: a4eace07eaab3594bb392bd3b2353adc, type: 3}
+  - {fileID: 21300000, guid: 4c4a08b96f7d8f845aebf92635600fac, type: 3}
+  - {fileID: 21300000, guid: 987f9ff25373e7343aca3f08b2ef431d, type: 3}
+  - {fileID: 21300000, guid: 5a082941260dc25438228656a91c71be, type: 3}
+  maxIndex: 6
+  frameDuration: 0.5
   frameReverseDuration: 0.5
 --- !u!212 &212636727748897682
 SpriteRenderer:
@@ -280,10 +288,10 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -285679403
+  m_SortingLayer: -4
   m_SortingOrder: 8
-  m_Sprite: {fileID: 21300000, guid: 46074e07b0fa8724fa5cc0d4f3096dd5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: dbd01089b92ac8c499885e5b1e82dfe8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -329,7 +337,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 7
-  m_Sprite: {fileID: 21300000, guid: afeb920d34e154742912aacb0d683a06, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 86ea59086a337b744956bb26f921ed08, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
