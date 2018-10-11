@@ -20,9 +20,7 @@ public class enviromentalDeath : MonoBehaviour {
 	{
 		if (collision.gameObject.name == "Player")
 		{
-			GameObject blackout = GameObject.Find("BlackoutPanel");
-			blackout.GetComponent<Image>().CrossFadeAlpha(255,5.0f,false);
-			Invoke("Restart",2);
+			Die();
 		}
 	}
 	
@@ -31,6 +29,15 @@ public class enviromentalDeath : MonoBehaviour {
 	{
 		SceneManager.LoadScene(SceneManager.GetActiveScene().name);
 	}
+
+
+	public void Die()
+	{
+		GameObject blackout = GameObject.Find("BlackoutPanel");
+		blackout.GetComponent<Image>().CrossFadeAlpha(255,5.0f,false);
+		Invoke("Restart",2);
 		
+	
+	}
 
 }

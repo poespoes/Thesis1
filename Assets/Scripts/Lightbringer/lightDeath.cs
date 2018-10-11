@@ -10,6 +10,13 @@ public class lightDeath : MonoBehaviour
 
 	public Image redOutPanel;
 	
+	
+	
+	public Color A = Color.magenta;
+	public Color B = Color.blue;
+	public float speed = 0.01f;
+	public float lerpProgress = 0;
+	
 	// Use this for initialization
 	void Start ()
 	{
@@ -27,15 +34,21 @@ public class lightDeath : MonoBehaviour
 		if (this.GetComponent<BeamController>().isOn == true)
 		{
 			timeRemaining = timeRemaining - Time.deltaTime;
-			tempColor.a -= Time.deltaTime / timeRemaining;
+			
+			//tempColor.a -= Time.deltaTime / timeRemaining;
+			
+			redOutPanel.CrossFadeAlpha(155,10.0f,false);
 		}
 		else
 		{
 			if (timeRemaining < timer)
 			{
 				timeRemaining = timeRemaining + Time.deltaTime;
-				tempColor.a += Time.deltaTime / timeRemaining;
+				//tempColor.a += Time.deltaTime / timeRemaining;
+				
+				redOutPanel.CrossFadeAlpha(0.1f,10.0f,false);
 			}
+			//redOutPanel.CrossFadeAlpha(0,timer,false);
 		}
 
 
