@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using Cinemachine.Examples;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class gameState : MonoBehaviour
 {
@@ -24,5 +26,13 @@ public class gameState : MonoBehaviour
 		beamStretch.enabled = interactive;
 		beamController.enabled = interactive;
 		player.enabled = interactive;
+
+        if (Input.GetKeyDown(KeyCode.R)) {
+            Invoke("Restart", 1);
+        }
 	}
+
+    void Restart() {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
 }

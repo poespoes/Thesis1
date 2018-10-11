@@ -4,7 +4,7 @@
  using UnityEngine.UI;
  
  public class AlphaTest : MonoBehaviour {
- 
+     public Animator VineScreenAtkAnimator;
      public Color A = Color.magenta;
      public Color B = Color.blue;
      public float fadeInSpeed = 0.001f;
@@ -21,9 +21,10 @@
      
      void Start() {
          spriteRenderer = GetComponent<SpriteRenderer>();
-         //image = GetComponent<Image>();
+         VineScreenAtkAnimator = this.GetComponent<Animator>();
+        //image = GetComponent<Image>();
 
-         beamController = GameObject.Find("MimLight").GetComponent<BeamController>();
+        beamController = GameObject.Find("MimLight").GetComponent<BeamController>();
      }
  
      void Update() {
@@ -42,10 +43,11 @@
                 
              }
 
-             if (lerpProgress > 0.9)
+             if (lerpProgress > 0.95f)
              {
-                 GameObject.Find("GameManager").GetComponent<enviromentalDeath>().Die();
-                 GameObject.Find("GameManager").GetComponent<gameState>().interactive = false;
+                VineScreenAtkAnimator.SetBool("isAttacking", true);
+                GameObject.Find("GameManager").GetComponent<enviromentalDeath>().Die();
+                GameObject.Find("GameManager").GetComponent<gameState>().interactive = false;
              }
          }
          else

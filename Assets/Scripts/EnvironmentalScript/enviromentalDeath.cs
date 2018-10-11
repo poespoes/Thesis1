@@ -20,6 +20,7 @@ public class enviromentalDeath : MonoBehaviour {
 	{
 		if (collision.gameObject.name == "Player")
 		{
+            Debug.Log("touched Deathbox");
 			Die();
 		}
 	}

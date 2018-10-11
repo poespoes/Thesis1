@@ -12,6 +12,6 @@ EditorBuildSettings:
     path: Assets/Scenes/IntroTest1/IntroTestWeek6Scene1.unity
     guid: 85f06c2e9260e4946a9ed4417fee7f52
   - enabled: 1
-    path: Assets/Scenes/Week5PlaytestScene.unity
-    guid: 00186c79caef5664781bda70370b0fff
+    path: Assets/Scenes/Week6Scene3.unity
+    guid: 6fe9dee53a4f8f04ca355ff2831fba5a
   m_configObjects: {}
