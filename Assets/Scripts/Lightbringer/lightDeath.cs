@@ -19,23 +19,36 @@ public class lightDeath : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
 	{
+		Color tempColor = redOutPanel.color;
+		
 		//timer = timer - Time.deltaTime;
 		//Debug.Log(timer + " seconds remaining");
 
 		if (this.GetComponent<BeamController>().isOn == true)
 		{
 			timeRemaining = timeRemaining - Time.deltaTime;
+			tempColor.a -= Time.deltaTime / timeRemaining;
 		}
 		else
 		{
 			if (timeRemaining < timer)
 			{
 				timeRemaining = timeRemaining + Time.deltaTime;
+				tempColor.a += Time.deltaTime / timeRemaining;
 			}
 		}
+
+
 		
+		//tempColor.a += Time.deltaTime / timer;
+
+	
+		redOutPanel.color = tempColor;
+
+
+
 		//Debug.Log(timeRemaining + " seconds remaining" );
-		
-		
+
+
 	}
 }

@@ -26,6 +26,9 @@
               <e p="UnityEngine.SpriteRenderer" t="Include">
                 <e p="SpriteRendererExtension.cs" t="Include" />
               </e>
+              <e p="UnityEngine.UI.Image" t="Include">
+                <e p="UIImageExtension.cs" t="Include" />
+              </e>
             </e>
             <e p="Shaders" t="Include">
               <e p="SpritesDefault" t="Include">
@@ -37,6 +40,16 @@
                 <e p="BlendModes-SpritesDefault-OverlayMasked.shader" t="Include" />
                 <e p="BlendModes-SpritesDefault-UnifiedGrab.shader" t="Include" />
                 <e p="BlendModes-SpritesDefault-UnifiedGrabMasked.shader" t="Include" />
+              </e>
+              <e p="UIDefault" t="Include">
+                <e p="BlendModes-UIDefault-Framebuffer.shader" t="Include" />
+                <e p="BlendModes-UIDefault-FramebufferMasked.shader" t="Include" />
+                <e p="BlendModes-UIDefault-Grab.shader" t="Include" />
+                <e p="BlendModes-UIDefault-GrabMasked.shader" t="Include" />
+                <e p="BlendModes-UIDefault-Overlay.shader" t="Include" />
+                <e p="BlendModes-UIDefault-OverlayMasked.shader" t="Include" />
+                <e p="BlendModes-UIDefault-UnifiedGrab.shader" t="Include" />
+                <e p="BlendModes-UIDefault-UnifiedGrabMasked.shader" t="Include" />
               </e>
             </e>
           </e>
@@ -114,6 +127,7 @@
             <e p="playStateActivate.cs" t="Include" />
           </e>
           <e p="Lightbringer" t="Include">
+            <e p="lightDeath.cs" t="Include" />
             <e p="lightEnabled.cs" t="Include" />
             <e p="lightFollow.cs" t="Include" />
           </e>
