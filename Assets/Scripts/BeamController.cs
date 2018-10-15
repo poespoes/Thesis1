@@ -46,7 +46,7 @@ public class BeamController : MonoBehaviour
 			transform.eulerAngles = euler;
 		}
 
-		if (Input.GetMouseButtonDown(1)) {
+		/*if (Input.GetMouseButtonDown(1)) {
             //toggle light on/off
             //GetComponent<SpriteRenderer>().enabled = !GetComponent<SpriteRenderer>().enabled;
             //GetComponent<SpriteMask>().enabled = !GetComponent<SpriteMask>().enabled;
@@ -55,7 +55,7 @@ public class BeamController : MonoBehaviour
 
             //beamStretch.enabled = !beamStretch.enabled;
 
-        }
+        }*/
 	    
 		GetComponent<SpriteRenderer>().enabled = isOn;
 		GetComponent<SpriteMask>().enabled = isOn;
@@ -69,17 +69,12 @@ public class BeamController : MonoBehaviour
         // Lerp the beam thrown-away animation
 
         // Hold left mouse button to increase the max range of beam
-	    if (isOn)
-	    {
-	        if (Input.GetMouseButton(0))
-	        {
-	            leftMouseHoldTimer = Mathf.MoveTowards(leftMouseHoldTimer, maxHoldDuration, Time.deltaTime);
-	        }
-	        else
-	        {
-	            leftMouseHoldTimer = Mathf.MoveTowards(leftMouseHoldTimer, 0, Time.deltaTime * beamShrinkRate);
-	        }
-	    }
+        if (Input.GetMouseButton(0)) {
+            leftMouseHoldTimer = Mathf.MoveTowards(leftMouseHoldTimer, maxHoldDuration, Time.deltaTime);
+        } else {
+            leftMouseHoldTimer = Mathf.MoveTowards(leftMouseHoldTimer, 0, Time.deltaTime * beamShrinkRate);
+        }
+        isOn = leftMouseHoldTimer > 0;
 
 	    currentBeamRange = Mathf.Lerp(0, maxBeamRange, leftMouseHoldTimer / maxHoldDuration);
         Color c = otherBeamSR.color;
@@ -105,4 +100,6 @@ public class BeamController : MonoBehaviour
         euler.z += shakeOffset;
         transform.eulerAngles = euler;
     }
+    //if playerbeam hit monster, beam shake n turn off
+    //
 }

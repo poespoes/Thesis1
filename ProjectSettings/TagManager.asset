@@ -11,6 +11,7 @@ TagManager:
   - FearState3
   - ground
   - monster
+  - OiObject
   layers:
   - Default
   - TransparentFX
