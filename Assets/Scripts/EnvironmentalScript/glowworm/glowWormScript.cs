@@ -34,6 +34,8 @@ namespace Cinemachine.Examples
 
 				this.GetComponent<Animator>().SetBool("hasTriggered", true);
 				gameManager.interactive = false;
+
+				playerCam.m_Lens.OrthographicSize = playerCam.m_Lens.OrthographicSize + 10;
 			}
 		}
 

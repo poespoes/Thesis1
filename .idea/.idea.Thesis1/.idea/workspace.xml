@@ -48,7 +48,7 @@
     <session id="1734459407">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.23" value="1" />
@@ -70,12 +70,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="2885" />
+          <entry key="cs" value="3009" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="2885" />
+          <entry key="C#" value="3009" />
         </counts>
       </usages-collector>
     </session>
@@ -120,17 +120,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnvironmentalScript/glowworm/glowWormScript.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="592">
-              <caret line="39" column="39" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
+            <state relative-caret-position="560">
+              <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
               <folding>
-                <marker date="1539727018643" expanded="false" signature="6:78" ph="..." />
-                <marker date="1539727018643" expanded="true" signature="110:886" ph="{...}" />
-                <marker date="1539727018643" expanded="true" signature="157:884" ph="{...}" />
-                <marker date="1539727018643" expanded="true" signature="283:415" ph="{...}" />
-                <marker date="1539727018643" expanded="true" signature="469:478" ph="{...}" />
-                <marker date="1539727018643" expanded="true" signature="529:737" ph="{...}" />
-                <marker date="1539727018643" expanded="true" signature="575:733" ph="{...}" />
-                <marker date="1539727018643" expanded="true" signature="760:881" ph="{...}" />
+                <marker date="1539727538404" expanded="false" signature="6:78" ph="..." />
+                <marker date="1539727538404" expanded="true" signature="110:1065" ph="{...}" />
+                <marker date="1539727538404" expanded="true" signature="157:1063" ph="{...}" />
+                <marker date="1539727538404" expanded="true" signature="315:522" ph="{...}" />
+                <marker date="1539727538404" expanded="true" signature="576:585" ph="{...}" />
+                <marker date="1539727538404" expanded="true" signature="636:881" ph="{...}" />
+                <marker date="1539727538404" expanded="true" signature="682:877" ph="{...}" />
+                <marker date="1539727538404" expanded="true" signature="904:1060" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -451,12 +451,12 @@
       <workItem from="1539276614830" duration="4098000" />
       <workItem from="1539618058909" duration="2035000" />
       <workItem from="1539715256092" duration="815000" />
-      <workItem from="1539724680481" duration="2307000" />
+      <workItem from="1539724680481" duration="3000000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110531000" />
+    <option name="totallyTimeSpent" value="111224000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -468,8 +468,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="2" width="1932" height="1045" extended-state="1" />
-    <editor active="true" />
+    <frame x="-7" y="2" width="1932" height="1045" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24198718" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -869,17 +868,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnvironmentalScript/glowworm/glowWormScript.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="592">
-          <caret line="39" column="39" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
+        <state relative-caret-position="560">
+          <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
           <folding>
-            <marker date="1539727018643" expanded="false" signature="6:78" ph="..." />
-            <marker date="1539727018643" expanded="true" signature="110:886" ph="{...}" />
-            <marker date="1539727018643" expanded="true" signature="157:884" ph="{...}" />
-            <marker date="1539727018643" expanded="true" signature="283:415" ph="{...}" />
-            <marker date="1539727018643" expanded="true" signature="469:478" ph="{...}" />
-            <marker date="1539727018643" expanded="true" signature="529:737" ph="{...}" />
-            <marker date="1539727018643" expanded="true" signature="575:733" ph="{...}" />
-            <marker date="1539727018643" expanded="true" signature="760:881" ph="{...}" />
+            <marker date="1539727538404" expanded="false" signature="6:78" ph="..." />
+            <marker date="1539727538404" expanded="true" signature="110:1065" ph="{...}" />
+            <marker date="1539727538404" expanded="true" signature="157:1063" ph="{...}" />
+            <marker date="1539727538404" expanded="true" signature="315:522" ph="{...}" />
+            <marker date="1539727538404" expanded="true" signature="576:585" ph="{...}" />
+            <marker date="1539727538404" expanded="true" signature="636:881" ph="{...}" />
+            <marker date="1539727538404" expanded="true" signature="682:877" ph="{...}" />
+            <marker date="1539727538404" expanded="true" signature="904:1060" ph="{...}" />
           </folding>
         </state>
       </provider>
