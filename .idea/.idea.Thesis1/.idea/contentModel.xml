@@ -117,6 +117,7 @@
             <e p="glowworm" t="Include">
               <e p="glowwormActivate.cs" t="Include" />
               <e p="glowwormDeath.cs" t="Include" />
+              <e p="glowWormScript.cs" t="Include" />
             </e>
             <e p="Intro" t="Include">
               <e p="handDropSceneChange.cs" t="Include" />
