@@ -115,6 +115,7 @@
           <e p="EnvironmentalScript" t="Include">
             <e p="enviromentalDeath.cs" t="Include" />
             <e p="glowworm" t="Include">
+              <e p="glowInBlue.cs" t="Include" />
               <e p="glowwormActivate.cs" t="Include" />
               <e p="glowwormDeath.cs" t="Include" />
               <e p="glowWormScript.cs" t="Include" />

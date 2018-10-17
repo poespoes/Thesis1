@@ -12,6 +12,7 @@ TagManager:
   - ground
   - monster
   - OiObject
+  - worm
   layers:
   - Default
   - TransparentFX

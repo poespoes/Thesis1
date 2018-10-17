@@ -9,7 +9,7 @@ namespace Cinemachine.Examples {
         public CinemachineVirtualCamera cineVCam;
         public GameObject lightBeam;
         public float lightFactor;
-        float originalOrtho;
+        public float originalOrtho;
 
         public float maxStretch;
 
@@ -80,9 +80,9 @@ namespace Cinemachine.Examples {
             {
                 cineVCam.m_Lens.OrthographicSize = originalOrtho;
             }
-            else if(cineVCam.m_Lens.OrthographicSize > 24.5f)
+            else if(cineVCam.m_Lens.OrthographicSize > maxStretch)
             {
-                cineVCam.m_Lens.OrthographicSize = 24.5f;
+                cineVCam.m_Lens.OrthographicSize = maxStretch;
             }
 
             float heightFactor = (height / lightFactor)+0.5f;
