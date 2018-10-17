@@ -36,6 +36,8 @@ namespace Cinemachine.Examples
 				gameManager.interactive = false;
 
 				playerCam.m_Lens.OrthographicSize = playerCam.m_Lens.OrthographicSize + 10;
+				player.GetComponent<BeamStretch>().minStretch = playerCam.m_Lens.OrthographicSize;
+				player.GetComponent<BeamStretch>().maxStretch = playerCam.m_Lens.OrthographicSize+ + 5;
 			}
 		}
 
