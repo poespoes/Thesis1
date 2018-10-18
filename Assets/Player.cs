@@ -38,7 +38,9 @@ public class Player : MonoBehaviour {
     }
     
     void Update() {
-   
+   if (Input.GetKeyDown(KeyCode.G)) {
+            canJump = true;
+        }
         
         if (canWalk == true)
         {
@@ -145,7 +147,7 @@ public class Player : MonoBehaviour {
         {
             if (canJump == true)
             {
-                Debug.Log("I CAN JUMP");
+                //Debug.Log("I CAN JUMP");
                 this.GetComponent<Rigidbody2D>().AddForce((Vector2.up)*100*jumpAmount);
                 //this.GetComponent<PlayerAnimation>().WalkingState = 4;
                 playerAnimator.SetBool("MimJumping",true);
@@ -154,7 +156,7 @@ public class Player : MonoBehaviour {
             }
             else
             {
-                Debug.Log("Can't Jump");
+                //Debug.Log("Can't Jump");
             }
         }
        
@@ -162,6 +164,19 @@ public class Player : MonoBehaviour {
 
     public void Say() {
         Debug.Log("trytguhinuj");
+    }
+
+
+    private void OnTriggerEnter2D(Collider2D other) {
+        if (other.gameObject.tag == "ground") {
+            Debug.Log("TRIGGERENTER JUMP!");
+            canJump = true;
+            playerAnimator.SetBool("MimJumping", false);
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D other) {
+        canJump = false;
     }
 
     private void OnCollisionEnter2D(Collision2D other)
@@ -175,11 +190,11 @@ public class Player : MonoBehaviour {
         }
     }
     
-    private void OnCollisionExit2D(Collision2D other)
+    /*private void OnCollisionExit2D(Collision2D other)
     {
         canJump = false;
         
-    }
+    }*/
 
     /* private void OnTriggerEnter2D(Collider2D collision) {
         if (collision.gameObject.tag == "Tripping") {
