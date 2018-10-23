@@ -106,6 +106,7 @@
         <e p="OiSpawner.cs" t="Include" />
         <e p="Player.cs" t="Include" />
         <e p="PlayerAnimation.cs" t="Include" />
+        <e p="PlayerGlowTrigger.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="BeamController.cs" t="Include" />
           <e p="BeamStretchHorizontalOnly.cs" t="Include" />
