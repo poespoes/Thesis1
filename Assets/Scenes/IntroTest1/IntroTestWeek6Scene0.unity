@@ -420,7 +420,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &166744686
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -508,7 +508,7 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 1838120379}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -585,7 +585,7 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 1838120379}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1504,7 +1504,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &550192874
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1652,8 +1652,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 641545668}
-  m_LocalRotation: {x: -0.10294461, y: -0.000000016096449, z: -0.0000000016658948,
-    w: 0.9946871}
+  m_LocalRotation: {x: -0.10294461, y: 0.000000019186956, z: 0.0000000019857425, w: 0.9946871}
   m_LocalPosition: {x: 0.13, y: -2.71, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -1793,8 +1792,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 663082636}
-  m_LocalRotation: {x: -0.10294461, y: -0.000000016096449, z: -0.0000000016658948,
-    w: 0.9946871}
+  m_LocalRotation: {x: -0.10294461, y: 0.000000019186956, z: 0.0000000019857425, w: 0.9946871}
   m_LocalPosition: {x: 2.6028743, y: 0.9750025, z: -10.123045}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -2424,7 +2422,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 957650239}
-  m_LocalRotation: {x: 0.086548395, y: 0.000000017173717, z: -0.000000001856408, w: 0.99624765}
+  m_LocalRotation: {x: 0.086548395, y: -0.000000017109919, z: 0.0000000011219615,
+    w: 0.99624765}
   m_LocalPosition: {x: 2.8928742, y: 5.5250025, z: -10.123045}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -3164,6 +3163,39 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!21 &1838120379
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Sprites/Default
+  m_Shader: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - PixelSnap: 0
+    - _EnableExternalAlpha: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Flip: {r: 1, g: 1, b: 1, a: 1}
+    - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1932025867
 GameObject:
   m_ObjectHideFlags: 0
@@ -3515,6 +3547,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   handAnimator: {fileID: 848841422}
   vcam: {fileID: 957650241}
+  vignette: {fileID: 0}
+  mimShadow: {fileID: 0}
 --- !u!1 &2044203349
 GameObject:
   m_ObjectHideFlags: 0
