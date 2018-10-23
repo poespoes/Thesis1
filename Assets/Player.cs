@@ -147,6 +147,7 @@ public class Player : MonoBehaviour {
         {
             if (canJump == true)
             {
+                canJump = false;
                 //Debug.Log("I CAN JUMP");
                 this.GetComponent<Rigidbody2D>().AddForce((Vector2.up)*100*jumpAmount);
                 //this.GetComponent<PlayerAnimation>().WalkingState = 4;
@@ -165,36 +166,20 @@ public class Player : MonoBehaviour {
     public void Say() {
         Debug.Log("trytguhinuj");
     }
-
-
-    private void OnTriggerEnter2D(Collider2D other) {
-        if (other.gameObject.tag == "ground") {
-            Debug.Log("TRIGGERENTER JUMP!");
-            canJump = true;
-            playerAnimator.SetBool("MimJumping", false);
-        }
-    }
-
-    private void OnTriggerExit2D(Collider2D other) {
-        canJump = false;
-    }
-
+    
     private void OnCollisionEnter2D(Collision2D other)
     {
         Debug.Log("Collided");
         
-        if (other.gameObject.tag == "ground")
+        Vector2 normal = other.contacts[0].normal;
+
+        if (other.gameObject.tag == "ground" && normal.y > Mathf.Abs(normal.x))
         {
            canJump = true;
            playerAnimator.SetBool("MimJumping",false);
         }
     }
     
-    /*private void OnCollisionExit2D(Collision2D other)
-    {
-        canJump = false;
-        
-    }*/
 
     /* private void OnTriggerEnter2D(Collider2D collision) {
         if (collision.gameObject.tag == "Tripping") {
