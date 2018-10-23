@@ -13,6 +13,7 @@ TagManager:
   - monster
   - OiObject
   - worm
+  - climbable
   layers:
   - Default
   - TransparentFX
