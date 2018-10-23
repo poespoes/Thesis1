@@ -8,6 +8,9 @@ namespace Cinemachine.Examples
 	{
 		public Animator handAnimator;
 		public CinemachineVirtualCamera vcam;
+
+		public GameObject vignette;
+		public GameObject mimShadow;
 		
 		// Use this for initialization
 		void Start()
@@ -32,6 +35,9 @@ namespace Cinemachine.Examples
 				vine.sortingOrder = 25;
 
 				vcam.Priority = 25;
+				
+				vignette.SetActive(false);
+				mimShadow.SetActive(false);
 
 			}
 

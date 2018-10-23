@@ -60,12 +60,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cs" value="25" />
+          <entry key="cs" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="C#" value="25" />
+          <entry key="C#" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -189,7 +189,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnvironmentalScript/Intro/handDropSceneChange.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="160">
@@ -201,6 +201,23 @@
                 <marker date="1539028067911" expanded="true" signature="402:409" ph="{...}" />
                 <marker date="1539028067911" expanded="true" signature="427:504" ph="{...}" />
                 <marker date="1539028067911" expanded="true" signature="523:599" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnvironmentalScript/Intro/introScript.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1539027981317" expanded="false" signature="6:78" ph="..." />
+                <marker date="1539027981317" expanded="true" signature="110:692" ph="{...}" />
+                <marker date="1539027981317" expanded="true" signature="154:690" ph="{...}" />
+                <marker date="1539027981317" expanded="true" signature="280:289" ph="{...}" />
+                <marker date="1539027981317" expanded="true" signature="343:352" ph="{...}" />
+                <marker date="1539027981317" expanded="true" signature="399:687" ph="{...}" />
+                <marker date="1539027981317" expanded="true" signature="450:681" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -226,25 +243,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1520">
               <caret line="95" column="36" selection-start-line="95" selection-start-column="36" selection-end-line="95" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/UI Script/UICrossFade.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="19" column="61" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
-              <folding>
-                <marker date="1539278403831" expanded="false" signature="6:100" ph="..." />
-                <marker date="1539278403831" expanded="true" signature="142:910" ph="{...}" />
-                <marker date="1539278403831" expanded="true" signature="271:495" ph="{...}" />
-                <marker date="1539278403831" expanded="true" signature="550:660" ph="{...}" />
-                <marker date="1539278403831" expanded="true" signature="577:602" ph="{...}" />
-                <marker date="1539278403831" expanded="true" signature="632:657" ph="{...}" />
-                <marker date="1539278403831" expanded="true" signature="676:767" ph="{...}" />
-                <marker date="1539278403831" expanded="true" signature="784:908" ph="{...}" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -632,13 +630,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnvironmentalScript/Intro/introScript.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/VirtualMouse.cs">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -873,6 +864,21 @@
             <marker date="1539028067911" expanded="true" signature="402:409" ph="{...}" />
             <marker date="1539028067911" expanded="true" signature="427:504" ph="{...}" />
             <marker date="1539028067911" expanded="true" signature="523:599" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnvironmentalScript/Intro/introScript.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1539027981317" expanded="false" signature="6:78" ph="..." />
+            <marker date="1539027981317" expanded="true" signature="110:692" ph="{...}" />
+            <marker date="1539027981317" expanded="true" signature="154:690" ph="{...}" />
+            <marker date="1539027981317" expanded="true" signature="280:289" ph="{...}" />
+            <marker date="1539027981317" expanded="true" signature="343:352" ph="{...}" />
+            <marker date="1539027981317" expanded="true" signature="399:687" ph="{...}" />
+            <marker date="1539027981317" expanded="true" signature="450:681" ph="{...}" />
           </folding>
         </state>
       </provider>
