@@ -14,6 +14,7 @@ TagManager:
   - OiObject
   - worm
   - climbable
+  - redAlert
   layers:
   - Default
   - TransparentFX
