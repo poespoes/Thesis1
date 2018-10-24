@@ -156,8 +156,10 @@ public class Player : MonoBehaviour {
                 this.GetComponent<Rigidbody2D>().AddForce((Vector2.up)*100*jumpAmount);
                 //this.GetComponent<PlayerAnimation>().WalkingState = 4;
                 playerAnimator.SetBool("MimJumping",true);
-                
-                
+
+                isClimbing = false;
+
+
             }
             else
             {
@@ -190,6 +192,12 @@ public class Player : MonoBehaviour {
             {
                 this.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezePositionY;
             }
+
+            canJump = true;
+        }
+        else
+        {
+            this.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.None;
         }
        
     }
