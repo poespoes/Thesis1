@@ -26,7 +26,7 @@ public class IntroController_0 : MonoBehaviour {
         if (timer >= timeTilBlackout && isBlackout == false) {
             Debug.Log("Blacking out!");
             isBlackout = true;
-            blackOutCanvas.CrossFadeAlpha(255, 5, false);
+            blackOutCanvas.CrossFadeAlpha(254, 8, false);
         }
         if (timer >= timeTilBlackout + timeTilCutMusic) {
             Debug.Log("Music stops!");
