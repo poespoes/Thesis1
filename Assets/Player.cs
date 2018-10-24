@@ -26,6 +26,10 @@ public class Player : MonoBehaviour {
     public float playerScaredSpeed;
     public float playerVeryScaredSpeed;
 
+
+    public bool canClimb;
+    public bool isClimbing;
+
     void Start() {
         targetPos = transform.position.x;
         WalkingState = this.GetComponent<PlayerAnimation>().WalkingState;
@@ -158,6 +162,33 @@ public class Player : MonoBehaviour {
             else
             {
                 //Debug.Log("Can't Jump");
+            }
+        }
+
+        if (canClimb == true)
+        {
+            if (Input.GetAxisRaw("Vertical") != 0)
+            {
+                Debug.Log("The Climb begins");
+                isClimbing = true;
+
+
+            }
+
+            
+        }
+        
+        if (isClimbing == true)
+        {
+            if (Input.GetAxisRaw("Vertical") != 0)
+            {
+                this.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.None;
+                this.GetComponent<Rigidbody2D>().velocity = new Vector2(0,Mathf.Lerp(0, Input.GetAxis("Vertical")* moveSpeed, 0.8f));
+
+            }
+            else
+            {
+                this.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezePositionY;
             }
         }
        
