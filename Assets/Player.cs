@@ -169,7 +169,7 @@ public class Player : MonoBehaviour {
 
         if (canClimb == true)
         {
-            if (Input.GetAxisRaw("Vertical") != 0)
+            if (Input.GetAxisRaw("Vertical") > 0)
             {
                 Debug.Log("The Climb begins");
                 isClimbing = true;
@@ -186,13 +186,16 @@ public class Player : MonoBehaviour {
         
         if (isClimbing == true)
         {
-            if (Input.GetAxisRaw("Vertical") != 0)
+            playerAnimator.SetBool("MimJumping",false);
+            canWalk = false;
+            
+            if (Input.GetAxisRaw("Vertical") != 0 || Input.GetAxisRaw("Horizontal")!=0)
             {
                 this.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.None;
-                this.GetComponent<Rigidbody2D>().velocity = new Vector2(0,Mathf.Lerp(0, Input.GetAxis("Vertical")* moveSpeed, 0.8f));
+                //this.GetComponent<Rigidbody2D>().velocity = new Vector2(0,Mathf.Lerp(0, Input.GetAxis("Vertical")* moveSpeed, 0.8f));
                 
-                /*this.GetComponent<Rigidbody2D>().velocity = new Vector2(Mathf.Lerp(0, Input.GetAxis("Horizontal")* moveSpeed, 0.8f),
-                    Mathf.Lerp(0, Input.GetAxis("Vertical")* moveSpeed, 0.8f));*/
+                this.GetComponent<Rigidbody2D>().velocity = new Vector2(Mathf.Lerp(0, Input.GetAxis("Horizontal")* moveSpeed, 0.8f),
+                    Mathf.Lerp(0, Input.GetAxis("Vertical")* moveSpeed, 0.8f));
 
             }
             else
@@ -206,6 +209,7 @@ public class Player : MonoBehaviour {
         {
             this.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.None;
             this.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeRotation;
+            canWalk = true;
         }
         
         playerAnimator.SetBool("MimClimbing",isClimbing);
@@ -226,6 +230,7 @@ public class Player : MonoBehaviour {
         {
            canJump = true;
            playerAnimator.SetBool("MimJumping",false);
+           isClimbing = false;
         }
     }
     
