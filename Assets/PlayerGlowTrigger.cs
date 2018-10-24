@@ -19,7 +19,7 @@ public class PlayerGlowTrigger : MonoBehaviour
 
 	private void OnTriggerEnter2D(Collider2D other)
 	{
-		if (other.transform.name == "PlayerGlow")
+		if (other.transform.name == "PlayerGlow" || other.transform.tag == "worm")
 		{
 			this.GetComponent<SpriteRenderer>().enabled = true;
 		}
@@ -28,7 +28,7 @@ public class PlayerGlowTrigger : MonoBehaviour
 	private void OnTriggerExit2D(Collider2D other)
 	{
 		
-		if (other.transform.name == "PlayerGlow")
+		if (other.transform.name == "PlayerGlow"|| other.transform.tag == "worm")
 		{
 			this.GetComponent<SpriteRenderer>().enabled = false;
 		}
