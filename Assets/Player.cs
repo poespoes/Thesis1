@@ -207,6 +207,8 @@ public class Player : MonoBehaviour {
             this.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.None;
             this.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeRotation;
         }
+        
+        playerAnimator.SetBool("MimClimbing",isClimbing);
        
     }
 
