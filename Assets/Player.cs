@@ -196,11 +196,13 @@ public class Player : MonoBehaviour {
                 
                 this.GetComponent<Rigidbody2D>().velocity = new Vector2(Mathf.Lerp(0, Input.GetAxis("Horizontal")* moveSpeed, 0.8f),
                     Mathf.Lerp(0, Input.GetAxis("Vertical")* moveSpeed, 0.8f));
+                
+                this.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeRotation;
 
             }
             else
             {
-                this.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezePositionY|RigidbodyConstraints2D.FreezeRotation;
+                this.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezePositionY|RigidbodyConstraints2D.FreezePositionX|RigidbodyConstraints2D.FreezeRotation;
                 //this.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeRotation;
             }
 
@@ -208,7 +210,7 @@ public class Player : MonoBehaviour {
         }
         else
         {
-            this.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.None;
+            //this.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.None;
             this.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeRotation;
             canWalk = true;
         }
