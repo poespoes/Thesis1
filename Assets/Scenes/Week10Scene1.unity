@@ -3159,7 +3159,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 211124091}
-  - component: {fileID: 211124090}
   - component: {fileID: 211124092}
   - component: {fileID: 211124093}
   - component: {fileID: 211124094}
@@ -3170,21 +3169,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &211124090
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 211124089}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6450811c911d5d4985ea49c710bbd3b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  interactive: 1
-  beamStretch: {fileID: 0}
-  beamController: {fileID: 0}
-  player: {fileID: 0}
 --- !u!4 &211124091
 Transform:
   m_ObjectHideFlags: 0
@@ -5401,7 +5385,6 @@ GameObject:
   - component: {fileID: 482050079}
   - component: {fileID: 2054688175}
   - component: {fileID: 482050078}
-  - component: {fileID: 482050077}
   - component: {fileID: 482050076}
   - component: {fileID: 482050075}
   m_Layer: 2
@@ -5452,27 +5435,6 @@ MonoBehaviour:
   unifiedGrabEnabled: 0
   shareMaterial: 0
   componentExtension: {fileID: 1960528225}
---- !u!114 &482050077
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 114188073100884136, guid: b753c71b72113fe44aaec54e676c0533,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 482050073}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bfac007c993f70246a08b18bfe85f667, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  beamStretch: {fileID: 0}
-  isOn: 0
-  shakeRange: 2
-  durationRange: {x: 0.03, y: 0.05}
-  maxBeamRange: 15
-  maxHoldDuration: 0.2
-  beamShrinkRate: 4
-  currentBeamRange: 0
-  minLeafBrightness: 0.3
 --- !u!331 &482050078
 SpriteMask:
   m_ObjectHideFlags: 0
@@ -14083,7 +14045,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1254215717}
   - component: {fileID: 1254215718}
-  - component: {fileID: 1254215719}
   - component: {fileID: 1254215720}
   - component: {fileID: 1254215721}
   m_Layer: 0
@@ -14158,24 +14119,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1254215719
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1254215716}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 22ff836aee8a58e4b9cae8cf1c32a6c9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  VineScreenAtkAnimator: {fileID: 0}
-  A: {r: 1, g: 1, b: 1, a: 0}
-  B: {r: 1, g: 1, b: 1, a: 1}
-  fadeInSpeed: 0.0004
-  fadeOutSpeed: 0.005
-  lerpProgress: 0
-  state: {fileID: 0}
 --- !u!114 &1254215720
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19863,7 +19806,6 @@ GameObject:
   - component: {fileID: 1847897492}
   - component: {fileID: 1847897491}
   - component: {fileID: 1847897490}
-  - component: {fileID: 1847897489}
   - component: {fileID: 1847897488}
   - component: {fileID: 1847897487}
   - component: {fileID: 1847897495}
@@ -19910,23 +19852,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &1847897489
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 114420652464687344, guid: b753c71b72113fe44aaec54e676c0533,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1847897486}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d312da44a17ffdd4d99bd3f166f54a53, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cineVCam: {fileID: 0}
-  lightBeam: {fileID: 0}
-  lightFactor: 10
-  maxStretch: 1
-  minStretch: 1
 --- !u!70 &1847897490
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -20505,7 +20430,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   director: {fileID: 1870115154}
-  gameState: {fileID: 211124090}
+  gameState: {fileID: 0}
 --- !u!1 &1871462636
 GameObject:
   m_ObjectHideFlags: 0
