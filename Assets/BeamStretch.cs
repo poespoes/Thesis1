@@ -25,12 +25,12 @@ namespace Cinemachine.Examples {
             //lightFactor = 200;
             originalOrtho = cineVCam.m_Lens.OrthographicSize;
 
-            if (maxStretch == null)
+            /*if (maxStretch == null)
             {
                 maxStretch = 26.0f;
-            }
+            }*/
 
-            minStretch = cineVCam.m_Lens.OrthographicSize;
+            //minStretch = cineVCam.m_Lens.OrthographicSize;
 
             beamController = GameObject.Find("MimLight").GetComponent<BeamController>();
 

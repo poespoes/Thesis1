@@ -19925,8 +19925,8 @@ MonoBehaviour:
   cineVCam: {fileID: 0}
   lightBeam: {fileID: 0}
   lightFactor: 10
-  maxStretch: 0
-  minStretch: 0
+  maxStretch: 1
+  minStretch: 1
 --- !u!70 &1847897490
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
