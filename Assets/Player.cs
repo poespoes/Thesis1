@@ -41,7 +41,9 @@ public class Player : MonoBehaviour {
         playerAnimator = this.GetComponent<Animator>();
     }
     
-    void Update() {
+    void Update()
+    {
+        
    if (Input.GetKeyDown(KeyCode.G)) {
             canJump = true;
         }
@@ -64,6 +66,7 @@ public class Player : MonoBehaviour {
 
             if (Input.GetAxisRaw("Horizontal") != 0)
             {
+                Debug.Log("MOve speed is " + moveSpeed);
                 isWalking = true;
                 this.GetComponent<PlayerAnimation>().WalkingState = 1;
                 
@@ -153,7 +156,10 @@ public class Player : MonoBehaviour {
             {
                 canJump = false;
                 //Debug.Log("I CAN JUMP");
-                this.GetComponent<Rigidbody2D>().AddForce((Vector2.up)*100*jumpAmount);
+                //this.GetComponent<Rigidbody2D>().AddForce((Vector2.up)*100*jumpAmount);
+                this.GetComponent<Rigidbody2D>().velocity = new Vector2(0, jumpAmount);
+                
+                
                 //this.GetComponent<PlayerAnimation>().WalkingState = 4;
                 playerAnimator.SetBool("MimJumping",true);
 
