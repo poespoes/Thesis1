@@ -66,7 +66,7 @@ public class Player : MonoBehaviour {
 
             if (Input.GetAxisRaw("Horizontal") != 0)
             {
-                Debug.Log("MOve speed is " + moveSpeed);
+                
                 isWalking = true;
                 this.GetComponent<PlayerAnimation>().WalkingState = 1;
                 
@@ -83,6 +83,8 @@ public class Player : MonoBehaviour {
                 {
                     this.GetComponent<SpriteRenderer>().flipX = true;
                 }
+                
+                Debug.Log("MOve speed is " + moveSpeed);
             }
             else
             {
