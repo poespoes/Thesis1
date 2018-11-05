@@ -7,6 +7,7 @@ public class Player : MonoBehaviour {
     
     public float moveSpeed;
     public float jumpAmount;
+    public float horizontalJump;
     float targetPos;
     public float stopPosX;
     public float BufferDistance;
@@ -30,6 +31,10 @@ public class Player : MonoBehaviour {
     public bool canClimb;
     public bool isClimbing;
 
+    private float originalGravScale;
+    public AnimationCurve curve;
+    private float originalDrag;
+
     void Start() {
         targetPos = transform.position.x;
         WalkingState = this.GetComponent<PlayerAnimation>().WalkingState;
@@ -39,19 +44,33 @@ public class Player : MonoBehaviour {
         blackout = GameObject.Find("BlackoutPanel");
 
         playerAnimator = this.GetComponent<Animator>();
+        
+        originalGravScale = this.GetComponent<Rigidbody2D>().gravityScale;
+        originalDrag = this.GetComponent<Rigidbody2D>().drag;
     }
     
     void Update()
     {
+     
+        
         if (this.GetComponent<Rigidbody2D>().velocity.y > 0.001f || this.GetComponent<Rigidbody2D>().velocity.y < -0.001f )
         {
             playerAnimator.SetBool("MimJumping",true);
             Debug.Log("I am falling because my speed is " );
+            /*this.GetComponent<Rigidbody2D>().gravityScale =
+                Mathf.Lerp((originalGravScale / 2), originalGravScale, Time.deltaTime*30);*/
+
+            float newGrav = curve.Evaluate(Mathf.PingPong(Time.deltaTime, 1));
+            this.GetComponent<Rigidbody2D>().gravityScale = newGrav*10.0f;
+            this.GetComponent<Rigidbody2D>().drag = 0;
+
         }
         else
         {
             playerAnimator.SetBool("MimJumping",false);
             Debug.Log("I have stopped falling");
+            this.GetComponent<Rigidbody2D>().gravityScale = originalGravScale;
+            this.GetComponent<Rigidbody2D>().drag = originalDrag;
         }
         
         if (Input.GetKeyDown(KeyCode.G)) {
@@ -103,7 +122,7 @@ public class Player : MonoBehaviour {
             }*/
             
             
-            if (Input.GetAxisRaw("Horizontal")!=0 && canWalk == true && canJump == true) //NEW WALKING SCRIPT
+            if (Input.GetAxisRaw("Horizontal")!=0 && canWalk == true) //NEW WALKING SCRIPT
             {
                 isWalking = true;
                 this.GetComponent<PlayerAnimation>().WalkingState = 1;
@@ -196,6 +215,8 @@ public class Player : MonoBehaviour {
         }*/
 
 
+        
+
         if (Input.GetButtonDown("Jump")) //JUMPING!!!!!
         {
             if (canJump == true)
@@ -205,15 +226,31 @@ public class Player : MonoBehaviour {
                 //this.GetComponent<Rigidbody2D>().AddForce((Vector2.up)*100*jumpAmount);
                 float currentXVelocity = this.GetComponent<Rigidbody2D>().velocity.x;
                 
-                //this.GetComponent<Rigidbody2D>().velocity = new Vector2(currentXVelocity, jumpAmount);  //Mario Jump
+              
+                //JumpModes
                 
+                //this.GetComponent<Rigidbody2D>().velocity = new Vector2(currentXVelocity, jumpAmount);  //Velocity
+                //this.GetComponent<Rigidbody2D>().AddForce(new Vector2(0, jumpAmount*3), ForceMode2D.Impulse); //Impulse
                 
-                this.GetComponent<Rigidbody2D>().AddForce(new Vector2(0, jumpAmount*3), ForceMode2D.Impulse); //Limbo Jump?
+                //this.GetComponent<Rigidbody2D>().gravityScale = originalGravScale/2;
+                //this.GetComponent<Rigidbody2D>().AddForce(Vector2.Lerp(Vector2.zero,new Vector2(0,jumpAmount*250), Time.deltaTime/1.5f), ForceMode2D.Impulse); //Acceleration
+                this.GetComponent<Rigidbody2D>().AddForce(new Vector2(0, jumpAmount*100), ForceMode2D.Force);
                 
                 //this.GetComponent<PlayerAnimation>().WalkingState = 4;
                 playerAnimator.SetBool("MimJumping",true);
 
                 isClimbing = false;
+
+                /*if (Input.GetAxisRaw("Horizontal") != 0)
+                {
+                    //this.GetComponent<Rigidbody2D>().AddForce(new Vector2(jumpAmount*Input.GetAxisRaw("Horizontal"), jumpAmount), ForceMode2D.Impulse);
+                    this.GetComponent<Rigidbody2D>().AddForce(new Vector2(horizontalJump*Input.GetAxisRaw("Horizontal")*25, jumpAmount*105), ForceMode2D.Force);
+                }
+                else
+                {
+                    //this.GetComponent<Rigidbody2D>().AddForce(new Vector2(0, jumpAmount*3), ForceMode2D.Impulse);
+                    this.GetComponent<Rigidbody2D>().AddForce(new Vector2(0, jumpAmount*105), ForceMode2D.Force);
+                }*/
 
 
             }
@@ -222,6 +259,9 @@ public class Player : MonoBehaviour {
                 //Debug.Log("Can't Jump");
             }
         }
+
+        
+        
 
         if (canClimb == true)
         {
