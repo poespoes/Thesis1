@@ -103,7 +103,7 @@ public class Player : MonoBehaviour {
             }*/
             
             
-            if (Input.GetAxisRaw("Horizontal")!=0 && canWalk == true && canJump == true)
+            if (Input.GetAxisRaw("Horizontal")!=0 && canWalk == true && canJump == true) //NEW WALKING SCRIPT
             {
                 isWalking = true;
                 this.GetComponent<PlayerAnimation>().WalkingState = 1;
@@ -196,7 +196,7 @@ public class Player : MonoBehaviour {
         }*/
 
 
-        if (Input.GetButtonDown("Jump"))
+        if (Input.GetButtonDown("Jump")) //JUMPING!!!!!
         {
             if (canJump == true)
             {
@@ -204,8 +204,11 @@ public class Player : MonoBehaviour {
                 //Debug.Log("I CAN JUMP");
                 //this.GetComponent<Rigidbody2D>().AddForce((Vector2.up)*100*jumpAmount);
                 float currentXVelocity = this.GetComponent<Rigidbody2D>().velocity.x;
-                this.GetComponent<Rigidbody2D>().velocity = new Vector2(currentXVelocity, jumpAmount);
                 
+                //this.GetComponent<Rigidbody2D>().velocity = new Vector2(currentXVelocity, jumpAmount);  //Mario Jump
+                
+                
+                this.GetComponent<Rigidbody2D>().AddForce(new Vector2(0, jumpAmount*3), ForceMode2D.Impulse); //Limbo Jump?
                 
                 //this.GetComponent<PlayerAnimation>().WalkingState = 4;
                 playerAnimator.SetBool("MimJumping",true);
