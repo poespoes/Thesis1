@@ -43,13 +43,14 @@ public class Player : MonoBehaviour {
     
     void Update()
     {
-        if (this.GetComponent<Rigidbody2D>().velocity.y < 0.01f  && canJump == false)
+        if (this.GetComponent<Rigidbody2D>().velocity.y > 0.001f || this.GetComponent<Rigidbody2D>().velocity.y < -0.001f )
         {
             playerAnimator.SetBool("MimJumping",true);
             Debug.Log("I am falling because my speed is " );
         }
         else
         {
+            playerAnimator.SetBool("MimJumping",false);
             Debug.Log("I have stopped falling");
         }
         
@@ -289,18 +290,7 @@ public class Player : MonoBehaviour {
         }
     }
     
-    private void OnCollisionExit2D(Collision2D other)
-    {
-        Debug.Log("Collided");
-        
-
-        if (other.gameObject.tag == "ground")
-        {
-            canJump = false;
-            playerAnimator.SetBool("MimJumping",true);
-            isClimbing = false;
-        }
-    }
+    
 
     /* private void OnTriggerEnter2D(Collider2D collision) {
         if (collision.gameObject.tag == "Tripping") {
