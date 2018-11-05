@@ -64,7 +64,7 @@ public class Player : MonoBehaviour {
             }
             */
 
-            if (Input.GetAxisRaw("Horizontal") != 0)
+           /* if (Input.GetAxisRaw("Horizontal") != 0)
             {
                 
                 isWalking = true;
@@ -90,15 +90,48 @@ public class Player : MonoBehaviour {
             {
                 playerAnimator.SetBool("MimIsWalking",false);
                 Debug.Log("Not Walking");
+            }*/
+            
+            
+            if (Input.GetAxisRaw("Vertical") != 0 || Input.GetAxisRaw("Horizontal")!=0 && canWalk == true && canJump == true)
+            {
+                isWalking = true;
+                this.GetComponent<PlayerAnimation>().WalkingState = 1;
+                
+                this.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.None;
+                //this.GetComponent<Rigidbody2D>().velocity = new Vector2(0,Mathf.Lerp(0, Input.GetAxis("Vertical")* moveSpeed, 0.8f));
+                
+                this.GetComponent<Rigidbody2D>().velocity = new Vector2(Mathf.Lerp(0, Input.GetAxis("Horizontal")* moveSpeed, 0.8f),
+                    Mathf.Lerp(0, Input.GetAxis("Vertical")* moveSpeed, 0.8f));
+                
+                this.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeRotation;
+                
+                playerAnimator.SetBool("MimIsWalking",true);
+                Debug.Log("Is Walking");
+                if (Input.GetAxisRaw("Horizontal") > 0)
+                {
+                    this.GetComponent<SpriteRenderer>().flipX = false;
+                }
+                else
+                {
+                    this.GetComponent<SpriteRenderer>().flipX = true;
+                }
+
+            }
+            else
+            {
+                this.GetComponent<PlayerAnimation>().WalkingState = 0;
+                playerAnimator.SetBool("MimIsWalking",false);
+                Debug.Log("Not Walking");
             }
 
         }
 
-        if (canWalk == true) {
+       /* if (canWalk == true) {
             float posX = transform.position.x;
             posX = Mathf.MoveTowards(posX, targetPos, moveSpeed * Time.deltaTime);
             transform.position = new Vector3(posX, transform.position.y);
-        }
+        }*/ 
 
         if(canWalk == false) {
             Debug.Log("canWalk = false");
@@ -159,7 +192,8 @@ public class Player : MonoBehaviour {
                 canJump = false;
                 //Debug.Log("I CAN JUMP");
                 //this.GetComponent<Rigidbody2D>().AddForce((Vector2.up)*100*jumpAmount);
-                this.GetComponent<Rigidbody2D>().velocity = new Vector2(0, jumpAmount);
+                float currentXVelocity = this.GetComponent<Rigidbody2D>().velocity.x;
+                this.GetComponent<Rigidbody2D>().velocity = new Vector2(currentXVelocity, jumpAmount);
                 
                 
                 //this.GetComponent<PlayerAnimation>().WalkingState = 4;
