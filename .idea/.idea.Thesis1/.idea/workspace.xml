@@ -48,15 +48,15 @@
     <session id="1734459407">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="15" />
+          <entry key="project.closed" value="16" />
           <entry key="project.open.time.10" value="5" />
-          <entry key="project.open.time.11" value="3" />
+          <entry key="project.open.time.11" value="4" />
           <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="4" />
-          <entry key="project.opened" value="17" />
+          <entry key="project.opened" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -83,26 +83,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/IntroScene/IntroController_0.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="512">
-              <caret line="36" column="81" selection-start-line="36" selection-start-column="81" selection-end-line="36" selection-end-column="81" />
-              <folding>
-                <marker date="1540331924646" expanded="false" signature="6:135" ph="..." />
-                <marker date="1540331924646" expanded="true" signature="184:1371" ph="{...}" />
-                <marker date="1540331924646" expanded="true" signature="441:529" ph="{...}" />
-                <marker date="1540331924646" expanded="true" signature="588:1172" ph="{...}" />
-                <marker date="1540331924646" expanded="true" signature="685:825" ph="{...}" />
-                <marker date="1540331924646" expanded="true" signature="882:995" ph="{...}" />
-                <marker date="1540331924646" expanded="true" signature="935:985" ph="/* stop music ... */" />
-                <marker date="1540331924646" expanded="true" signature="1073:1166" ph="{...}" />
-                <marker date="1540331924646" expanded="true" signature="1178:1369" ph="/* void blackOut() ... */" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Climbable.cs">
           <provider selected="true" editor-type-id="text-editor">
@@ -155,10 +135,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Player.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1910">
+            <state relative-caret-position="2192">
               <caret line="140" column="55" selection-start-line="140" selection-start-column="55" selection-end-line="140" selection-end-column="55" />
               <folding>
                 <marker date="1541445249623" expanded="false" signature="6:100" ph="..." />
@@ -200,6 +180,25 @@
                 <marker date="1541445249623" expanded="true" signature="11254:11571" ph="{...}" />
                 <marker date="1541445249623" expanded="true" signature="11432:11565" ph="{...}" />
                 <marker date="1541445249623" expanded="true" signature="11587:12021" ph="/* private void OnTriggerEnter2D(Collider2D collision) { ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnvironmentalScript/enviromentalDeath.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+              <folding>
+                <marker date="1539613171924" expanded="false" signature="6:135" ph="..." />
+                <marker date="1539613171924" expanded="true" signature="184:738" ph="{...}" />
+                <marker date="1539613171924" expanded="true" signature="234:241" ph="{...}" />
+                <marker date="1539613171924" expanded="true" signature="296:303" ph="{...}" />
+                <marker date="1539613171924" expanded="true" signature="357:469" ph="{...}" />
+                <marker date="1539613171924" expanded="true" signature="405:466" ph="{...}" />
+                <marker date="1539613171924" expanded="true" signature="489:557" ph="{...}" />
+                <marker date="1539613171924" expanded="true" signature="578:735" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -439,13 +438,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
       <pane id="UnityExplorer">
         <option name="show-hidden-items" value="false" />
       </pane>
       <pane id="FileSystemExplorer" />
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -526,12 +525,13 @@
       <workItem from="1541377136185" duration="5566000" />
       <workItem from="1541389894378" duration="373000" />
       <workItem from="1541390690198" duration="6810000" />
-      <workItem from="1541443101133" duration="2344000" />
+      <workItem from="1541443101133" duration="2396000" />
+      <workItem from="1541537505248" duration="599000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147610000" />
+    <option name="totallyTimeSpent" value="148261000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -546,7 +546,7 @@
     <frame x="-7" y="2" width="1932" height="1045" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27136752" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27403846" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -700,13 +700,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnvironmentalScript/enviromentalDeath.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="40" column="4" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -938,7 +931,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Player.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1910">
+        <state relative-caret-position="2192">
           <caret line="140" column="55" selection-start-line="140" selection-start-column="55" selection-end-line="140" selection-end-column="55" />
           <folding>
             <marker date="1541445249623" expanded="false" signature="6:100" ph="..." />
@@ -980,6 +973,23 @@
             <marker date="1541445249623" expanded="true" signature="11254:11571" ph="{...}" />
             <marker date="1541445249623" expanded="true" signature="11432:11565" ph="{...}" />
             <marker date="1541445249623" expanded="true" signature="11587:12021" ph="/* private void OnTriggerEnter2D(Collider2D collision) { ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnvironmentalScript/enviromentalDeath.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <marker date="1539613171924" expanded="false" signature="6:135" ph="..." />
+            <marker date="1539613171924" expanded="true" signature="184:738" ph="{...}" />
+            <marker date="1539613171924" expanded="true" signature="234:241" ph="{...}" />
+            <marker date="1539613171924" expanded="true" signature="296:303" ph="{...}" />
+            <marker date="1539613171924" expanded="true" signature="357:469" ph="{...}" />
+            <marker date="1539613171924" expanded="true" signature="405:466" ph="{...}" />
+            <marker date="1539613171924" expanded="true" signature="489:557" ph="{...}" />
+            <marker date="1539613171924" expanded="true" signature="578:735" ph="{...}" />
           </folding>
         </state>
       </provider>
