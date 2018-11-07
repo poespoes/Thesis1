@@ -217,48 +217,7 @@ public class Player : MonoBehaviour {
 
         
 
-        if (Input.GetButtonDown("Jump")) //JUMPING!!!!!
-        {
-            if (canJump == true)
-            {
-                canJump = false;
-                //Debug.Log("I CAN JUMP");
-                //this.GetComponent<Rigidbody2D>().AddForce((Vector2.up)*100*jumpAmount);
-                float currentXVelocity = this.GetComponent<Rigidbody2D>().velocity.x;
-                
-              
-                //JumpModes
-                
-                //this.GetComponent<Rigidbody2D>().velocity = new Vector2(currentXVelocity, jumpAmount);  //Velocity
-                //this.GetComponent<Rigidbody2D>().AddForce(new Vector2(0, jumpAmount*3), ForceMode2D.Impulse); //Impulse
-                
-                //this.GetComponent<Rigidbody2D>().gravityScale = originalGravScale/2;
-                //this.GetComponent<Rigidbody2D>().AddForce(Vector2.Lerp(Vector2.zero,new Vector2(0,jumpAmount*250), Time.deltaTime/1.5f), ForceMode2D.Impulse); //Acceleration
-                this.GetComponent<Rigidbody2D>().AddForce(new Vector2(0, jumpAmount*100), ForceMode2D.Force);
-                
-                //this.GetComponent<PlayerAnimation>().WalkingState = 4;
-                playerAnimator.SetBool("MimJumping",true);
-
-                isClimbing = false;
-
-                /*if (Input.GetAxisRaw("Horizontal") != 0)
-                {
-                    //this.GetComponent<Rigidbody2D>().AddForce(new Vector2(jumpAmount*Input.GetAxisRaw("Horizontal"), jumpAmount), ForceMode2D.Impulse);
-                    this.GetComponent<Rigidbody2D>().AddForce(new Vector2(horizontalJump*Input.GetAxisRaw("Horizontal")*25, jumpAmount*105), ForceMode2D.Force);
-                }
-                else
-                {
-                    //this.GetComponent<Rigidbody2D>().AddForce(new Vector2(0, jumpAmount*3), ForceMode2D.Impulse);
-                    this.GetComponent<Rigidbody2D>().AddForce(new Vector2(0, jumpAmount*105), ForceMode2D.Force);
-                }*/
-
-
-            }
-            else
-            {
-                //Debug.Log("Can't Jump");
-            }
-        }
+        Jump();
 
         
         
@@ -317,6 +276,57 @@ public class Player : MonoBehaviour {
 
     public void Say() {
         Debug.Log("trytguhinuj");
+    }
+
+    private void Jump()
+    {
+        if (Input.GetButtonDown("Jump")) //JUMPING!!!!!
+        {
+            if (canJump == true)
+            {
+                canJump = false;
+                //Debug.Log("I CAN JUMP");
+                //this.GetComponent<Rigidbody2D>().AddForce((Vector2.up)*100*jumpAmount);
+                float currentXVelocity = this.GetComponent<Rigidbody2D>().velocity.x;
+                
+              
+                //JumpModes
+                
+                //this.GetComponent<Rigidbody2D>().velocity = new Vector2(currentXVelocity, jumpAmount);  //Velocity
+                //this.GetComponent<Rigidbody2D>().AddForce(new Vector2(0, jumpAmount*3), ForceMode2D.Impulse); //Impulse
+                
+                //this.GetComponent<Rigidbody2D>().gravityScale = originalGravScale/2;
+                //this.GetComponent<Rigidbody2D>().AddForce(Vector2.Lerp(Vector2.zero,new Vector2(0,jumpAmount*250), Time.deltaTime/1.5f), ForceMode2D.Impulse); //Acceleration
+                this.GetComponent<Rigidbody2D>().AddForce(new Vector2(0, jumpAmount*100), ForceMode2D.Force);
+                
+                //this.GetComponent<PlayerAnimation>().WalkingState = 4;
+                playerAnimator.SetBool("MimJumping",true);
+
+                isClimbing = false;
+
+                if (Input.GetAxisRaw("Horizontal") != 0)
+                {
+                    //this.GetComponent<Rigidbody2D>().AddForce(new Vector2(jumpAmount*Input.GetAxisRaw("Horizontal"), jumpAmount), ForceMode2D.Impulse);
+                    //this.GetComponent<Rigidbody2D>().AddForce(new Vector2(horizontalJump*Input.GetAxisRaw("Horizontal")*25, jumpAmount*105), ForceMode2D.Force);
+                    
+                    this.GetComponent<Rigidbody2D>().velocity = new Vector2(Mathf.Lerp(0, Input.GetAxis("Horizontal")* moveSpeed, 0.8f),
+                        this.GetComponent<Rigidbody2D>().velocity.y);
+                    
+                    Debug.Log("Moving forward");
+                }
+                else
+                {
+                    //this.GetComponent<Rigidbody2D>().AddForce(new Vector2(0, jumpAmount*3), ForceMode2D.Impulse);
+                   
+                }
+
+
+            }
+            else
+            {
+                //Debug.Log("Can't Jump");
+            }
+        }
     }
     
     private void OnCollisionEnter2D(Collision2D other)

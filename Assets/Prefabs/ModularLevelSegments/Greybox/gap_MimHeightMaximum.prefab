@@ -9,74 +9,73 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1142781715811032}
+  m_RootGameObject: {fileID: 1528269442911838}
   m_IsPrefabAsset: 1
---- !u!1 &1142781715811032
+--- !u!1 &1112154316882034
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4653018175671946}
+  - component: {fileID: 4576095959362588}
+  - component: {fileID: 33087566543073386}
+  - component: {fileID: 23127546080279158}
   m_Layer: 0
-  m_Name: jump_gap_medium
+  m_Name: gap_MimHeightMaximumModel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &1802943361798342
+--- !u!1 &1528269442911838
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4502680762826874}
-  - component: {fileID: 33813107781663380}
-  - component: {fileID: 23157081430683582}
-  - component: {fileID: 65804992001203844}
+  - component: {fileID: 4455161950013138}
   m_Layer: 0
-  m_Name: jump_gap_hard_model
+  m_Name: gap_MimHeightMaximum
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4502680762826874
+--- !u!4 &4455161950013138
 Transform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1802943361798342}
+  m_GameObject: {fileID: 1528269442911838}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.2436, y: 4.215, z: 0}
-  m_LocalScale: {x: 7.4932, y: 3.425, z: 1}
-  m_Children: []
-  m_Father: {fileID: 4653018175671946}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4653018175671946
-Transform:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1142781715811032}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 77.463, y: -7.64, z: 0}
+  m_LocalPosition: {x: 118.16996, y: -93.39703, z: 0.00037574768}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 4502680762826874}
+  - {fileID: 4576095959362588}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &23157081430683582
+--- !u!4 &4576095959362588
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1112154316882034}
+  m_LocalRotation: {x: -0, y: -0, z: 0.7070982, w: 0.7071154}
+  m_LocalPosition: {x: -0.00022507, y: -2.3013, z: -0.00037575}
+  m_LocalScale: {x: 19.17829, y: 3.425, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4455161950013138}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 89.999}
+--- !u!23 &23127546080279158
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1802943361798342}
+  m_GameObject: {fileID: 1112154316882034}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -86,7 +85,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 8daa0c382ec6f8443961fe23a3dbfa94, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -106,22 +105,10 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!33 &33813107781663380
+--- !u!33 &33087566543073386
 MeshFilter:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1802943361798342}
+  m_GameObject: {fileID: 1112154316882034}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!65 &65804992001203844
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1802943361798342}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
