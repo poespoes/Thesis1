@@ -39,6 +39,34 @@ public class Sanity : MonoBehaviour
 			sanity += Time.deltaTime;
 			sanity = Mathf.Clamp(sanity, 0, maxSanity);
 		}
+
+		walkingStateSanity();
 		
 	}
+
+	void walkingStateSanity()
+	{
+		if (sanity > (0.6f * maxSanity))
+		{
+			if (playerComp.isWalking == true)
+			{
+				playerAnim.WalkingState = 1;
+			}
+			else
+			{
+				playerAnim.WalkingState = 0;
+			}
+			
+		}
+		else if(sanity > (0.3f) * maxSanity && playerComp.isWalking == true)
+		{
+			playerAnim.WalkingState = 2;
+		}
+		else if(playerComp.isWalking== true)
+		{
+			playerAnim.WalkingState = 3;
+		}
+	}
 }
+
+
