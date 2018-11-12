@@ -35,6 +35,8 @@ public class Player : MonoBehaviour {
     public AnimationCurve curve;
     private float originalDrag;
 
+    public bool isLIt;
+
     void Start() {
         targetPos = transform.position.x;
         WalkingState = this.GetComponent<PlayerAnimation>().WalkingState;
@@ -47,6 +49,8 @@ public class Player : MonoBehaviour {
         
         originalGravScale = this.GetComponent<Rigidbody2D>().gravityScale;
         originalDrag = this.GetComponent<Rigidbody2D>().drag;
+
+        isLIt = true;
     }
     
     void Update()

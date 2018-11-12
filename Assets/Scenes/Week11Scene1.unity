@@ -973,7 +973,7 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 308185705}
+  - {fileID: 426091654}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2610,7 +2610,7 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 308185705}
+  - {fileID: 426091654}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3214,7 +3214,7 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 308185705}
+  - {fileID: 426091654}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3394,39 +3394,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!21 &308185705
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: Sprites/Default
-  m_Shader: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _AlphaTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - PixelSnap: 0
-    - _EnableExternalAlpha: 0
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Flip: {r: 1, g: 1, b: 1, a: 1}
-    - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &315222899
 GameObject:
   m_ObjectHideFlags: 0
@@ -4709,6 +4676,39 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 425967472}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!21 &426091654
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Sprites/Default
+  m_Shader: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - PixelSnap: 0
+    - _EnableExternalAlpha: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Flip: {r: 1, g: 1, b: 1, a: 1}
+    - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &431180371
 Prefab:
   m_ObjectHideFlags: 0
@@ -5579,7 +5579,7 @@ MonoBehaviour:
   TargetScale: {x: 1, y: 1, z: 1}
   StartingScale: {x: 5, y: 5, z: 5}
   TimeToScale: 5
-  isScaling: 0
+  isScalingDown: 0
 --- !u!70 &482050075
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -10249,6 +10249,7 @@ GameObject:
   - component: {fileID: 838660614}
   - component: {fileID: 838660615}
   - component: {fileID: 838660616}
+  - component: {fileID: 838660617}
   m_Layer: 0
   m_Name: Vine1
   m_TagString: Untagged
@@ -10281,7 +10282,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -76.91015, y: -66.621826}
@@ -10315,6 +10316,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &838660617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 838660613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2616ca2240f0d8c429e30ba9a1dbfc9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canDie: 0
+  player: {fileID: 0}
 --- !u!4 &841450110 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4653018175671946, guid: 1e732effb23d32441aa3b5f6be12cf79,
@@ -14024,6 +14038,7 @@ GameObject:
   - component: {fileID: 1170864753}
   - component: {fileID: 1170864754}
   - component: {fileID: 1170864755}
+  - component: {fileID: 1170864756}
   m_Layer: 0
   m_Name: Vine3
   m_TagString: Untagged
@@ -14056,7 +14071,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -154.32419, y: -104.40115}
@@ -14090,6 +14105,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1170864756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1170864752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2616ca2240f0d8c429e30ba9a1dbfc9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canDie: 0
+  player: {fileID: 0}
 --- !u!1 &1171170158
 GameObject:
   m_ObjectHideFlags: 0
@@ -14673,7 +14701,7 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 308185705}
+  - {fileID: 426091654}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -17111,7 +17139,7 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 308185705}
+  - {fileID: 426091654}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -18412,6 +18440,7 @@ GameObject:
   - component: {fileID: 1597666957}
   - component: {fileID: 1597666958}
   - component: {fileID: 1597666959}
+  - component: {fileID: 1597666960}
   m_Layer: 0
   m_Name: Vine2
   m_TagString: Untagged
@@ -18444,7 +18473,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 42.672054, y: -85.84835}
@@ -18478,6 +18507,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1597666960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1597666956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2616ca2240f0d8c429e30ba9a1dbfc9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canDie: 0
+  player: {fileID: 0}
 --- !u!1001 &1607737208
 Prefab:
   m_ObjectHideFlags: 0
@@ -21170,6 +21212,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  isLIt: 0
 --- !u!61 &1847897495
 BoxCollider2D:
   m_ObjectHideFlags: 0

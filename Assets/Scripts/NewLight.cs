@@ -48,14 +48,16 @@ public class NewLight : MonoBehaviour {
     {
         //put light off script here
         this.GetComponent<SpriteRenderer>().enabled = false;
-        
+        this.transform.parent.GetComponent<Player>().isLIt = false;
+
     }
     
     public void LightOn()
     {
         //put light off script here
         this.GetComponent<SpriteRenderer>().enabled = true;
-        
+        this.transform.parent.GetComponent<Player>().isLIt = true;
+
     }
 }
 
