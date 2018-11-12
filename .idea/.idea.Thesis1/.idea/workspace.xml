@@ -48,15 +48,16 @@
     <session id="1734459407">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="18" />
+          <entry key="project.closed" value="19" />
           <entry key="project.open.time.10" value="5" />
           <entry key="project.open.time.11" value="4" />
           <entry key="project.open.time.12" value="3" />
+          <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="2" />
           <entry key="project.open.time.9" value="4" />
-          <entry key="project.opened" value="20" />
+          <entry key="project.opened" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -71,37 +72,18 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="5934" />
+          <entry key="cs" value="6141" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="5934" />
+          <entry key="C#" value="6141" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Climbable.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="512">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
-              <folding>
-                <marker date="1540396899722" expanded="false" signature="6:78" ph="..." />
-                <marker date="1540396899722" expanded="true" signature="119:548" ph="{...}" />
-                <marker date="1540396899722" expanded="true" signature="169:176" ph="{...}" />
-                <marker date="1540396899722" expanded="true" signature="231:238" ph="{...}" />
-                <marker date="1540396899722" expanded="true" signature="287:393" ph="{...}" />
-                <marker date="1540396899722" expanded="true" signature="329:390" ph="{...}" />
-                <marker date="1540396899722" expanded="true" signature="442:546" ph="{...}" />
-                <marker date="1540396899722" expanded="true" signature="484:543" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Lightbringer/lightFollow.cs">
           <provider selected="true" editor-type-id="text-editor">
@@ -135,10 +117,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Player.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="568">
+            <state relative-caret-position="1936">
               <caret line="124" column="68" selection-start-line="124" selection-start-column="68" selection-end-line="124" selection-end-column="68" />
               <folding>
                 <marker date="1541615712417" expanded="false" signature="6:100" ph="..." />
@@ -183,6 +165,23 @@
                 <marker date="1541615712417" expanded="true" signature="11509:11826" ph="{...}" />
                 <marker date="1541615712417" expanded="true" signature="11687:11820" ph="{...}" />
                 <marker date="1541615712417" expanded="true" signature="11842:12276" ph="/* private void OnTriggerEnter2D(Collider2D collision) { ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/VineScript/VineTriggered.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="24" column="82" selection-start-line="24" selection-start-column="82" selection-end-line="24" selection-end-column="82" />
+              <folding>
+                <marker date="1542030636289" expanded="false" signature="6:78" ph="..." />
+                <marker date="1542030636289" expanded="true" signature="122:560" ph="{...}" />
+                <marker date="1542030636289" expanded="true" signature="205:212" ph="{...}" />
+                <marker date="1542030636289" expanded="true" signature="267:274" ph="{...}" />
+                <marker date="1542030636289" expanded="true" signature="324:558" ph="{...}" />
+                <marker date="1542030636289" expanded="true" signature="360:555" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -368,6 +367,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Overimagination/OI_Body.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Player.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/VineScript/Vine Prototype.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/VineScript/VineTriggered.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI Script/UICrossFade.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Overimagination/Deathcollider.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnvironmentalScript/Intro/introScript.cs" root0="FORCE_HIGHLIGHTING" />
@@ -420,6 +420,7 @@
         <option value="$PROJECT_DIR$/Assets/PlayerAnimation.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NewLight.cs" />
         <option value="$PROJECT_DIR$/Assets/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/VineScript/VineTriggered.cs" />
       </list>
     </option>
   </component>
@@ -532,11 +533,12 @@
       <workItem from="1541537505248" duration="599000" />
       <workItem from="1541543073555" duration="3792000" />
       <workItem from="1541615680882" duration="631000" />
+      <workItem from="1542030375099" duration="593000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="152684000" />
+    <option name="totallyTimeSpent" value="153277000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -551,7 +553,7 @@
     <frame x="-7" y="2" width="1932" height="1045" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2804487" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28365386" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -942,7 +944,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Player.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="568">
+        <state relative-caret-position="1936">
           <caret line="124" column="68" selection-start-line="124" selection-start-column="68" selection-end-line="124" selection-end-column="68" />
           <folding>
             <marker date="1541615712417" expanded="false" signature="6:100" ph="..." />
@@ -987,6 +989,21 @@
             <marker date="1541615712417" expanded="true" signature="11509:11826" ph="{...}" />
             <marker date="1541615712417" expanded="true" signature="11687:11820" ph="{...}" />
             <marker date="1541615712417" expanded="true" signature="11842:12276" ph="/* private void OnTriggerEnter2D(Collider2D collision) { ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/VineScript/VineTriggered.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="24" column="82" selection-start-line="24" selection-start-column="82" selection-end-line="24" selection-end-column="82" />
+          <folding>
+            <marker date="1542030636289" expanded="false" signature="6:78" ph="..." />
+            <marker date="1542030636289" expanded="true" signature="122:560" ph="{...}" />
+            <marker date="1542030636289" expanded="true" signature="205:212" ph="{...}" />
+            <marker date="1542030636289" expanded="true" signature="267:274" ph="{...}" />
+            <marker date="1542030636289" expanded="true" signature="324:558" ph="{...}" />
+            <marker date="1542030636289" expanded="true" signature="360:555" ph="{...}" />
           </folding>
         </state>
       </provider>
