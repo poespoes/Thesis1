@@ -48,14 +48,6 @@ public class Sanity : MonoBehaviour
 	{
 		if (sanity > (0.6f * maxSanity))
 		{
-			if (playerComp.isWalking == true)
-			{
-				playerAnim.WalkingState = 1;
-			}
-			else
-			{
-				playerAnim.WalkingState = 0;
-			}
 			
 		}
 		else if(sanity > (0.3f) * maxSanity && playerComp.isWalking == true)

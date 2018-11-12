@@ -126,7 +126,7 @@ public class Player : MonoBehaviour {
             }*/
             
             
-            if (Input.GetAxisRaw("Horizontal")!=0 && canWalk == true) //NEW WALKING SCRIPT
+            if (Input.GetAxisRaw("Horizontal")!=0 && canWalk == true && canJump == true) //NEW WALKING SCRIPT
             {
                 isWalking = true;
                 this.GetComponent<PlayerAnimation>().WalkingState = 1;
@@ -228,7 +228,7 @@ public class Player : MonoBehaviour {
 
         if (canClimb == true)
         {
-            if (Input.GetAxisRaw("Vertical") > 0)
+            if (Input.GetAxisRaw("Vertical") > 0 || canJump ==false)
             {
                 Debug.Log("The Climb begins");
                 isClimbing = true;
