@@ -9,23 +9,53 @@ public class NewLight : MonoBehaviour {
     public Vector3 StartingScale = new Vector3(5f, 5f, 5f);
     public float TimeToScale = 5.0f;
 
-    private bool isScaling = true;
+    public bool isScalingDown;
     private float dimTime = 0.0f;
 
     private void Start() {
         transform.localScale = StartingScale;
+        //isScalingDown = true;
     }
 
     private void Update() {
-        if (isScaling) {
+        if (isScalingDown==true) {
             dimTime += Time.deltaTime / TimeToScale;
             if (dimTime >= 1.0f) {
                 transform.localScale = TargetScale;
-                isScaling = false;
+                isScalingDown = false;
             } else {
                 transform.localScale = Vector3.Lerp(StartingScale, TargetScale, dimTime);
             }
         }
+
+        if (Input.GetButton("Fire1"))
+        {
+            isScalingDown = false;
+            Debug.Log("Light is not shrinking");
+            LightOff();
+           
+            
+        }
+        else
+        {
+            isScalingDown = true;
+           LightOn();
+        }
+       
+    }
+
+    public void LightOff()
+    {
+        //put light off script here
+        this.GetComponent<SpriteRenderer>().enabled = false;
+        
+    }
+    
+    public void LightOn()
+    {
+        //put light off script here
+        this.GetComponent<SpriteRenderer>().enabled = true;
+        
     }
 }
 
