@@ -149,6 +149,7 @@
             <e p="Deathcollider.cs" t="Include" />
             <e p="DeathOfTheEndless.cs" t="Include" />
             <e p="OI_Body.cs" t="Include" />
+            <e p="Sanity.cs" t="Include" />
           </e>
           <e p="refocusCamera.cs" t="Include" />
           <e p="testScript.cs" t="Include" />

@@ -62,22 +62,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cs" value="33" />
+          <entry key="cs" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="C#" value="33" />
+          <entry key="C#" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="6839" />
+          <entry key="cs" value="7300" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="6839" />
+          <entry key="C#" value="7300" />
         </counts>
       </usages-collector>
     </session>
@@ -175,8 +175,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnvironmentalScript/enviromentalDeath.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="21" />
+            <state relative-caret-position="448">
+              <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="31" selection-end-column="5" />
               <folding>
                 <marker date="1539613171924" expanded="true" signature="6:135" ph="..." />
                 <marker date="1539613171924" expanded="true" signature="184:738" ph="{...}" />
@@ -191,22 +191,40 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/VineScript/VineKillLight.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+            <state relative-caret-position="64">
+              <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
               <folding>
-                <marker date="1542035794405" expanded="true" signature="6:100" ph="..." />
-                <marker date="1542035794405" expanded="true" signature="144:877" ph="{...}" />
-                <marker date="1542035794405" expanded="true" signature="243:288" ph="{...}" />
-                <marker date="1542035794405" expanded="true" signature="343:434" ph="{...}" />
-                <marker date="1542035794405" expanded="true" signature="413:431" ph="{...}" />
-                <marker date="1542035794405" expanded="true" signature="484:582" ph="{...}" />
-                <marker date="1542035794405" expanded="true" signature="521:579" ph="{...}" />
-                <marker date="1542035794405" expanded="true" signature="631:698" ph="{...}" />
-                <marker date="1542035794405" expanded="true" signature="668:695" ph="{...}" />
-                <marker date="1542035794405" expanded="true" signature="718:875" ph="{...}" />
+                <marker date="1542035884629" expanded="true" signature="6:135" ph="..." />
+                <marker date="1542035884629" expanded="true" signature="179:998" ph="{...}" />
+                <marker date="1542035884629" expanded="true" signature="278:323" ph="{...}" />
+                <marker date="1542035884629" expanded="true" signature="378:469" ph="{...}" />
+                <marker date="1542035884629" expanded="true" signature="448:466" ph="{...}" />
+                <marker date="1542035884629" expanded="true" signature="519:617" ph="{...}" />
+                <marker date="1542035884629" expanded="true" signature="556:614" ph="{...}" />
+                <marker date="1542035884629" expanded="true" signature="666:733" ph="{...}" />
+                <marker date="1542035884629" expanded="true" signature="703:730" ph="{...}" />
+                <marker date="1542035884629" expanded="true" signature="753:910" ph="{...}" />
+                <marker date="1542035884629" expanded="true" signature="928:996" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Overimagination/Sanity.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+              <folding>
+                <marker date="1542037729727" expanded="false" signature="6:78" ph="..." />
+                <marker date="1542037729727" expanded="true" signature="115:655" ph="{...}" />
+                <marker date="1542037729727" expanded="true" signature="278:421" ph="{...}" />
+                <marker date="1542037729727" expanded="true" signature="475:653" ph="{...}" />
+                <marker date="1542037729727" expanded="true" signature="558:603" ph="{...}" />
+                <marker date="1542037729727" expanded="true" signature="610:647" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -340,6 +358,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Animate.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/BeamStretch.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Overimagination/DeathOfTheEndless.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Overimagination/Sanity.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraControl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Monster.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/OI_RootMonster.cs" root0="FORCE_HIGHLIGHTING" />
@@ -411,6 +430,7 @@
         <option value="$PROJECT_DIR$/Assets/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NewLight.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/VineScript/VineKillLight.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Overimagination/Sanity.cs" />
       </list>
     </option>
   </component>
@@ -523,12 +543,12 @@
       <workItem from="1541537505248" duration="599000" />
       <workItem from="1541543073555" duration="3792000" />
       <workItem from="1541615680882" duration="631000" />
-      <workItem from="1542030375099" duration="4842000" />
+      <workItem from="1542030375099" duration="6137000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="157526000" />
+    <option name="totallyTimeSpent" value="158821000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -987,8 +1007,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnvironmentalScript/enviromentalDeath.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="21" />
+        <state relative-caret-position="448">
+          <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="31" selection-end-column="5" />
           <folding>
             <marker date="1539613171924" expanded="true" signature="6:135" ph="..." />
             <marker date="1539613171924" expanded="true" signature="184:738" ph="{...}" />
@@ -1004,19 +1024,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/VineScript/VineKillLight.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+        <state relative-caret-position="64">
+          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
           <folding>
-            <marker date="1542035794405" expanded="true" signature="6:100" ph="..." />
-            <marker date="1542035794405" expanded="true" signature="144:877" ph="{...}" />
-            <marker date="1542035794405" expanded="true" signature="243:288" ph="{...}" />
-            <marker date="1542035794405" expanded="true" signature="343:434" ph="{...}" />
-            <marker date="1542035794405" expanded="true" signature="413:431" ph="{...}" />
-            <marker date="1542035794405" expanded="true" signature="484:582" ph="{...}" />
-            <marker date="1542035794405" expanded="true" signature="521:579" ph="{...}" />
-            <marker date="1542035794405" expanded="true" signature="631:698" ph="{...}" />
-            <marker date="1542035794405" expanded="true" signature="668:695" ph="{...}" />
-            <marker date="1542035794405" expanded="true" signature="718:875" ph="{...}" />
+            <marker date="1542035884629" expanded="true" signature="6:135" ph="..." />
+            <marker date="1542035884629" expanded="true" signature="179:998" ph="{...}" />
+            <marker date="1542035884629" expanded="true" signature="278:323" ph="{...}" />
+            <marker date="1542035884629" expanded="true" signature="378:469" ph="{...}" />
+            <marker date="1542035884629" expanded="true" signature="448:466" ph="{...}" />
+            <marker date="1542035884629" expanded="true" signature="519:617" ph="{...}" />
+            <marker date="1542035884629" expanded="true" signature="556:614" ph="{...}" />
+            <marker date="1542035884629" expanded="true" signature="666:733" ph="{...}" />
+            <marker date="1542035884629" expanded="true" signature="703:730" ph="{...}" />
+            <marker date="1542035884629" expanded="true" signature="753:910" ph="{...}" />
+            <marker date="1542035884629" expanded="true" signature="928:996" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Overimagination/Sanity.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+          <folding>
+            <marker date="1542037729727" expanded="false" signature="6:78" ph="..." />
+            <marker date="1542037729727" expanded="true" signature="115:655" ph="{...}" />
+            <marker date="1542037729727" expanded="true" signature="278:421" ph="{...}" />
+            <marker date="1542037729727" expanded="true" signature="475:653" ph="{...}" />
+            <marker date="1542037729727" expanded="true" signature="558:603" ph="{...}" />
+            <marker date="1542037729727" expanded="true" signature="610:647" ph="{...}" />
           </folding>
         </state>
       </provider>
