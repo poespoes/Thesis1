@@ -112,6 +112,7 @@
           <e p="BeamStretchHorizontalOnly.cs" t="Include" />
           <e p="BeamStretchVerticalOnly.cs" t="Include" />
           <e p="CameraControl.cs" t="Include" />
+          <e p="camerShake.cs" t="Include" />
           <e p="Climbable.cs" t="Include" />
           <e p="cutscene.cs" t="Include" />
           <e p="death.cs" t="Include" />
