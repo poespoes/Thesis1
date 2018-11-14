@@ -157,7 +157,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1966572514073184}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.355, y: 0, z: 0}
+  m_LocalPosition: {x: -0.353, y: -0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4706164547731550}
@@ -183,8 +183,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1843716592318694}
   m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -67.2, y: -182.1, z: 0}
-  m_LocalScale: {x: 5.4500065, y: 5.450006, z: 5.45}
+  m_LocalPosition: {x: 16.075, y: -125.39, z: 0}
+  m_LocalScale: {x: 5.405, y: 5.405, z: 5.405}
   m_Children:
   - {fileID: 4247907799198082}
   - {fileID: 4967499744110592}
@@ -203,7 +203,7 @@ Transform:
   m_GameObject: {fileID: 1132015922875056}
   m_LocalRotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.8252969, y: 0.60954094, z: 0.18348624}
+  m_LocalScale: {x: 1.8404963, y: 0.6146167, z: 0.18501388}
   m_Children: []
   m_Father: {fileID: 4706164547731550}
   m_RootOrder: 5
@@ -215,7 +215,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1461211335698056}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.296, y: -0, z: 0}
+  m_LocalPosition: {x: 0.289, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4706164547731550}
@@ -507,14 +507,14 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 6
-  m_Sprite: {fileID: 21300000, guid: 1e5907b0f98db234696dcbb0cb4553f0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a41d6e1a1996cc945885d86d40d90904, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.55, y: 17.51}
+  m_Size: {x: 0.58, y: 1.84}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
