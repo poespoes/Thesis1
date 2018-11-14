@@ -36,6 +36,7 @@ public class Player : MonoBehaviour {
     private float originalDrag;
 
     public bool isLIt;
+    public bool invulnerable;
 
     void Start() {
         targetPos = transform.position.x;
@@ -51,6 +52,7 @@ public class Player : MonoBehaviour {
         originalDrag = this.GetComponent<Rigidbody2D>().drag;
 
         isLIt = true;
+        invulnerable = false;
     }
     
     void Update()

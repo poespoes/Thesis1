@@ -8,6 +8,7 @@ public class VineKillLight : MonoBehaviour
 {
 	public bool canDie;
 	public GameObject player;
+	
 
 	// Use this for initialization
 	void Start () {
@@ -17,7 +18,7 @@ public class VineKillLight : MonoBehaviour
 	
 	// Update is called once per frame
 	void Update () {
-		if (player.GetComponent<Player>().isLIt == true && canDie == true)
+		if (player.GetComponent<Player>().isLIt == true && canDie == true && player.GetComponent<Player>().invulnerable==false)
 		{
 			Die();
 		}

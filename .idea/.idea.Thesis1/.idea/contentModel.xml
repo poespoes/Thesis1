@@ -146,6 +146,7 @@
           <e p="Monster.cs" t="Include" />
           <e p="NewLight.cs" t="Include" />
           <e p="Overimagination" t="Include">
+            <e p="BreathingPoint.cs" t="Include" />
             <e p="Deathcollider.cs" t="Include" />
             <e p="DeathOfTheEndless.cs" t="Include" />
             <e p="OI_Body.cs" t="Include" />
