@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour {
     
@@ -37,6 +38,8 @@ public class Player : MonoBehaviour {
 
     public bool isLIt;
     public bool invulnerable;
+
+    public bool canDie;
 
     void Start() {
         targetPos = transform.position.x;
@@ -347,6 +350,30 @@ public class Player : MonoBehaviour {
            playerAnimator.SetBool("MimJumping",false);
            isClimbing = false;
         }
+    }
+
+    public void Die()
+    {
+        if (canDie == false)
+        {
+            Invoke("Restart", 2);
+
+            gameState gamestate = GameObject.Find("GameManager").GetComponent<gameState>();
+            gamestate.interactive = false;
+
+            SpriteRenderer[] sprites = GetComponentsInChildren<SpriteRenderer>();
+            for (int i = 0; i < sprites.Length; i++)
+            {
+                sprites[i].enabled = false;
+            }
+
+            canDie = true;
+        }
+    }
+
+    public void Restart()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
     
     

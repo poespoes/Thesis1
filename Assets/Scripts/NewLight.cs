@@ -44,9 +44,7 @@ public class NewLight : MonoBehaviour {
 
             } else {
                 transform.localScale = Vector3.Lerp(StartingScale, TargetScale, dimTime);
-                player.GetComponent<SpriteRenderer>().color = originalColor;
-                mimLeaf.GetComponent<SpriteRenderer>().color = originalColor;
-                mimLeaf2.GetComponent<SpriteRenderer>().color = originalColor;
+                
 
             }
         }
@@ -55,9 +53,7 @@ public class NewLight : MonoBehaviour {
             dimTime2 += Time.deltaTime / TimeToScale;
 
 
-            player.GetComponent<SpriteRenderer>().color = darkenedColor;
-                mimLeaf.GetComponent<SpriteRenderer>().color = darkenedColor;
-                mimLeaf2.GetComponent<SpriteRenderer>().color = darkenedColor;
+            
            
         }
 
@@ -82,6 +78,10 @@ public class NewLight : MonoBehaviour {
         //put light off script here
         this.GetComponent<SpriteRenderer>().enabled = false;
         this.transform.parent.GetComponent<Player>().isLIt = false;
+        
+        player.GetComponent<SpriteRenderer>().color = darkenedColor;
+        mimLeaf.GetComponent<SpriteRenderer>().color = darkenedColor;
+        mimLeaf2.GetComponent<SpriteRenderer>().color = darkenedColor;
 
     }
     
@@ -90,6 +90,12 @@ public class NewLight : MonoBehaviour {
         //put light off script here
         this.GetComponent<SpriteRenderer>().enabled = true;
         this.transform.parent.GetComponent<Player>().isLIt = true;
+        
+      
+        
+        player.GetComponent<SpriteRenderer>().color = originalColor;
+        mimLeaf.GetComponent<SpriteRenderer>().color = originalColor;
+        mimLeaf2.GetComponent<SpriteRenderer>().color = originalColor;
 
     }
 }

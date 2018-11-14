@@ -27,7 +27,7 @@ public class gameState : MonoBehaviour
 		//beamStretch.enabled = interactive;
 		//beamController.enabled = interactive;
 		player.enabled = interactive;
-		GameObject.Find("MimLight").GetComponent<Collider2D>().enabled = interactive;
+		//GameObject.Find("MimLight").GetComponent<Collider2D>().enabled = interactive;
 
         if (Input.GetKeyDown(KeyCode.R)) {
             Invoke("Restart", 1);

@@ -166,6 +166,7 @@
             <e p="Vine Prototype.cs" t="Include" />
             <e p="VineKillLight.cs" t="Include" />
             <e p="VineTriggered.cs" t="Include" />
+            <e p="VineTriggeredByLight.cs" t="Include" />
           </e>
         </e>
         <e p="vineAttack.cs" t="Include" />

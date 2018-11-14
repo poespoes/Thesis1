@@ -4,8 +4,11 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class enviromentalDeath : MonoBehaviour {
+public class enviromentalDeath : MonoBehaviour
+{
 
+	public GameObject player;
+	
 	// Use this for initialization
 	void Start () {
 		
@@ -21,7 +24,11 @@ public class enviromentalDeath : MonoBehaviour {
 		if (collision.gameObject.name == "Player")
 		{
             Debug.Log("touched Deathbox");
-			Die();
+			player = collision.gameObject;
+			//Die();
+			collision.GetComponent<Player>().Die();
+
+
 		}
 	}
 	
@@ -36,6 +43,9 @@ public class enviromentalDeath : MonoBehaviour {
 	{
 		GameObject blackout = GameObject.Find("BlackoutPanel");
 		blackout.GetComponent<Image>().CrossFadeAlpha(255,5.0f,false);
+		GameObject gameManager = GameObject.Find("GameManager");
+		gameManager.GetComponent<gameState>().interactive = false;
+		player.GetComponent<SpriteRenderer>().enabled = false;
 		Invoke("Restart",2);
 		
 	

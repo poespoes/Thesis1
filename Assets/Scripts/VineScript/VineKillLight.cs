@@ -20,6 +20,7 @@ public class VineKillLight : MonoBehaviour
 	void Update () {
 		if (player.GetComponent<Player>().isLIt == true && canDie == true && player.GetComponent<Player>().invulnerable==false)
 		{
+			//player.GetComponent<Player>().Die();
 			Die();
 		}
 	}
@@ -45,6 +46,8 @@ public class VineKillLight : MonoBehaviour
 	{
 		GameObject blackout = GameObject.Find("BlackoutPanel");
 		blackout.GetComponent<Image>().CrossFadeAlpha(255,5.0f,false);
+		GameObject gameManager = GameObject.Find("GameManager");
+		gameManager.GetComponent<gameState>().interactive = false;
 		Invoke("Restart",2);
 		
 	
