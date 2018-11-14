@@ -54,9 +54,14 @@ public class Sanity : MonoBehaviour
 		{
 			playerAnim.WalkingState = 2;
 		}
-		else if(playerComp.isWalking== true)
+		else if( sanity >0 && playerComp.isWalking== true)
 		{
 			playerAnim.WalkingState = 3;
+		}
+		else if(sanity <=0)
+		{
+			sanity = 0;
+			playerComp.Die();
 		}
 	}
 }
