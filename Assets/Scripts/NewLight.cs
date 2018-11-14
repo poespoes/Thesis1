@@ -11,21 +11,54 @@ public class NewLight : MonoBehaviour {
 
     public bool isScalingDown;
     private float dimTime = 0.0f;
+    private float dimTime2 = 0.0f;
 
+    private Color originalColor;
+    public Color darkenedColor;
+
+    public GameObject player;
+    public GameObject mimLeaf;
+    public GameObject mimLeaf2;
+    
     private void Start() {
+        player = GameObject.Find("Player");
+        mimLeaf = GameObject.Find("MimLeafON");
+        mimLeaf2 = GameObject.Find("MimLeafOFF");
+        
         transform.localScale = StartingScale;
         //isScalingDown = true;
+        originalColor = player.GetComponent<SpriteRenderer>().color;
     }
 
     private void Update() {
+        
+        
         if (isScalingDown==true) {
             dimTime += Time.deltaTime / TimeToScale;
             if (dimTime >= 1.0f) {
                 transform.localScale = TargetScale;
                 isScalingDown = false;
+                
+                
+                
+
             } else {
                 transform.localScale = Vector3.Lerp(StartingScale, TargetScale, dimTime);
+                player.GetComponent<SpriteRenderer>().color = originalColor;
+                mimLeaf.GetComponent<SpriteRenderer>().color = originalColor;
+                mimLeaf2.GetComponent<SpriteRenderer>().color = originalColor;
+
             }
+        }
+        else
+        {
+            dimTime2 += Time.deltaTime / TimeToScale;
+
+
+            player.GetComponent<SpriteRenderer>().color = darkenedColor;
+                mimLeaf.GetComponent<SpriteRenderer>().color = darkenedColor;
+                mimLeaf2.GetComponent<SpriteRenderer>().color = darkenedColor;
+           
         }
 
         if (Input.GetButton("Fire1"))

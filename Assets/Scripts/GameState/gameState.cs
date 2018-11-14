@@ -10,7 +10,8 @@ public class gameState : MonoBehaviour
 	public bool interactive;
 	public BeamStretch beamStretch;
 	public BeamController beamController;
-	public Player player;	
+	public Player player;
+	public bool isLit;
 
 	// Use this for initialization
 	void Start ()
@@ -23,8 +24,8 @@ public class gameState : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
 	{
-		beamStretch.enabled = interactive;
-		beamController.enabled = interactive;
+		//beamStretch.enabled = interactive;
+		//beamController.enabled = interactive;
 		player.enabled = interactive;
 		GameObject.Find("MimLight").GetComponent<Collider2D>().enabled = interactive;
 
