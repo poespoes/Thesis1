@@ -13,6 +13,8 @@ namespace Cinemachine.Examples
 		
 		public GameObject mainCamera;
 		public CinemachineBrain cameraBrain;
+
+		public float cameraBlendTime;
 		
 		// Use this for initialization
 		void Start()
@@ -32,7 +34,7 @@ namespace Cinemachine.Examples
 
 		private void OnTriggerEnter2D(Collider2D collision)
 		{
-			cameraBrain.m_DefaultBlend.m_Time = 4.0f;
+			cameraBrain.m_DefaultBlend.m_Time = cameraBlendTime;
 			
 			Debug.Log("Collision happened");
 			if (collision.gameObject.tag == "Player")

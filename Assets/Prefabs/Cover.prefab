@@ -21,8 +21,8 @@ GameObject:
   - component: {fileID: 4394080174037194}
   - component: {fileID: 33247346861696730}
   - component: {fileID: 23484244965445772}
-  - component: {fileID: 61008546766994924}
   - component: {fileID: 114906537543128004}
+  - component: {fileID: 60804371131321946}
   m_Layer: 0
   m_Name: Breathtaker
   m_TagString: Untagged
@@ -138,7 +138,7 @@ MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1110740168096346}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -174,8 +174,8 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1110740168096346}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!61 &61008546766994924
-BoxCollider2D:
+--- !u!60 &60804371131321946
+PolygonCollider2D:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
@@ -196,9 +196,15 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.5560588, y: 0.5639966}
+      - {x: -0.00000003214193, y: 0.5680201}
+      - {x: -0.2956852, y: 0.55456996}
+      - {x: -0.85200495, y: 0.40391576}
+      - {x: -2.0541775, y: -0.40450835}
+      - {x: 1.8710264, y: -0.40450835}
+      - {x: 1.0148062, y: 0.33136022}
 --- !u!114 &114906537543128004
 MonoBehaviour:
   m_ObjectHideFlags: 1
