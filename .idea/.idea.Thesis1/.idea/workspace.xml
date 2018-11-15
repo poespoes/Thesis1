@@ -62,12 +62,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cs" value="50" />
+          <entry key="cs" value="51" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="C#" value="50" />
+          <entry key="C#" value="51" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -169,7 +169,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/IntroScene/freezePlayerBehaviour.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="704">
@@ -183,6 +183,23 @@
                 <marker date="1542249711443" expanded="true" signature="421:493" ph="{...}" />
                 <marker date="1542249711443" expanded="true" signature="531:807" ph="{...}" />
                 <marker date="1542249711443" expanded="true" signature="825:938" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/VineScript/VineTriggeredByLight.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1542233731775" expanded="false" signature="6:78" ph="..." />
+                <marker date="1542233731775" expanded="true" signature="130:630" ph="{...}" />
+                <marker date="1542233731775" expanded="true" signature="211:218" ph="{...}" />
+                <marker date="1542233731775" expanded="true" signature="273:280" ph="{...}" />
+                <marker date="1542233731775" expanded="true" signature="331:628" ph="{...}" />
+                <marker date="1542233731775" expanded="true" signature="367:625" ph="{...}" />
+                <marker date="1542233731775" expanded="true" signature="422:620" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -263,27 +280,6 @@
                 <marker date="1542237801203" expanded="true" signature="2381:2478" ph="{...}" />
                 <marker date="1542237801203" expanded="true" signature="2555:2746" ph="{...}" />
                 <marker date="1542237801203" expanded="true" signature="2655:2740" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/NewLight.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-768">
-              <folding>
-                <marker date="1542232044218" expanded="false" signature="6:78" ph="..." />
-                <marker date="1542232044218" expanded="true" signature="118:2651" ph="{...}" />
-                <marker date="1542232044218" expanded="true" signature="602:907" ph="{...}" />
-                <marker date="1542232044218" expanded="true" signature="935:1782" ph="{...}" />
-                <marker date="1542232044218" expanded="true" signature="988:1373" ph="{...}" />
-                <marker date="1542232044218" expanded="true" signature="1076:1234" ph="{...}" />
-                <marker date="1542232044218" expanded="true" signature="1386:1487" ph="{...}" />
-                <marker date="1542232044218" expanded="true" signature="1526:1679" ph="{...}" />
-                <marker date="1542232044218" expanded="true" signature="1692:1768" ph="{...}" />
-                <marker date="1542232044218" expanded="true" signature="1810:2207" ph="{...}" />
-                <marker date="1542232044218" expanded="true" signature="2238:2649" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -846,22 +842,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/VineScript/VineTriggeredByLight.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="24" column="20" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="20" />
-          <folding>
-            <marker date="1542233731775" expanded="false" signature="6:78" ph="..." />
-            <marker date="1542233731775" expanded="true" signature="130:630" ph="{...}" />
-            <marker date="1542233731775" expanded="true" signature="211:218" ph="{...}" />
-            <marker date="1542233731775" expanded="true" signature="273:280" ph="{...}" />
-            <marker date="1542233731775" expanded="true" signature="331:628" ph="{...}" />
-            <marker date="1542233731775" expanded="true" signature="367:625" ph="{...}" />
-            <marker date="1542233731775" expanded="true" signature="422:620" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/VineScript/VineTriggered.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -1146,6 +1126,21 @@
             <marker date="1542249711443" expanded="true" signature="421:493" ph="{...}" />
             <marker date="1542249711443" expanded="true" signature="531:807" ph="{...}" />
             <marker date="1542249711443" expanded="true" signature="825:938" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/VineScript/VineTriggeredByLight.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1542233731775" expanded="false" signature="6:78" ph="..." />
+            <marker date="1542233731775" expanded="true" signature="130:630" ph="{...}" />
+            <marker date="1542233731775" expanded="true" signature="211:218" ph="{...}" />
+            <marker date="1542233731775" expanded="true" signature="273:280" ph="{...}" />
+            <marker date="1542233731775" expanded="true" signature="331:628" ph="{...}" />
+            <marker date="1542233731775" expanded="true" signature="367:625" ph="{...}" />
+            <marker date="1542233731775" expanded="true" signature="422:620" ph="{...}" />
           </folding>
         </state>
       </provider>
