@@ -72,12 +72,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="10095" />
+          <entry key="cs" value="10185" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="10095" />
+          <entry key="C#" value="10185" />
         </counts>
       </usages-collector>
     </session>
@@ -169,26 +169,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/IntroScene/freezePlayerBehaviour.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="26" column="5" selection-start-line="19" selection-start-column="4" selection-end-line="26" selection-end-column="5" />
+            <state relative-caret-position="704">
+              <caret line="46" column="31" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
               <folding>
-                <marker date="1542247726119" expanded="false" signature="6:78" ph="..." />
-                <marker date="1542247726119" expanded="true" signature="130:856" ph="{...}" />
-                <marker date="1542247726119" expanded="true" signature="208:215" ph="{...}" />
-                <marker date="1542247726119" expanded="true" signature="270:277" ph="{...}" />
-                <marker date="1542247726119" expanded="true" signature="327:446" ph="{...}" />
-                <marker date="1542247726119" expanded="true" signature="375:443" ph="{...}" />
-                <marker date="1542247726119" expanded="true" signature="478:751" ph="{...}" />
-                <marker date="1542247726119" expanded="true" signature="769:854" ph="{...}" />
+                <marker date="1542249711443" expanded="false" signature="6:78" ph="..." />
+                <marker date="1542249711443" expanded="true" signature="130:940" ph="{...}" />
+                <marker date="1542249711443" expanded="true" signature="231:257" ph="{...}" />
+                <marker date="1542249711443" expanded="true" signature="312:319" ph="{...}" />
+                <marker date="1542249711443" expanded="true" signature="369:499" ph="{...}" />
+                <marker date="1542249711443" expanded="true" signature="421:493" ph="{...}" />
+                <marker date="1542249711443" expanded="true" signature="531:807" ph="{...}" />
+                <marker date="1542249711443" expanded="true" signature="825:938" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/IntroScene/auntHandDrop.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="496">
@@ -418,8 +418,8 @@
         <option value="$PROJECT_DIR$/Assets/PlayerAnimation.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Overimagination/Sanity.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/refocusCamera.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/IntroScene/freezePlayerBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/IntroScene/auntHandDrop.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/IntroScene/freezePlayerBehaviour.cs" />
       </list>
     </option>
   </component>
@@ -535,12 +535,12 @@
       <workItem from="1542030375099" duration="7506000" />
       <workItem from="1542057010024" duration="999000" />
       <workItem from="1542157211926" duration="4713000" />
-      <workItem from="1542230722251" duration="8391000" />
+      <workItem from="1542230722251" duration="9434000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="174792000" />
+    <option name="totallyTimeSpent" value="175835000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1117,23 +1117,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/IntroScene/freezePlayerBehaviour.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="26" column="5" selection-start-line="19" selection-start-column="4" selection-end-line="26" selection-end-column="5" />
-          <folding>
-            <marker date="1542247726119" expanded="false" signature="6:78" ph="..." />
-            <marker date="1542247726119" expanded="true" signature="130:856" ph="{...}" />
-            <marker date="1542247726119" expanded="true" signature="208:215" ph="{...}" />
-            <marker date="1542247726119" expanded="true" signature="270:277" ph="{...}" />
-            <marker date="1542247726119" expanded="true" signature="327:446" ph="{...}" />
-            <marker date="1542247726119" expanded="true" signature="375:443" ph="{...}" />
-            <marker date="1542247726119" expanded="true" signature="478:751" ph="{...}" />
-            <marker date="1542247726119" expanded="true" signature="769:854" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/IntroScene/auntHandDrop.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="496">
@@ -1146,6 +1129,23 @@
             <marker date="1542249163626" expanded="true" signature="320:519" ph="{...}" />
             <marker date="1542249163626" expanded="true" signature="368:516" ph="{...}" />
             <marker date="1542249163626" expanded="true" signature="537:577" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/IntroScene/freezePlayerBehaviour.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="46" column="31" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
+          <folding>
+            <marker date="1542249711443" expanded="false" signature="6:78" ph="..." />
+            <marker date="1542249711443" expanded="true" signature="130:940" ph="{...}" />
+            <marker date="1542249711443" expanded="true" signature="231:257" ph="{...}" />
+            <marker date="1542249711443" expanded="true" signature="312:319" ph="{...}" />
+            <marker date="1542249711443" expanded="true" signature="369:499" ph="{...}" />
+            <marker date="1542249711443" expanded="true" signature="421:493" ph="{...}" />
+            <marker date="1542249711443" expanded="true" signature="531:807" ph="{...}" />
+            <marker date="1542249711443" expanded="true" signature="825:938" ph="{...}" />
           </folding>
         </state>
       </provider>

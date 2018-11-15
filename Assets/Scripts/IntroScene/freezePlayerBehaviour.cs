@@ -6,10 +6,12 @@ public class freezePlayerBehaviour : MonoBehaviour
 {
 
 	public float holdtimer;
+	public bool canFreeze;
 	
 	// Use this for initialization
-	void Start () {
-		
+	void Start ()
+	{
+		canFreeze = true;
 	}
 	
 	// Update is called once per frame
@@ -19,11 +21,14 @@ public class freezePlayerBehaviour : MonoBehaviour
 
 	private void OnTriggerEnter2D(Collider2D other)
 	{
-		if (other.gameObject.CompareTag("Player"))
-		{
-			Debug.Log("Player Frozen");
-			Freeze(other.gameObject);
-		}
+		
+			if (other.gameObject.CompareTag("Player"))
+			{
+				Debug.Log("Player Frozen");
+				Freeze(other.gameObject);
+			}
+
+	
 	}
 
 	void Freeze(GameObject other)
@@ -33,10 +38,12 @@ public class freezePlayerBehaviour : MonoBehaviour
 		other.GetComponent<Player>().isWalking = false;
 		other.GetComponent<Animator>().Play("Idle");
 		Invoke("UnFreeze",holdtimer);
+		
 	}
 
 	void UnFreeze()
 	{
 		GameObject.Find("GameManager").GetComponent<gameState>().interactive = true;
+		Destroy(this.gameObject);
 	}
 }
