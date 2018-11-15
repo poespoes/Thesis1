@@ -138,6 +138,7 @@
             <e p="playStateActivate.cs" t="Include" />
           </e>
           <e p="IntroScene" t="Include">
+            <e p="freezePlayerBehaviour.cs" t="Include" />
             <e p="IntroController_0.cs" t="Include" />
           </e>
           <e p="Lightbringer" t="Include">
