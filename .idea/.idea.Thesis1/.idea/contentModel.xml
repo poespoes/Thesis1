@@ -113,7 +113,6 @@
           <e p="BeamStretchVerticalOnly.cs" t="Include" />
           <e p="CameraControl.cs" t="Include" />
           <e p="camerShake.cs" t="Include" />
-          <e p="CheckPoint.cs" t="Include" />
           <e p="Climbable.cs" t="Include" />
           <e p="cutscene.cs" t="Include" />
           <e p="death.cs" t="Include" />
@@ -132,7 +131,6 @@
             <e p="letThereBeLight.cs" t="Include" />
             <e p="tripperScript.cs" t="Include" />
           </e>
-          <e p="GameSingleTon.cs" t="Include" />
           <e p="GameState" t="Include">
             <e p="darkenScene.cs" t="Include" />
             <e p="gameManager.cs" t="Include" />
@@ -159,7 +157,6 @@
             <e p="OI_Body.cs" t="Include" />
             <e p="Sanity.cs" t="Include" />
           </e>
-          <e p="PlayerPos.cs" t="Include" />
           <e p="refocusCamera.cs" t="Include" />
           <e p="testScript.cs" t="Include" />
           <e p="TestScripts" t="Include">
