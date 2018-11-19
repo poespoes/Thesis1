@@ -20,8 +20,8 @@ public class VineKillLight : MonoBehaviour
 	void Update () {
 		if (player.GetComponent<Player>().isLIt == true && canDie == true && player.GetComponent<Player>().invulnerable==false)
 		{
-			//player.GetComponent<Player>().Die();
-			Die();
+			player.GetComponent<Player>().Die();
+			//Die();
 		}
 	}
 

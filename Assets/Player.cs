@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Security.Cryptography.X509Certificates;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
@@ -355,8 +356,9 @@ public class Player : MonoBehaviour {
     public void Die()
     {
         if (canDie == false)
-        {
-            Invoke("Restart", 2);
+       {
+           Invoke("Restart", 2);
+           
 
             gameState gamestate = GameObject.Find("GameManager").GetComponent<gameState>();
             gamestate.interactive = false;
@@ -364,7 +366,8 @@ public class Player : MonoBehaviour {
             SpriteRenderer[] sprites = GetComponentsInChildren<SpriteRenderer>();
             for (int i = 0; i < sprites.Length; i++)
             {
-                sprites[i].enabled = false;
+                //sprites[i].enabled = false;
+                sprites[i].color = Color.black;
             }
 
             canDie = true;
@@ -373,7 +376,21 @@ public class Player : MonoBehaviour {
 
     public void Restart()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        //SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        
+        CheckPointManager _checkPointManager = GameObject.Find("GameManager").GetComponent<CheckPointManager>();
+        this.transform.position = _checkPointManager.lastCheckPoint;
+        
+        gameState gamestate = GameObject.Find("GameManager").GetComponent<gameState>();
+        gamestate.interactive = true;
+        
+        SpriteRenderer[] sprites = GetComponentsInChildren<SpriteRenderer>();
+        for (int i = 0; i < sprites.Length; i++)
+        {
+            sprites[i].color = Color.white;
+        }
+
+        canDie = false;
     }
     
     

@@ -132,6 +132,8 @@
             <e p="tripperScript.cs" t="Include" />
           </e>
           <e p="GameState" t="Include">
+            <e p="CheckPoint.cs" t="Include" />
+            <e p="CheckPointManager.cs" t="Include" />
             <e p="darkenScene.cs" t="Include" />
             <e p="gameManager.cs" t="Include" />
             <e p="gameState.cs" t="Include" />
