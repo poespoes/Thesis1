@@ -113,6 +113,11 @@
           <e p="BeamStretchVerticalOnly.cs" t="Include" />
           <e p="CameraControl.cs" t="Include" />
           <e p="camerShake.cs" t="Include" />
+          <e p="CheckpointSystem" t="Include">
+            <e p="CheckPoint.cs" t="Include" />
+            <e p="GameSingleTon.cs" t="Include" />
+            <e p="PlayerSpawnPos.cs" t="Include" />
+          </e>
           <e p="Climbable.cs" t="Include" />
           <e p="cutscene.cs" t="Include" />
           <e p="death.cs" t="Include" />
