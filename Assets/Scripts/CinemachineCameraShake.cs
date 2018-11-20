@@ -39,13 +39,13 @@ namespace Cinemachine.Examples
 
 		}
 
-		void Shake()
+		public void Shake()
 		{
 			_virtualCamera.GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>().m_AmplitudeGain = amplitudeGain;
 			_virtualCamera.GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>().m_FrequencyGain = frequencyGain;
 		}
 		
-		void UnShake()
+		public void UnShake()
 		{
 			_virtualCamera.GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>().m_AmplitudeGain = 0;
 			_virtualCamera.GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>().m_FrequencyGain = 0;

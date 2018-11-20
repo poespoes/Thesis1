@@ -176,6 +176,7 @@
             <e p="Sanity.cs" t="Include" />
           </e>
           <e p="refocusCamera.cs" t="Include" />
+          <e p="Shaker.cs" t="Include" />
           <e p="testScript.cs" t="Include" />
           <e p="TestScripts" t="Include">
             <e p="AlphaTest.cs" t="Include" />
