@@ -13,37 +13,43 @@ AnimatorController:
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: MimScareWalk
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: MimVeryScareWalk
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: MimIsWalking
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: MimJumping
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: MimClimbing
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
+  - m_Name: MimLedgeGrab
+    m_Type: 4
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 0}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
@@ -990,6 +996,31 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
+--- !u!1102 &1102068097363018936
+AnimatorState:
+  serializedVersion: 5
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: MimLedgeGrab
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: 53d843538526907408644c19eb792020, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
 --- !u!1102 &1102202524829378330
 AnimatorState:
   serializedVersion: 5
@@ -1357,13 +1388,13 @@ AnimatorStateMachine:
     m_Position: {x: 24, y: 240, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102508356033251196}
-    m_Position: {x: -276, y: 408, z: 0}
+    m_Position: {x: -240, y: 324, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102886936513209822}
     m_Position: {x: -240, y: 708, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102006126176950098}
-    m_Position: {x: 240, y: 720, z: 0}
+    m_Position: {x: 192, y: 708, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102608136847520922}
     m_Position: {x: 312, y: 408, z: 0}
@@ -1375,16 +1406,19 @@ AnimatorStateMachine:
     m_Position: {x: -108, y: 540, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102335647733301500}
-    m_Position: {x: 192, y: 540, z: 0}
+    m_Position: {x: 144, y: 540, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102722568569678196}
-    m_Position: {x: 227, y: 605, z: 0}
+    m_Position: {x: 384, y: 636, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102596122763471308}
     m_Position: {x: 24, y: 468, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102916687628752212}
     m_Position: {x: -24, y: 792, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 1102068097363018936}
+    m_Position: {x: 228, y: 792, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions:
