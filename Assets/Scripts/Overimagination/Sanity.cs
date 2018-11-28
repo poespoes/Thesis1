@@ -46,22 +46,33 @@ public class Sanity : MonoBehaviour
 
 	void walkingStateSanity()
 	{
-		if (sanity > (0.6f * maxSanity))
+		if (playerComp.isLIt == false)
 		{
-			
+			if (sanity > (0.99f * maxSanity))
+			{
+				
+			}
+			if (sanity > (0.6f * maxSanity))
+			{
+				playerAnim.WalkingState = 5;
+			}
+			else if (sanity > (0.3f) * maxSanity && playerComp.isWalking == true)
+			{
+				playerAnim.WalkingState = 2;
+			}
+			else if (sanity > 0 && playerComp.isWalking == true)
+			{
+				playerAnim.WalkingState = 3;
+			}
+			else if (sanity <= 0)
+			{
+				sanity = 0;
+				playerComp.Die();
+			}
 		}
-		else if(sanity > (0.3f) * maxSanity && playerComp.isWalking == true)
+		else
 		{
-			playerAnim.WalkingState = 2;
-		}
-		else if( sanity >0 && playerComp.isWalking== true)
-		{
-			playerAnim.WalkingState = 3;
-		}
-		else if(sanity <=0)
-		{
-			sanity = 0;
-			playerComp.Die();
+			sanity = maxSanity;
 		}
 	}
 }

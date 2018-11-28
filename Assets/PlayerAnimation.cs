@@ -50,6 +50,11 @@ public class PlayerAnimation : MonoBehaviour {
             PlayerAnimator.SetBool("MimVeryScareWalk", false);
             PlayerAnimator.SetBool("MimJumping",true);
         }
+
+        if (WalkingState == 5 && this.GetComponent<Player>().isWalking == true)
+        {
+            player.moveSpeed = player.playerScaredSpeed * 4;
+        }
     }
 
     private void OnTriggerStay2D(Collider2D collision) {
