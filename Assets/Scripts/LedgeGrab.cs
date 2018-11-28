@@ -8,6 +8,7 @@ public class LedgeGrab : MonoBehaviour
 	public bool canGrab;
 	public GameObject ledge;
 	public GameObject player;
+	
 
 	// Use this for initialization
 	void Start ()
@@ -18,6 +19,8 @@ public class LedgeGrab : MonoBehaviour
 	
 	// Update is called once per frame
 	void Update () {
+		
+		
 		GrabEdge();
 	}
 
