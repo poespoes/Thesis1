@@ -8,6 +8,7 @@ public class LedgeGrab : MonoBehaviour
 	public bool canGrab;
 	public GameObject ledge;
 	public GameObject player;
+	public bool isGrabbing;
 	
 
 	// Use this for initialization
@@ -15,6 +16,7 @@ public class LedgeGrab : MonoBehaviour
 	{
 		canGrab = false;
 		player = this.transform.parent.gameObject;
+		isGrabbing = false;
 	}
 	
 	// Update is called once per frame
@@ -52,8 +54,26 @@ public class LedgeGrab : MonoBehaviour
 				player.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezePositionY|RigidbodyConstraints2D.FreezePositionX|RigidbodyConstraints2D.FreezeRotation;
 				GameObject.Find("GameManager").GetComponent<gameState>().interactive = false;
 
+				
+				if (Input.GetKeyDown(KeyCode.W))
+				{
+					PullUp();
+				}
+
 			}
 		}
 		
+	}
+
+	private void PullUp()
+	{
+		player.transform.position = ledge.GetComponent<Ledge>().getUpPos.position;
+		canGrab = false;
+		
+		player.GetComponent<Animator>().SetBool("MimLedgeGrab",false);
+		player.GetComponent<PlayerAnimation>().WalkingState = 0;
+		player.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.None;
+		player.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeRotation;
+		GameObject.Find("GameManager").GetComponent<gameState>().interactive = true;
 	}
 }
