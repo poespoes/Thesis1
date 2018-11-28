@@ -143,6 +143,7 @@
               <e p="handDropSceneChange.cs" t="Include" />
               <e p="introScript.cs" t="Include" />
             </e>
+            <e p="Ledge.cs" t="Include" />
             <e p="letThereBeLight.cs" t="Include" />
             <e p="tripperScript.cs" t="Include" />
           </e>
@@ -161,6 +162,7 @@
             <e p="freezePlayerBehaviour.cs" t="Include" />
             <e p="IntroController_0.cs" t="Include" />
           </e>
+          <e p="LedgeGrab.cs" t="Include" />
           <e p="Lightbringer" t="Include">
             <e p="lightDeath.cs" t="Include" />
             <e p="lightEnabled.cs" t="Include" />

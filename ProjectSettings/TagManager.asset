@@ -15,6 +15,7 @@ TagManager:
   - worm
   - climbable
   - redAlert
+  - grabLedge
   layers:
   - Default
   - TransparentFX
