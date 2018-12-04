@@ -17,11 +17,11 @@ public class LedgeLeft : MonoBehaviour
 	void Update () {
 		if (Input.GetAxisRaw("Horizontal")>0||player.GetComponent<Rigidbody2D>().velocity.x>0)
 		{
-			this.GetComponent<LedgeGrab>().enabled = false;
+			this.GetComponent<LedgeGrab>().isActive= false;
 		}
 		else
 		{
-			this.GetComponent<LedgeGrab>().enabled = true;
+			this.GetComponent<LedgeGrab>().isActive = true;
 		}	
 	}
 }

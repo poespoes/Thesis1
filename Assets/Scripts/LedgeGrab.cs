@@ -9,6 +9,8 @@ public class LedgeGrab : MonoBehaviour
 	public GameObject ledge;
 	public GameObject player;
 	public bool isGrabbing;
+
+	public bool isActive;
 	
 
 	// Use this for initialization
@@ -28,47 +30,54 @@ public class LedgeGrab : MonoBehaviour
 
 	private void OnTriggerEnter2D(Collider2D other)
 	{
-		if (other.CompareTag("grabLedge"))
+		if (isActive == true)
 		{
-			Debug.Log("Can grab this ledge");
-			canGrab = true;
+			if (other.CompareTag("grabLedge"))
+			{
+				Debug.Log("Can grab this ledge");
+				canGrab = true;
 
-			ledge = other.gameObject;
+				ledge = other.gameObject;
+			}
 		}
-
 	}
 
 	private void GrabEdge()
 	{
-		if (canGrab == true)
+		if (isActive == true)
 		{
-			if (player.GetComponent<Player>().canJump == false)
+			if (canGrab == true)
 			{
-				
-				
-				player.GetComponent<Animator>().Play("MimLedgeGrab");
-				player.GetComponent<PlayerAnimation>().WalkingState = 6;
-				
-				
-				player.transform.position = ledge.GetComponent<Ledge>().grabPos.position;
-				player.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezePositionY|RigidbodyConstraints2D.FreezePositionX|RigidbodyConstraints2D.FreezeRotation;
-				GameObject.Find("GameManager").GetComponent<gameState>().interactive = false;
-
-				
-				if (Input.GetKeyDown(KeyCode.W))
+				if (player.GetComponent<Player>().canJump == false)
 				{
-					PullUp();
-				}
 
+
+					player.GetComponent<Animator>().Play("MimLedgeGrab");
+					player.GetComponent<PlayerAnimation>().WalkingState = 6;
+
+
+					player.transform.position = ledge.GetComponent<Ledge>().grabPos.position;
+					player.GetComponent<Rigidbody2D>().constraints =
+						RigidbodyConstraints2D.FreezePositionY | RigidbodyConstraints2D.FreezePositionX |
+						RigidbodyConstraints2D.FreezeRotation;
+					GameObject.Find("GameManager").GetComponent<gameState>().interactive = false;
+
+
+					if (Input.GetKeyDown(KeyCode.W))
+					{
+						PullUp();
+					}
+
+				}
 			}
 		}
-		
 	}
 
 	private void PullUp()
 	{
 		player.transform.position = ledge.GetComponent<Ledge>().getUpPos.position;
 		canGrab = false;
+		ledge = null;
 		
 		player.GetComponent<Animator>().SetBool("MimLedgeGrab",false);
 		player.GetComponent<PlayerAnimation>().WalkingState = 0;
