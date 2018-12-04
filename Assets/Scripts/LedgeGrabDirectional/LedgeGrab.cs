@@ -42,6 +42,17 @@ public class LedgeGrab : MonoBehaviour
 		}
 	}
 
+	private void OnTriggerExit2D(Collider2D other)
+	{
+		if (other.CompareTag("grabLedge"))
+		{
+			Debug.Log("Left Edge");
+			canGrab = false;
+
+			ledge = null;
+		}
+	}
+
 	private void GrabEdge()
 	{
 		if (isActive == true)
@@ -63,7 +74,7 @@ public class LedgeGrab : MonoBehaviour
 					GameObject.Find("GameManager").GetComponent<gameState>().interactive = false;
 
 
-					if (Input.GetKeyDown(KeyCode.W))
+					if (Input.GetButtonDown("Jump")||Input.GetButtonDown("Vertical"))
 					{
 						PullUp();
 					}
