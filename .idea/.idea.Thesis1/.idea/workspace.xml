@@ -48,9 +48,9 @@
     <session id="1734459407">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="22" />
+          <entry key="project.closed" value="23" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.10" value="5" />
+          <entry key="project.open.time.10" value="6" />
           <entry key="project.open.time.11" value="5" />
           <entry key="project.open.time.12" value="4" />
           <entry key="project.open.time.13" value="1" />
@@ -59,91 +59,33 @@
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="2" />
           <entry key="project.open.time.9" value="6" />
-          <entry key="project.opened" value="28" />
+          <entry key="project.opened" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cs" value="67" />
+          <entry key="cs" value="69" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="C#" value="67" />
+          <entry key="C#" value="69" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="13324" />
+          <entry key="cs" value="13521" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="13324" />
+          <entry key="C#" value="13521" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Player.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4224">
-              <caret line="269" column="179" selection-start-line="269" selection-start-column="63" selection-end-line="269" selection-end-column="179" />
-              <folding>
-                <marker date="1542644687101" expanded="false" signature="6:188" ph="..." />
-                <marker date="1542644687101" expanded="true" signature="226:13746" ph="{...}" />
-                <marker date="1542644687101" expanded="true" signature="1006:1522" ph="{...}" />
-                <marker date="1542644687101" expanded="true" signature="1545:9332" ph="{...}" />
-                <marker date="1542644687101" expanded="true" signature="1690:2192" ph="{...}" />
-                <marker date="1542644687101" expanded="true" signature="1829:1971" ph="/* this.GetComponent&lt;Rigidbody2D&gt;().gravityScale = ... */" />
-                <marker date="1542644687101" expanded="true" signature="2205:2475" ph="{...}" />
-                <marker date="1542644687101" expanded="true" signature="2526:2565" ph="{...}" />
-                <marker date="1542644687101" expanded="true" signature="2603:5622" ph="{...}" />
-                <marker date="1542644687101" expanded="true" signature="2652:3095" ph="/* if (Input.GetMouseButtonDown(0)) ... */" />
-                <marker date="1542644687101" expanded="true" signature="3108:4093" ph="/* if (Input.GetAxisRaw(&quot;Horizontal&quot;) != 0) ... */" />
-                <marker date="1542644687101" expanded="true" signature="4229:5391" ph="{...}" />
-                <marker date="1542644687101" expanded="true" signature="5142:5249" ph="{...}" />
-                <marker date="1542644687101" expanded="true" signature="5270:5376" ph="{...}" />
-                <marker date="1542644687101" expanded="true" signature="5408:5611" ph="{...}" />
-                <marker date="1542644687101" expanded="true" signature="5631:5872" ph="/* if (canWalk == true) { ... */" />
-                <marker date="1542644687101" expanded="true" signature="5904:6301" ph="{...}" />
-                <marker date="1542644687101" expanded="true" signature="5960:6278" ph="/* blackout.GetComponent&lt;Canvas&gt;().sortingOrder = 99; ... */" />
-                <marker date="1542644687101" expanded="true" signature="6330:6486" ph="/* if (transform.position.x &gt;= stopPosX) { ... */" />
-                <marker date="1542644687101" expanded="true" signature="6536:6686" ph="{...}" />
-                <marker date="1542644687101" expanded="true" signature="6769:7011" ph="/* if (velocityY == 0) ... */" />
-                <marker date="1542644687101" expanded="true" signature="7210:7433" ph="/* if (hit != null) ... */" />
-                <marker date="1542644687101" expanded="true" signature="7511:7726" ph="{...}" />
-                <marker date="1542644687101" expanded="true" signature="7590:7702" ph="{...}" />
-                <marker date="1542644687101" expanded="true" signature="7739:7791" ph="{...}" />
-                <marker date="1542644687101" expanded="true" signature="7832:9002" ph="{...}" />
-                <marker date="1542644687101" expanded="true" signature="8028:8634" ph="{...}" />
-                <marker date="1542644687101" expanded="true" signature="8651:8963" ph="{...}" />
-                <marker date="1542644687101" expanded="true" signature="9015:9251" ph="{...}" />
-                <marker date="1542644687101" expanded="true" signature="9356:9397" ph="{...}" />
-                <marker date="1542644687101" expanded="true" signature="9422:11707" ph="{...}" />
-                <marker date="1542644687101" expanded="true" signature="9484:11701" ph="{...}" />
-                <marker date="1542644687101" expanded="true" signature="9527:11603" ph="{...}" />
-                <marker date="1542644687101" expanded="true" signature="9591:9707" ph="/* Debug.Log(&quot;I CAN JUMP&quot;); ... */" />
-                <marker date="1542644687101" expanded="true" signature="9842:10389" ph="/* JumpModes ... */" />
-                <marker date="1542644687101" expanded="true" signature="10743:11394" ph="{...}" />
-                <marker date="1542644687101" expanded="true" signature="10782:11078" ph="/* this.GetComponent&lt;Rigidbody2D&gt;().AddForce(new Vector2(jumpAmount*Input.GetAxisRaw(&quot;Horizontal&quot;), jumpAmount),  ... */" />
-                <marker date="1542644687101" expanded="true" signature="11415:11587" ph="{...}" />
-                <marker date="1542644687101" expanded="true" signature="11620:11691" ph="{...}" />
-                <marker date="1542644687101" expanded="true" signature="11767:12084" ph="{...}" />
-                <marker date="1542644687101" expanded="true" signature="11945:12078" ph="{...}" />
-                <marker date="1542644687101" expanded="true" signature="12107:12634" ph="{...}" />
-                <marker date="1542644687101" expanded="true" signature="12142:12628" ph="{...}" />
-                <marker date="1542644687101" expanded="true" signature="12468:12590" ph="{...}" />
-                <marker date="1542644687101" expanded="true" signature="12661:13294" ph="{...}" />
-                <marker date="1542644687101" expanded="true" signature="13199:13263" ph="{...}" />
-                <marker date="1542644687101" expanded="true" signature="13310:13744" ph="/* private void OnTriggerEnter2D(Collider2D collision) { ... */" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnvironmentalScript/letThereBeLight.cs">
           <provider selected="true" editor-type-id="text-editor">
@@ -176,11 +118,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/LedgeGrab.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="776">
-              <caret line="72" column="68" selection-start-line="72" selection-start-column="68" selection-end-line="72" selection-end-column="68" />
+            <state relative-caret-position="1232">
+              <caret line="79" selection-start-line="79" selection-end-line="79" />
               <folding>
                 <marker date="1543440981553" expanded="false" signature="6:78" ph="..." />
                 <marker date="1543440981553" expanded="true" signature="118:1805" ph="{...}" />
@@ -193,6 +135,40 @@
                 <marker date="1543440981553" expanded="true" signature="741:1291" ph="{...}" />
                 <marker date="1543440981553" expanded="true" signature="1258:1285" ph="{...}" />
                 <marker date="1543440981553" expanded="true" signature="1325:1803" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/LedgeGrabDirectional/LedgeRight.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="18" column="92" lean-forward="true" selection-start-line="18" selection-start-column="92" selection-end-line="18" selection-end-column="92" />
+              <folding>
+                <marker date="1543946421040" expanded="false" signature="6:78" ph="..." />
+                <marker date="1543946421040" expanded="true" signature="119:526" ph="{...}" />
+                <marker date="1543946421040" expanded="true" signature="199:251" ph="{...}" />
+                <marker date="1543946421040" expanded="true" signature="306:524" ph="{...}" />
+                <marker date="1543946421040" expanded="true" signature="396:455" ph="{...}" />
+                <marker date="1543946421040" expanded="true" signature="462:520" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/LedgeGrabDirectional/LedgeLeft.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="17" column="92" selection-start-line="17" selection-start-column="92" selection-end-line="17" selection-end-column="92" />
+              <folding>
+                <marker date="1543946412684" expanded="false" signature="6:78" ph="..." />
+                <marker date="1543946412684" expanded="true" signature="118:523" ph="{...}" />
+                <marker date="1543946412684" expanded="true" signature="196:248" ph="{...}" />
+                <marker date="1543946412684" expanded="true" signature="303:521" ph="{...}" />
+                <marker date="1543946412684" expanded="true" signature="393:452" ph="{...}" />
+                <marker date="1543946412684" expanded="true" signature="459:517" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -280,7 +256,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/PlayerAnimation.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
+            <state relative-caret-position="1008">
               <caret line="65" column="54" selection-start-line="65" selection-start-column="54" selection-end-line="65" selection-end-column="54" />
               <folding>
                 <marker date="1543430909175" expanded="false" signature="6:78" ph="..." />
@@ -364,6 +340,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Overimagination/OI_Body.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Player.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Overimagination/Deathcollider.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LedgeGrabDirectional/LedgeLeft.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Lightbringer/lightDeath.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/VineScript/VineKillLight.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameState/CheckPointManager.cs" root0="FORCE_HIGHLIGHTING" />
@@ -375,6 +352,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/IntroScene/freezePlayerBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Overimagination/DeathOfTheEndless.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Overimagination/Sanity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LedgeGrabDirectional/LedgeRight.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/51F3C2E0-A6AC-4266-A7FD-A8228626161A/83/a8a58ea7/InfocardInteractiveChannelInitializer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnvironmentalScript/glowworm/glowInBlue.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Lightbringer/lightEnabled.cs" root0="FORCE_HIGHLIGHTING" />
@@ -399,8 +377,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameState/playStateActivate.cs" />
-        <option value="$PROJECT_DIR$/Assets/VirtualMouse.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraControl.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnvironmentalScript/tripperScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Lightbringer/lightFollow.cs" />
@@ -450,6 +426,8 @@
         <option value="$PROJECT_DIR$/Assets/PlayerAnimation.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnvironmentalScript/Ledge.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LedgeGrab.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LedgeGrabDirectional/LedgeRight.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LedgeGrabDirectional/LedgeLeft.cs" />
       </list>
     </option>
   </component>
@@ -471,12 +449,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="UnityExplorer">
-        <option name="show-hidden-items" value="false" />
-      </pane>
       <pane id="FileSystemExplorer" />
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="UnityExplorer">
+        <option name="show-hidden-items" value="false" />
       </pane>
     </panes>
   </component>
@@ -569,12 +547,13 @@
       <workItem from="1542306275991" duration="585000" />
       <workItem from="1542727848361" duration="5205000" />
       <workItem from="1543418992000" duration="6590000" />
-      <workItem from="1543439679227" duration="1901000" />
+      <workItem from="1543439679227" duration="2564000" />
+      <workItem from="1543945853279" duration="570000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="192599000" />
+    <option name="totallyTimeSpent" value="193832000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -589,7 +568,7 @@
     <frame x="-7" y="2" width="1932" height="1045" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31570512" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31891027" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -635,16 +614,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/VirtualMouse.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.cinemachine@2.2.7/Runtime/Behaviours/CinemachineBrain.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="38" column="100" selection-start-line="38" selection-start-column="100" selection-end-line="38" selection-end-column="100" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnvironmentalScript/glowwormActivate.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Overimagination/DeathOfTheEndless.cs">
       <provider selected="true" editor-type-id="text-editor">
@@ -958,6 +927,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnvironmentalScript/Ledge.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <marker date="1543439971281" expanded="false" signature="6:78" ph="..." />
+            <marker date="1543439971281" expanded="true" signature="114:392" ph="{...}" />
+            <marker date="1543439971281" expanded="true" signature="221:328" ph="{...}" />
+            <marker date="1543439971281" expanded="true" signature="383:390" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Shaker.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -1029,22 +1011,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnvironmentalScript/Ledge.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <marker date="1543439971281" expanded="false" signature="6:78" ph="..." />
-            <marker date="1543439971281" expanded="true" signature="114:392" ph="{...}" />
-            <marker date="1543439971281" expanded="true" signature="221:328" ph="{...}" />
-            <marker date="1543439971281" expanded="true" signature="383:390" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/PlayerAnimation.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
+        <state relative-caret-position="1008">
           <caret line="65" column="54" selection-start-line="65" selection-start-column="54" selection-end-line="65" selection-end-column="54" />
           <folding>
             <marker date="1543430909175" expanded="false" signature="6:78" ph="..." />
@@ -1069,8 +1038,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/LedgeGrab.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="776">
-          <caret line="72" column="68" selection-start-line="72" selection-start-column="68" selection-end-line="72" selection-end-column="68" />
+        <state relative-caret-position="1232">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
           <folding>
             <marker date="1543440981553" expanded="false" signature="6:78" ph="..." />
             <marker date="1543440981553" expanded="true" signature="118:1805" ph="{...}" />
@@ -1083,6 +1052,36 @@
             <marker date="1543440981553" expanded="true" signature="741:1291" ph="{...}" />
             <marker date="1543440981553" expanded="true" signature="1258:1285" ph="{...}" />
             <marker date="1543440981553" expanded="true" signature="1325:1803" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/LedgeGrabDirectional/LedgeLeft.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" column="92" selection-start-line="17" selection-start-column="92" selection-end-line="17" selection-end-column="92" />
+          <folding>
+            <marker date="1543946412684" expanded="false" signature="6:78" ph="..." />
+            <marker date="1543946412684" expanded="true" signature="118:523" ph="{...}" />
+            <marker date="1543946412684" expanded="true" signature="196:248" ph="{...}" />
+            <marker date="1543946412684" expanded="true" signature="303:521" ph="{...}" />
+            <marker date="1543946412684" expanded="true" signature="393:452" ph="{...}" />
+            <marker date="1543946412684" expanded="true" signature="459:517" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/LedgeGrabDirectional/LedgeRight.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="18" column="92" lean-forward="true" selection-start-line="18" selection-start-column="92" selection-end-line="18" selection-end-column="92" />
+          <folding>
+            <marker date="1543946421040" expanded="false" signature="6:78" ph="..." />
+            <marker date="1543946421040" expanded="true" signature="119:526" ph="{...}" />
+            <marker date="1543946421040" expanded="true" signature="199:251" ph="{...}" />
+            <marker date="1543946421040" expanded="true" signature="306:524" ph="{...}" />
+            <marker date="1543946421040" expanded="true" signature="396:455" ph="{...}" />
+            <marker date="1543946421040" expanded="true" signature="462:520" ph="{...}" />
           </folding>
         </state>
       </provider>

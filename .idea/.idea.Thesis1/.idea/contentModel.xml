@@ -163,6 +163,10 @@
             <e p="IntroController_0.cs" t="Include" />
           </e>
           <e p="LedgeGrab.cs" t="Include" />
+          <e p="LedgeGrabDirectional" t="Include">
+            <e p="LedgeLeft.cs" t="Include" />
+            <e p="LedgeRight.cs" t="Include" />
+          </e>
           <e p="Lightbringer" t="Include">
             <e p="lightDeath.cs" t="Include" />
             <e p="lightEnabled.cs" t="Include" />
