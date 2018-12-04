@@ -8,7 +8,8 @@ public class VineKillLight : MonoBehaviour
 {
 	public bool canDie;
 	public GameObject player;
-	
+
+	public bool isAttacking;
 
 	// Use this for initialization
 	void Start () {
@@ -23,6 +24,7 @@ public class VineKillLight : MonoBehaviour
 			player.GetComponent<Player>().Die();
 			//Die();
 		}
+		
 	}
 
 	private void OnTriggerEnter2D(Collider2D other)
@@ -56,5 +58,10 @@ public class VineKillLight : MonoBehaviour
 	void Restart()
 	{
 		SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+	}
+
+	public void VineRetract()
+	{
+		this.GetComponent<Animator>().SetBool("isAttacking",false);
 	}
 }

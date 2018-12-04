@@ -41,6 +41,7 @@ public class Player : MonoBehaviour {
     public bool invulnerable;
 
     public bool canDie;
+    public GameObject VineChase;
 
     void Start() {
         targetPos = transform.position.x;
@@ -377,6 +378,11 @@ public class Player : MonoBehaviour {
     public void Restart()
     {
         //SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+
+        if (VineChase != null)
+        {
+            VineChase.GetComponent<VineReset>().Reset();
+        }
         
         CheckPointManager _checkPointManager = GameObject.Find("GameManager").GetComponent<CheckPointManager>();
         this.transform.position = _checkPointManager.lastCheckPoint;

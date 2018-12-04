@@ -19,4 +19,6 @@ public class VineVariantSpeed : MonoBehaviour {
 	void Update () {
         
 	}
+	
+	
 }
