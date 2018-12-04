@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using DG.Tweening;
 using UnityEngine;
 
 public class LedgeGrab : MonoBehaviour
@@ -67,7 +68,9 @@ public class LedgeGrab : MonoBehaviour
 					player.GetComponent<PlayerAnimation>().WalkingState = 6;
 
 
-					player.transform.position = ledge.GetComponent<Ledge>().grabPos.position;
+					//player.transform.position = ledge.GetComponent<Ledge>().grabPos.position;
+					player.transform.DOMove(ledge.GetComponent<Ledge>().grabPos.position, 0.5f);
+					
 					player.GetComponent<Rigidbody2D>().constraints =
 						RigidbodyConstraints2D.FreezePositionY | RigidbodyConstraints2D.FreezePositionX |
 						RigidbodyConstraints2D.FreezeRotation;
@@ -86,7 +89,12 @@ public class LedgeGrab : MonoBehaviour
 
 	private void PullUp()
 	{
-		player.transform.position = ledge.GetComponent<Ledge>().getUpPos.position;
+		//player.transform.position = ledge.GetComponent<Ledge>().getUpPos.position;
+
+		//player.transform.position = transform.DoMove(ledge.GetComponent<Ledge>().getUpPos.position, 0.5f);
+
+		player.transform.DOMove(ledge.GetComponent<Ledge>().getUpPos.position, 0.5f);
+		
 		canGrab = false;
 		ledge = null;
 		
