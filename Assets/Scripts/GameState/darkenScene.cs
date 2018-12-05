@@ -1,11 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using DG.Tweening;
 using UnityEngine;
 
 public class darkenScene : MonoBehaviour
 {
 	public Player player;
 	private bool isLit;
+	public float tweenTime;
 
 	// Use this for initialization
 	void Start ()
@@ -26,14 +28,16 @@ public class darkenScene : MonoBehaviour
 
 			for (int i = 0; i < sprites.Length; i++)
 			{
-				sprites[i].color = Color.black;
+				//sprites[i].color = Color.black;
+				sprites[i].DOColor(Color.black, tweenTime);
 			}
 		}
 		else
 		{
 			for (int i = 0; i < sprites.Length; i++)
 			{
-				sprites[i].color = Color.white;
+				//sprites[i].color = Color.white;
+				sprites[i].DOColor(Color.white, tweenTime);
 			}
 		}
 	}

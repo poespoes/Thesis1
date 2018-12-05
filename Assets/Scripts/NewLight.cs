@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using DG.Tweening;
 using UnityEngine;
 
 public class NewLight : MonoBehaviour {
@@ -19,11 +20,13 @@ public class NewLight : MonoBehaviour {
     public GameObject player;
     public GameObject mimLeaf;
     public GameObject mimLeaf2;
+
+    public float tweenTime;
     
     private void Start() {
         player = GameObject.Find("Player");
-        mimLeaf = GameObject.Find("MimLeafON");
-        mimLeaf2 = GameObject.Find("MimLeafOFF");
+        mimLeaf = GameObject.Find("Leaf");
+       
         
         transform.localScale = StartingScale;
         //isScalingDown = true;
@@ -79,9 +82,12 @@ public class NewLight : MonoBehaviour {
         this.GetComponent<SpriteRenderer>().enabled = false;
         this.transform.parent.GetComponent<Player>().isLIt = false;
         
-        player.GetComponent<SpriteRenderer>().color = darkenedColor;
-        mimLeaf.GetComponent<SpriteRenderer>().color = darkenedColor;
-        mimLeaf2.GetComponent<SpriteRenderer>().color = darkenedColor;
+        //player.GetComponent<SpriteRenderer>().color = darkenedColor;
+        player.GetComponent<SpriteRenderer>().DOColor(darkenedColor, tweenTime);
+        //mimLeaf.GetComponent<SpriteRenderer>().color = darkenedColor;
+        mimLeaf.GetComponent<SpriteRenderer>().DOColor(darkenedColor, tweenTime);
+  
+      
 
     }
     
@@ -90,13 +96,14 @@ public class NewLight : MonoBehaviour {
         //put light off script here
         this.GetComponent<SpriteRenderer>().enabled = true;
         this.transform.parent.GetComponent<Player>().isLIt = true;
-        
-      
-        
-        player.GetComponent<SpriteRenderer>().color = originalColor;
-        mimLeaf.GetComponent<SpriteRenderer>().color = originalColor;
-        mimLeaf2.GetComponent<SpriteRenderer>().color = originalColor;
 
+
+        player.GetComponent<SpriteRenderer>().DOColor(originalColor, tweenTime);
+        //player.GetComponent<SpriteRenderer>().color = originalColor;
+        mimLeaf.GetComponent<SpriteRenderer>().DOColor(originalColor, tweenTime);
+        //mimLeaf.GetComponent<SpriteRenderer>().color = originalColor;
+       
+       
     }
 }
 
