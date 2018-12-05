@@ -26,7 +26,7 @@ public class NewLight : MonoBehaviour {
     private void Start() {
         player = GameObject.Find("Player");
         mimLeaf = GameObject.Find("Leaf");
-       
+        
         
         transform.localScale = StartingScale;
         //isScalingDown = true;
@@ -87,7 +87,7 @@ public class NewLight : MonoBehaviour {
         //mimLeaf.GetComponent<SpriteRenderer>().color = darkenedColor;
         mimLeaf.GetComponent<SpriteRenderer>().DOColor(darkenedColor, tweenTime);
   
-      
+        mimLeaf.transform.parent.GetComponent<Animator>().SetBool("MimLightOn",false);
 
     }
     
@@ -102,6 +102,8 @@ public class NewLight : MonoBehaviour {
         //player.GetComponent<SpriteRenderer>().color = originalColor;
         mimLeaf.GetComponent<SpriteRenderer>().DOColor(originalColor, tweenTime);
         //mimLeaf.GetComponent<SpriteRenderer>().color = originalColor;
+        
+        mimLeaf.transform.parent.GetComponent<Animator>().SetBool("MimLightOn",true);
        
        
     }
