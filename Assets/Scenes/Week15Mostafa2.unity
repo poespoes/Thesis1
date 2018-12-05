@@ -2621,7 +2621,7 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 1612630402}
+  - {fileID: 1638527270}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9333,7 +9333,7 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 1612630402}
+  - {fileID: 1638527270}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -19270,7 +19270,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 534669902}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -189.29999, y: 21.008001, z: -10}
+  m_LocalPosition: {x: 0.033252716, y: -39.042, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1710877340}
@@ -45176,7 +45176,7 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 1612630402}
+  - {fileID: 1638527270}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -47877,11 +47877,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4480696721935710, guid: e3ebb5c4abc3b494e8ee447ac314c9c2, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -207.06
+      value: -17.7
       objectReference: {fileID: 0}
     - target: {fileID: 4480696721935710, guid: e3ebb5c4abc3b494e8ee447ac314c9c2, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 16.85
+      value: -43.2
       objectReference: {fileID: 0}
     - target: {fileID: 4480696721935710, guid: e3ebb5c4abc3b494e8ee447ac314c9c2, type: 2}
       propertyPath: m_LocalPosition.z
@@ -47951,7 +47951,7 @@ Prefab:
         type: 2}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 1612630402}
+      objectReference: {fileID: 1638527270}
     - target: {fileID: 212777982036559444, guid: e3ebb5c4abc3b494e8ee447ac314c9c2,
         type: 2}
       propertyPath: m_Materials.Array.data[0]
@@ -47961,12 +47961,12 @@ Prefab:
         type: 2}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 1612630402}
+      objectReference: {fileID: 1638527270}
     - target: {fileID: 212723180133036016, guid: e3ebb5c4abc3b494e8ee447ac314c9c2,
         type: 2}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 1612630402}
+      objectReference: {fileID: 1638527270}
     - target: {fileID: 212902138555283830, guid: e3ebb5c4abc3b494e8ee447ac314c9c2,
         type: 2}
       propertyPath: m_Materials.Array.data[0]
@@ -47992,6 +47992,10 @@ Prefab:
         type: 2}
       propertyPath: m_WasSpriteAssigned
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1150035870667502, guid: e3ebb5c4abc3b494e8ee447ac314c9c2, type: 2}
+      propertyPath: m_Name
+      value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 212353430923512602, guid: e3ebb5c4abc3b494e8ee447ac314c9c2, type: 2}
@@ -53009,7 +53013,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1464096838}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -308.0871, y: 21.533796, z: -10.046875}
+  m_LocalPosition: {x: -118.75386, y: -38.516205, z: -10.046875}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 827472524}
@@ -58636,39 +58640,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4870504684076744, guid: 2103a26f27d69284f82582ba21ea9505,
     type: 2}
   m_PrefabInternal: {fileID: 1911560596}
---- !u!21 &1612630402
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: Sprites/Default
-  m_Shader: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _AlphaTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - PixelSnap: 0
-    - _EnableExternalAlpha: 0
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Flip: {r: 1, g: 1, b: 1, a: 1}
-    - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1613562140
 GameObject:
   m_ObjectHideFlags: 0
@@ -59828,6 +59799,39 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5093a44d6ae5bf24890e4c10e34c46bc, type: 2}
   m_IsPrefabAsset: 0
+--- !u!21 &1638527270
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Sprites/Default
+  m_Shader: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - PixelSnap: 0
+    - _EnableExternalAlpha: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Flip: {r: 1, g: 1, b: 1, a: 1}
+    - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1639819692
 GameObject:
   m_ObjectHideFlags: 0

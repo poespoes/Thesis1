@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using System.Security.Cryptography.X509Certificates;
+using DG.Tweening;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
@@ -359,7 +360,7 @@ public class Player : MonoBehaviour {
         if (canDie == false)
        {
            Invoke("Restart", 2);
-           
+           this.GetComponent<Animator>().SetBool("MimDying",true);
 
             gameState gamestate = GameObject.Find("GameManager").GetComponent<gameState>();
             gamestate.interactive = false;
@@ -368,7 +369,7 @@ public class Player : MonoBehaviour {
             for (int i = 0; i < sprites.Length; i++)
             {
                 //sprites[i].enabled = false;
-                sprites[i].color = Color.black;
+                sprites[i].DOColor(Color.black, 1.5f);
             }
 
             canDie = true;
@@ -393,10 +394,11 @@ public class Player : MonoBehaviour {
         SpriteRenderer[] sprites = GetComponentsInChildren<SpriteRenderer>();
         for (int i = 0; i < sprites.Length; i++)
         {
-            sprites[i].color = Color.white;
+            sprites[i].DOColor(Color.white, 0.5f);
         }
 
         canDie = false;
+        this.GetComponent<Animator>().SetBool("MimDying",false);
     }
     
     
