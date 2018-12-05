@@ -34,6 +34,9 @@ public class VineKillLight : MonoBehaviour
 			canDie = true;
 			Debug.Log("Player can Die");
 		}
+		
+		this.GetComponent<Animator>().SetBool("isAttacking",false);
+		this.GetComponent<Animator>().Play("Idle");
 	}
 
 	private void OnTriggerExit2D(Collider2D other)
@@ -63,5 +66,6 @@ public class VineKillLight : MonoBehaviour
 	public void VineRetract()
 	{
 		this.GetComponent<Animator>().SetBool("isAttacking",false);
+		this.GetComponent<Animator>().Play("Entry");
 	}
 }
