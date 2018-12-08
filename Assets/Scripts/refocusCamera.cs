@@ -39,12 +39,22 @@ namespace Cinemachine.Examples
 			Debug.Log("Collision happened");
 			if (collision.gameObject.tag == "Player")
 			{
-				priority = cameraControl.mainPriority + 1;
+				/*priority = cameraControl.mainPriority + 1;
 				camera.m_Priority = priority;
 				cameraControl.focusedCamera = camera;
-				Debug.Log("COLLIDED WITH PLAYER");
+				Debug.Log("COLLIDED WITH PLAYER");*/
+				
+				ReFocus();
 				
 			}
+		}
+
+		public void ReFocus()
+		{
+			priority = cameraControl.mainPriority + 1;
+			camera.m_Priority = priority;
+			cameraControl.focusedCamera = camera;
+			Debug.Log("COLLIDED WITH PLAYER");
 		}
 	}
 }
