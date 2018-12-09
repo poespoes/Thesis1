@@ -17,7 +17,7 @@ public class gameState : MonoBehaviour
 	void Start ()
 	{
 		beamStretch = GameObject.Find("Player").GetComponent<BeamStretch>();
-		beamController = GameObject.Find("MimLight").GetComponent<BeamController>();
+		
 		player = GameObject.Find("Player").GetComponent<Player>();
 	}
 	

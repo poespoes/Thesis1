@@ -18,7 +18,7 @@ namespace Cinemachine.Examples
 		void Start()
 		{
 			
-			cineVCam = GameObject.Find("CM vcam7").GetComponent<CinemachineVirtualCamera>();
+			//cineVCam = GameObject.Find("CM vcam7").GetComponent<CinemachineVirtualCamera>();
 
 			blackout = GameObject.Find("BlackoutPanel");
 
