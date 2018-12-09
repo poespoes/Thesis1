@@ -48,7 +48,7 @@
     <session id="1734459407">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="26" />
+          <entry key="project.closed" value="27" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="6" />
           <entry key="project.open.time.11" value="5" />
@@ -144,10 +144,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/CinemachineCameraShake.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="752">
+              <caret line="49" selection-start-line="49" selection-end-line="49" />
               <folding>
                 <marker date="1542743217812" expanded="false" signature="6:78" ph="..." />
                 <marker date="1542743217812" expanded="true" signature="110:1233" ph="{...}" />
@@ -196,11 +197,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnvironmentalScript/letThereBeLight.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="832">
-              <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+              <caret line="55" selection-start-line="55" selection-end-line="55" />
               <folding>
                 <marker date="1544370748234" expanded="false" signature="6:100" ph="..." />
                 <marker date="1544370748234" expanded="true" signature="132:1229" ph="{...}" />
@@ -428,7 +429,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="-7" />
     <option name="y" value="2" />
     <option name="width" value="1932" />
@@ -541,12 +542,12 @@
       <workItem from="1543439679227" duration="2564000" />
       <workItem from="1543945853279" duration="570000" />
       <workItem from="1544135723364" duration="3014000" />
-      <workItem from="1544369699103" duration="856000" />
+      <workItem from="1544369699103" duration="1455000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="206254000" />
+    <option name="totallyTimeSpent" value="206853000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -559,7 +560,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="2" width="1932" height="1045" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3301282" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -1018,23 +1018,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CinemachineCameraShake.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1542743217812" expanded="false" signature="6:78" ph="..." />
-            <marker date="1542743217812" expanded="true" signature="110:1233" ph="{...}" />
-            <marker date="1542743217812" expanded="true" signature="165:1231" ph="{...}" />
-            <marker date="1542743217812" expanded="true" signature="405:532" ph="{...}" />
-            <marker date="1542743217812" expanded="true" signature="586:734" ph="{...}" />
-            <marker date="1542743217812" expanded="true" signature="673:696" ph="{...}" />
-            <marker date="1542743217812" expanded="true" signature="704:729" ph="{...}" />
-            <marker date="1542743217812" expanded="true" signature="757:991" ph="{...}" />
-            <marker date="1542743217812" expanded="true" signature="1018:1228" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameState/gameState.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
@@ -1067,7 +1050,7 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnvironmentalScript/letThereBeLight.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="832">
-          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
           <folding>
             <marker date="1544370748234" expanded="false" signature="6:100" ph="..." />
             <marker date="1544370748234" expanded="true" signature="132:1229" ph="{...}" />
@@ -1076,6 +1059,24 @@
             <marker date="1544370748234" expanded="true" signature="682:1224" ph="{...}" />
             <marker date="1544370748234" expanded="true" signature="738:1220" ph="{...}" />
             <marker date="1544370748234" expanded="true" signature="780:1215" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CinemachineCameraShake.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="752">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <marker date="1542743217812" expanded="false" signature="6:78" ph="..." />
+            <marker date="1542743217812" expanded="true" signature="110:1233" ph="{...}" />
+            <marker date="1542743217812" expanded="true" signature="165:1231" ph="{...}" />
+            <marker date="1542743217812" expanded="true" signature="405:532" ph="{...}" />
+            <marker date="1542743217812" expanded="true" signature="586:734" ph="{...}" />
+            <marker date="1542743217812" expanded="true" signature="673:696" ph="{...}" />
+            <marker date="1542743217812" expanded="true" signature="704:729" ph="{...}" />
+            <marker date="1542743217812" expanded="true" signature="757:991" ph="{...}" />
+            <marker date="1542743217812" expanded="true" signature="1018:1228" ph="{...}" />
           </folding>
         </state>
       </provider>
