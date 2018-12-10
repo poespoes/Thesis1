@@ -12,10 +12,13 @@ public class UICrossFade : MonoBehaviour
 	// Use this for initialization
 	void Start ()
 	{
+		
+		
 		willFadeIn = false;
 		willFadeOut = false;
 		
 		canvas = this.gameObject;
+		canvas.GetComponent<Image>().color = Color.black;
 		
 		canvas.GetComponent<Image>().CrossFadeAlpha(0.1f,6.0f,false);
 		

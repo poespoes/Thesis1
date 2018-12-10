@@ -24,16 +24,23 @@ public class TimedAnimationPlay : MonoBehaviour
 	
 	// Update is called once per frame
 
-	private void OnCollisionEnter2D(Collision2D other)
+
+
+	private void OnTriggerEnter2D(Collider2D other)
 	{
-		if (runOnCollision == true)
+		if (other.tag == "Player")
 		{
-			Initiate();
+			Debug.Log("PlayerEnteredScene");
+			
+			if (runOnCollision == true)
+			{
+				Initiate();
+			}
 		}
 	}
 
 	void Update () {
-		if (callItself = true)
+		if (callItself == true)
 		{
 			Initiate();
 			callItself = false;

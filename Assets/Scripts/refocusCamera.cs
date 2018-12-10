@@ -25,6 +25,8 @@ namespace Cinemachine.Examples
 			
 			mainCamera = GameObject.Find("Main Camera");
 			cameraBrain = mainCamera.GetComponent<CinemachineBrain>();
+
+			oldCamera = cameraControl.focusedCamera;
 		}
 
 		// Update is called once per frame
