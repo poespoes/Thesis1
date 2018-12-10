@@ -8,6 +8,7 @@ namespace Cinemachine.Examples
 	{
 
 		public CinemachineVirtualCamera camera;
+		public CinemachineVirtualCamera oldCamera;
 		public int priority;
 		public CameraControl cameraControl;
 		
@@ -55,6 +56,11 @@ namespace Cinemachine.Examples
 			camera.m_Priority = priority;
 			cameraControl.focusedCamera = camera;
 			Debug.Log("COLLIDED WITH PLAYER");
+		}
+
+		public void ReturnFocus()
+		{
+			
 		}
 	}
 }

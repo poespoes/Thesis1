@@ -297,6 +297,15 @@
           <e p="CinemachineCameraShake.cs" t="Include" />
           <e p="Climbable.cs" t="Include" />
           <e p="cutscene.cs" t="Include" />
+          <e p="CutsceneScripts" t="Include">
+            <e p="audioPlayDelay.cs" t="Include" />
+            <e p="auntHandDrop.cs" t="Include" />
+            <e p="CameraShake.cs" t="Include" />
+            <e p="CutsceneManager.cs" t="Include" />
+            <e p="freezePlayerBehaviour.cs" t="Include" />
+            <e p="IntroController_0.cs" t="Include" />
+            <e p="TimedAnimationPlay.cs" t="Include" />
+          </e>
           <e p="death.cs" t="Include" />
           <e p="EnvironmentalScript" t="Include">
             <e p="enviromentalDeath.cs" t="Include" />
@@ -321,13 +330,6 @@
             <e p="gameManager.cs" t="Include" />
             <e p="gameState.cs" t="Include" />
             <e p="playStateActivate.cs" t="Include" />
-          </e>
-          <e p="IntroScene" t="Include">
-            <e p="audioPlayDelay.cs" t="Include" />
-            <e p="auntHandDrop.cs" t="Include" />
-            <e p="CameraShake.cs" t="Include" />
-            <e p="freezePlayerBehaviour.cs" t="Include" />
-            <e p="IntroController_0.cs" t="Include" />
           </e>
           <e p="LedgeGrabDirectional" t="Include">
             <e p="LedgeGrab.cs" t="Include" />
