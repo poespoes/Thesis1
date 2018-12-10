@@ -64,33 +64,33 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cs" value="92" />
+          <entry key="cs" value="93" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="C#" value="92" />
+          <entry key="C#" value="93" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="16332" />
+          <entry key="cs" value="16540" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="16332" />
+          <entry key="C#" value="16540" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/CutsceneScripts/CutsceneManager.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="726">
-              <caret line="79" column="8" lean-forward="true" selection-start-line="79" selection-start-column="8" selection-end-line="79" selection-end-column="8" />
+              <caret line="79" column="8" selection-start-line="79" selection-start-column="8" selection-end-line="79" selection-end-column="8" />
               <folding>
                 <marker date="1544468720705" expanded="false" signature="6:78" ph="..." />
                 <marker date="1544468720705" expanded="true" signature="110:2000" ph="{...}" />
@@ -130,36 +130,36 @@
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameState/CutsceneTrigger.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="496">
-              <caret line="34" column="32" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
+              <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
               <folding>
-                <marker date="1544468722689" expanded="false" signature="6:106" ph="..." />
-                <marker date="1544468722689" expanded="true" signature="138:598" ph="{...}" />
-                <marker date="1544468722689" expanded="true" signature="186:596" ph="{...}" />
-                <marker date="1544468722689" expanded="true" signature="326:335" ph="{...}" />
-                <marker date="1544468722689" expanded="true" signature="389:398" ph="{...}" />
-                <marker date="1544468722689" expanded="true" signature="449:593" ph="{...}" />
-                <marker date="1544468722689" expanded="true" signature="483:589" ph="{...}" />
+                <marker date="1544468906116" expanded="false" signature="6:106" ph="..." />
+                <marker date="1544468906116" expanded="true" signature="138:612" ph="{...}" />
+                <marker date="1544468906116" expanded="true" signature="186:610" ph="{...}" />
+                <marker date="1544468906116" expanded="true" signature="326:335" ph="{...}" />
+                <marker date="1544468906116" expanded="true" signature="389:398" ph="{...}" />
+                <marker date="1544468906116" expanded="true" signature="449:607" ph="{...}" />
+                <marker date="1544468906116" expanded="true" signature="483:603" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/CutsceneScripts/TimedAnimationPlay.cs">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scenes/CutsceneScripts/cinematicCameraTween.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="640">
-              <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
+            <state relative-caret-position="816">
+              <caret line="54" column="42" selection-start-line="54" selection-start-column="42" selection-end-line="54" selection-end-column="42" />
               <folding>
-                <marker date="1544460261629" expanded="false" signature="6:78" ph="..." />
-                <marker date="1544460261629" expanded="true" signature="127:919" ph="{...}" />
-                <marker date="1544460261629" expanded="true" signature="412:422" ph="{...}" />
-                <marker date="1544460261629" expanded="true" signature="512:652" ph="{...}" />
-                <marker date="1544460261629" expanded="true" signature="544:649" ph="{...}" />
-                <marker date="1544460261629" expanded="true" signature="619:645" ph="{...}" />
-                <marker date="1544460261629" expanded="true" signature="670:746" ph="{...}" />
-                <marker date="1544460261629" expanded="true" signature="697:743" ph="{...}" />
-                <marker date="1544460261629" expanded="true" signature="771:810" ph="{...}" />
-                <marker date="1544460261629" expanded="true" signature="840:917" ph="{...}" />
+                <marker date="1544469421879" expanded="false" signature="6:97" ph="..." />
+                <marker date="1544469421879" expanded="true" signature="129:892" ph="{...}" />
+                <marker date="1544469421879" expanded="true" signature="182:890" ph="{...}" />
+                <marker date="1544469421879" expanded="true" signature="397:461" ph="{...}" />
+                <marker date="1544469421879" expanded="true" signature="515:524" ph="{...}" />
+                <marker date="1544469421879" expanded="true" signature="539:588" ph="{...}" />
+                <marker date="1544469421879" expanded="true" signature="603:652" ph="{...}" />
+                <marker date="1544469421879" expanded="true" signature="671:708" ph="{...}" />
+                <marker date="1544469421879" expanded="true" signature="759:887" ph="{...}" />
+                <marker date="1544469421879" expanded="true" signature="793:883" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -458,15 +458,15 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/NewLight.cs" />
         <option value="$PROJECT_DIR$/Assets/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/VineScript/VineKillLight.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/CutsceneScripts/cinematicCameraTween.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameState/gameState.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnvironmentalScript/letThereBeLight.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/IntroScene/TimedAnimationPlay.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/refocusCamera.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CutsceneScripts/TimedAnimationPlay.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI Script/UICrossFade.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameState/CutsceneTrigger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CutsceneScripts/CutsceneManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameState/CutsceneTrigger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/CutsceneScripts/cinematicCameraTween.cs" />
       </list>
     </option>
   </component>
@@ -592,12 +592,12 @@
       <workItem from="1544369699103" duration="1455000" />
       <workItem from="1544395896678" duration="5928000" />
       <workItem from="1544456770069" duration="4093000" />
-      <workItem from="1544468213385" duration="509000" />
+      <workItem from="1544468213385" duration="1215000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="217383000" />
+    <option name="totallyTimeSpent" value="218089000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -837,13 +837,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1040">
           <caret line="69" column="5" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scenes/CutsceneScripts/cinematicCameraTween.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="38" column="49" selection-start-line="38" selection-start-column="49" selection-end-line="38" selection-end-column="49" />
         </state>
       </provider>
     </entry>
@@ -1089,26 +1082,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameState/CutsceneTrigger.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="34" column="32" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
-          <folding>
-            <marker date="1544468722689" expanded="false" signature="6:106" ph="..." />
-            <marker date="1544468722689" expanded="true" signature="138:598" ph="{...}" />
-            <marker date="1544468722689" expanded="true" signature="186:596" ph="{...}" />
-            <marker date="1544468722689" expanded="true" signature="326:335" ph="{...}" />
-            <marker date="1544468722689" expanded="true" signature="389:398" ph="{...}" />
-            <marker date="1544468722689" expanded="true" signature="449:593" ph="{...}" />
-            <marker date="1544468722689" expanded="true" signature="483:589" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/CutsceneScripts/CutsceneManager.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="726">
-          <caret line="79" column="8" lean-forward="true" selection-start-line="79" selection-start-column="8" selection-end-line="79" selection-end-column="8" />
+          <caret line="79" column="8" selection-start-line="79" selection-start-column="8" selection-end-line="79" selection-end-column="8" />
           <folding>
             <marker date="1544468720705" expanded="false" signature="6:78" ph="..." />
             <marker date="1544468720705" expanded="true" signature="110:2000" ph="{...}" />
@@ -1120,6 +1097,41 @@
             <marker date="1544468720705" expanded="true" signature="1452:1684" ph="{...}" />
             <marker date="1544468720705" expanded="true" signature="1706:1838" ph="{...}" />
             <marker date="1544468720705" expanded="true" signature="1861:1995" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameState/CutsceneTrigger.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+          <folding>
+            <marker date="1544468906116" expanded="false" signature="6:106" ph="..." />
+            <marker date="1544468906116" expanded="true" signature="138:612" ph="{...}" />
+            <marker date="1544468906116" expanded="true" signature="186:610" ph="{...}" />
+            <marker date="1544468906116" expanded="true" signature="326:335" ph="{...}" />
+            <marker date="1544468906116" expanded="true" signature="389:398" ph="{...}" />
+            <marker date="1544468906116" expanded="true" signature="449:607" ph="{...}" />
+            <marker date="1544468906116" expanded="true" signature="483:603" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scenes/CutsceneScripts/cinematicCameraTween.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="54" column="42" selection-start-line="54" selection-start-column="42" selection-end-line="54" selection-end-column="42" />
+          <folding>
+            <marker date="1544469421879" expanded="false" signature="6:97" ph="..." />
+            <marker date="1544469421879" expanded="true" signature="129:892" ph="{...}" />
+            <marker date="1544469421879" expanded="true" signature="182:890" ph="{...}" />
+            <marker date="1544469421879" expanded="true" signature="397:461" ph="{...}" />
+            <marker date="1544469421879" expanded="true" signature="515:524" ph="{...}" />
+            <marker date="1544469421879" expanded="true" signature="539:588" ph="{...}" />
+            <marker date="1544469421879" expanded="true" signature="603:652" ph="{...}" />
+            <marker date="1544469421879" expanded="true" signature="671:708" ph="{...}" />
+            <marker date="1544469421879" expanded="true" signature="759:887" ph="{...}" />
+            <marker date="1544469421879" expanded="true" signature="793:883" ph="{...}" />
           </folding>
         </state>
       </provider>

@@ -13,6 +13,8 @@ namespace Cinemachine.Examples
 
 		public Vector3 posA;
 		public Vector3 posB;
+
+		public bool ActivatesOnTrigger;
 		
 		public float time;
 
@@ -39,6 +41,19 @@ namespace Cinemachine.Examples
 			camPos1.transform.DOMove(posA, time);
 		}
 
+		void killSelf()
+		{
+			Destroy(this.gameObject);
+		}
 
+		private void OnTriggerEnter2D(Collider2D other)
+		{
+			if (other.tag == "Player")
+			{
+				AtoB();
+				Invoke("killSelf",time*2);
+				
+			}
+		}
 	}
 }
