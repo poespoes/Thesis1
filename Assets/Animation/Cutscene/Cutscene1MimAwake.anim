@@ -240,6 +240,8 @@ AnimationClip:
       value: {fileID: 21300000, guid: cf0304ecafac42f47963847893077fd4, type: 3}
     - time: 7.266667
       value: {fileID: 21300000, guid: aef2891027e1f7a45a3decb57304573f, type: 3}
+    - time: 10.9
+      value: {fileID: 0}
     attribute: m_Sprite
     path: AnimationPosition/Mim
     classID: 212
@@ -404,6 +406,7 @@ AnimationClip:
     - {fileID: 21300000, guid: a57403cfb4bb3f949818d9ce16c30af4, type: 3}
     - {fileID: 21300000, guid: cf0304ecafac42f47963847893077fd4, type: 3}
     - {fileID: 21300000, guid: aef2891027e1f7a45a3decb57304573f, type: 3}
+    - {fileID: 0}
     - {fileID: 21300000, guid: 99dbde63b8c10c54da073c6496fcd4c0, type: 3}
     - {fileID: 21300000, guid: 65a3c6af39819a24aa119c2ec672315f, type: 3}
     - {fileID: 21300000, guid: dc27ccfa8f10af146ae4a12e339fba00, type: 3}
