@@ -363,6 +363,7 @@
             <e p="UICrossFade.cs" t="Include" />
           </e>
           <e p="VineScript" t="Include">
+            <e p="NewVineTrigger.cs" t="Include" />
             <e p="Vine Prototype.cs" t="Include" />
             <e p="VineChaseLight.cs" t="Include" />
             <e p="VineKillLight.cs" t="Include" />
