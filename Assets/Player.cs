@@ -155,10 +155,13 @@ public class Player : MonoBehaviour {
                 if (Input.GetAxisRaw("Horizontal") > 0)
                 {
                     this.GetComponent<SpriteRenderer>().flipX = false;
+                    GameObject.Find("MimLeaf/Leaf").GetComponent<SpriteRenderer>().flipX = false;
+
                 }
                 else
                 {
                     this.GetComponent<SpriteRenderer>().flipX = true;
+                    GameObject.Find("MimLeaf/Leaf").GetComponent<SpriteRenderer>().flipX = true;
                 }
 
             }
