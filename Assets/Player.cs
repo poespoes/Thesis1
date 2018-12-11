@@ -44,6 +44,8 @@ public class Player : MonoBehaviour {
     public bool canDie;
     public GameObject VineChase;
 
+    public bool noLeaf;
+
     void Start() {
         targetPos = transform.position.x;
         WalkingState = this.GetComponent<PlayerAnimation>().WalkingState;

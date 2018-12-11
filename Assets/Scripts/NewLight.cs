@@ -27,6 +27,7 @@ public class NewLight : MonoBehaviour {
 
     public gameState g_state;
     public bool interactive;
+    public bool noLeaf;
     
     private void Start() {
         player = GameObject.Find("Player");
@@ -43,6 +44,12 @@ public class NewLight : MonoBehaviour {
 
     private void Update() {
         interactive = g_state.interactive;
+
+        noLeaf = player.GetComponent<Player>().noLeaf;
+
+
+        mimLeaf.GetComponent<SpriteRenderer>().enabled = !noLeaf;
+       
         
         if (isScalingDown==true) {
             dimTime += Time.deltaTime / TimeToScale;
@@ -70,20 +77,23 @@ public class NewLight : MonoBehaviour {
 
         if (interactive == true)
         {
-            if (isTransforming == false)
+            if (noLeaf == false)
             {
-                if (Input.GetButton("Fire1"))
+                if (isTransforming == false)
                 {
-                    isScalingDown = false;
-                    Debug.Log("Light is not shrinking");
-                    LightOff();
+                    if (Input.GetButton("Fire1"))
+                    {
+                        isScalingDown = false;
+                        Debug.Log("Light is not shrinking");
+                        LightOff();
 
 
-                }
-                else
-                {
-                    isScalingDown = true;
-                    LightOn();
+                    }
+                    else
+                    {
+                        isScalingDown = true;
+                        LightOn();
+                    }
                 }
             }
         }
