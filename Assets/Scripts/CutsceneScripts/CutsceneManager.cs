@@ -50,6 +50,7 @@ namespace Cinemachine.Examples
 			player.GetComponent<Player>().isWalking = false;
 			player.GetComponent<Animator>().Play("Idle");
 			player.GetComponent<SpriteRenderer>().enabled = false;
+			player.transform.Find("MimHL").GetComponent<SpriteRenderer>().enabled = false;
 			mimLeaf.GetComponentInChildren<SpriteRenderer>().enabled = false;
 
 			if (camera != null)
@@ -66,6 +67,7 @@ namespace Cinemachine.Examples
 			GameObject.Find("GameManager").GetComponent<gameState>().interactive = true;
 			player.GetComponent<SpriteRenderer>().enabled = true;
 			mimLeaf.GetComponentInChildren<SpriteRenderer>().enabled = true;
+			player.transform.Find("MimHL").GetComponent<SpriteRenderer>().enabled = true;
 			ReturnCamera();
 		}
 

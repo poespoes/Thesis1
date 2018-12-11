@@ -156,12 +156,14 @@ public class Player : MonoBehaviour {
                 {
                     this.GetComponent<SpriteRenderer>().flipX = false;
                     GameObject.Find("MimLeaf/Leaf").GetComponent<SpriteRenderer>().flipX = false;
+                    this.transform.Find("MimHL").GetComponent<SpriteRenderer>().flipX = false;
 
                 }
                 else
                 {
                     this.GetComponent<SpriteRenderer>().flipX = true;
                     GameObject.Find("MimLeaf/Leaf").GetComponent<SpriteRenderer>().flipX = true;
+                    this.transform.Find("MimHL").GetComponent<SpriteRenderer>().flipX = true;
                 }
 
             }
