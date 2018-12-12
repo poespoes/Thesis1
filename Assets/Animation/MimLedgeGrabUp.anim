@@ -114,6 +114,8 @@ AnimationClip:
       value: {fileID: 21300000, guid: 65fe7e20c6b47c54e8213ca2701056bb, type: 3}
     - time: 0.45
       value: {fileID: 21300000, guid: 65fe7e20c6b47c54e8213ca2701056bb, type: 3}
+    - time: 0.48333332
+      value: {fileID: 0}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -183,12 +185,13 @@ AnimationClip:
     - {fileID: 21300000, guid: 65fe7e20c6b47c54e8213ca2701056bb, type: 3}
     - {fileID: 21300000, guid: 65fe7e20c6b47c54e8213ca2701056bb, type: 3}
     - {fileID: 0}
+    - {fileID: 0}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.46666667
+    m_StopTime: 0.5
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -483,7 +486,7 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_GenerateMotionCurves: 0
   m_Events:
-  - time: 0.45
+  - time: 0.48333332
     functionName: MantleUp
     data: 
     objectReferenceParameter: {fileID: 0}
