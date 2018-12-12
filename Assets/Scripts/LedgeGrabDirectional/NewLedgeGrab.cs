@@ -45,21 +45,23 @@ public class NewLedgeGrab : MonoBehaviour
 	{
 		if (isActive == true)
 		{
-			if (other.CompareTag("grabLedge"))
+			if (player.GetComponent<Player>().canJump == false)
 			{
-				Debug.Log("Can grab this ledge");
-				canGrab = true;
+				if (other.CompareTag("grabLedge"))
+				{
+					Debug.Log("Can grab this ledge");
+					canGrab = true;
 
-				ledge = other.gameObject;
-				GrabEdge();
+					ledge = other.gameObject;
+					GrabEdge();
+				}
 			}
 		}
 	}
 
 	private void OnTriggerExit2D(Collider2D other)
 	{
-		if (player.GetComponent<Player>().canJump == false)
-		{
+		
 			if (other.CompareTag("grabLedge"))
 			{
 				Debug.Log("Left Edge");
@@ -67,7 +69,8 @@ public class NewLedgeGrab : MonoBehaviour
 
 				ledge = null;
 			}
-		}
+		
+
 	}
 
 	private void GrabEdge()

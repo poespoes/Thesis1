@@ -74,12 +74,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="20669" />
+          <entry key="cs" value="20717" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="20669" />
+          <entry key="C#" value="20717" />
         </counts>
       </usages-collector>
     </session>
@@ -89,10 +89,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/LedgeGrabDirectional/LedgeGrab.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
+            <state relative-caret-position="256">
               <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
               <folding>
-                <marker date="1544642003247" expanded="true" signature="6:97" ph="..." />
+                <marker date="1544642003247" expanded="false" signature="6:97" ph="..." />
                 <marker date="1544642003247" expanded="true" signature="137:2421" ph="{...}" />
                 <marker date="1544642003247" expanded="true" signature="314:406" ph="{...}" />
                 <marker date="1544642003247" expanded="true" signature="461:487" ph="{...}" />
@@ -130,51 +130,50 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/LedgeGrabDirectional/NewLedgeGrab.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="566">
-              <caret line="109" selection-start-line="109" selection-end-line="109" />
+            <state relative-caret-position="359">
+              <caret line="60" column="8" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
               <folding>
-                <marker date="1544654313157" expanded="false" signature="6:178" ph="..." />
-                <marker date="1544654313157" expanded="true" signature="221:2642" ph="{...}" />
-                <marker date="1544654313157" expanded="true" signature="421:555" ph="{...}" />
-                <marker date="1544654313157" expanded="true" signature="610:766" ph="{...}" />
-                <marker date="1544654313157" expanded="true" signature="660:763" ph="{...}" />
-                <marker date="1544654313157" expanded="true" signature="735:759" ph="{...}" />
-                <marker date="1544654313157" expanded="true" signature="816:1007" ph="{...}" />
-                <marker date="1544654313157" expanded="true" signature="843:1004" ph="{...}" />
-                <marker date="1544654313157" expanded="true" signature="885:1000" ph="{...}" />
-                <marker date="1544654313157" expanded="true" signature="1056:1240" ph="{...}" />
-                <marker date="1544654313157" expanded="true" signature="1113:1237" ph="{...}" />
-                <marker date="1544654313157" expanded="false" signature="1155:1233" ph="{...}" />
-                <marker date="1544654313157" expanded="true" signature="1266:2097" ph="{...}" />
-                <marker date="1544654313157" expanded="true" signature="1293:2094" ph="{...}" />
-                <marker date="1544654313157" expanded="true" signature="1321:2090" ph="{...}" />
-                <marker date="1544654313157" expanded="true" signature="1382:2085" ph="{...}" />
-                <marker date="1544654313157" expanded="true" signature="2048:2078" ph="{...}" />
-                <marker date="1544654313157" expanded="true" signature="2121:2640" ph="{...}" />
-                <marker date="1544654313157" expanded="true" signature="2360:2623" ph="/* player.transform.position = ledge.GetComponent&lt;Ledge&gt;().getUpPos.position; ... */" />
+                <marker date="1544655182696" expanded="false" signature="6:178" ph="..." />
+                <marker date="1544655182696" expanded="true" signature="221:2586" ph="{...}" />
+                <marker date="1544655182696" expanded="true" signature="421:555" ph="{...}" />
+                <marker date="1544655182696" expanded="true" signature="610:766" ph="{...}" />
+                <marker date="1544655182696" expanded="true" signature="660:763" ph="{...}" />
+                <marker date="1544655182696" expanded="true" signature="735:759" ph="{...}" />
+                <marker date="1544655182696" expanded="true" signature="816:1007" ph="{...}" />
+                <marker date="1544655182696" expanded="true" signature="843:1004" ph="{...}" />
+                <marker date="1544655182696" expanded="true" signature="885:1000" ph="{...}" />
+                <marker date="1544655182696" expanded="true" signature="1056:1184" ph="{...}" />
+                <marker date="1544655182696" expanded="true" signature="1100:1178" ph="{...}" />
+                <marker date="1544655182696" expanded="true" signature="1210:2041" ph="{...}" />
+                <marker date="1544655182696" expanded="true" signature="1237:2038" ph="{...}" />
+                <marker date="1544655182696" expanded="true" signature="1265:2034" ph="{...}" />
+                <marker date="1544655182696" expanded="true" signature="1326:2029" ph="{...}" />
+                <marker date="1544655182696" expanded="true" signature="1992:2022" ph="{...}" />
+                <marker date="1544655182696" expanded="true" signature="2065:2584" ph="{...}" />
+                <marker date="1544655182696" expanded="true" signature="2304:2567" ph="/* player.transform.position = ledge.GetComponent&lt;Ledge&gt;().getUpPos.position; ... */" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/LedgeGrabDirectional/Mantle.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="592">
-              <caret line="49" column="12" lean-forward="true" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
+            <state relative-caret-position="736">
+              <caret line="49" column="54" selection-start-line="49" selection-start-column="54" selection-end-line="49" selection-end-column="54" />
               <folding>
-                <marker date="1544654799936" expanded="false" signature="6:97" ph="..." />
-                <marker date="1544654799936" expanded="true" signature="129:1650" ph="{...}" />
-                <marker date="1544654799936" expanded="true" signature="168:1648" ph="{...}" />
-                <marker date="1544654799936" expanded="true" signature="427:701" ph="{...}" />
-                <marker date="1544654799936" expanded="true" signature="755:764" ph="{...}" />
-                <marker date="1544654799936" expanded="true" signature="809:1140" ph="{...}" />
-                <marker date="1544654799936" expanded="true" signature="984:1136" ph="/* cameraControl.FocusCamera(vCam); ... */" />
-                <marker date="1544654799936" expanded="true" signature="1166:1645" ph="{...}" />
-                <marker date="1544654799936" expanded="true" signature="1207:1285" ph="/* vCam.m_Follow = this.transform; ... */" />
+                <marker date="1544654888997" expanded="false" signature="6:97" ph="..." />
+                <marker date="1544654888997" expanded="true" signature="129:1710" ph="{...}" />
+                <marker date="1544654888997" expanded="true" signature="168:1708" ph="{...}" />
+                <marker date="1544654888997" expanded="true" signature="427:701" ph="{...}" />
+                <marker date="1544654888997" expanded="true" signature="755:764" ph="{...}" />
+                <marker date="1544654888997" expanded="true" signature="809:1200" ph="{...}" />
+                <marker date="1544654888997" expanded="true" signature="1044:1196" ph="/* cameraControl.FocusCamera(vCam); ... */" />
+                <marker date="1544654888997" expanded="true" signature="1226:1705" ph="{...}" />
+                <marker date="1544654888997" expanded="true" signature="1267:1345" ph="/* vCam.m_Follow = this.transform; ... */" />
               </folding>
             </state>
           </provider>
@@ -451,8 +450,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraControl.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LedgeGrabDirectional/PositionMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Lightbringer/lightTransform.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/LedgeGrabDirectional/NewLedgeGrab.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LedgeGrabDirectional/Mantle.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LedgeGrabDirectional/NewLedgeGrab.cs" />
       </list>
     </option>
   </component>
@@ -581,12 +580,12 @@
       <workItem from="1544468213385" duration="1215000" />
       <workItem from="1544548561502" duration="10192000" />
       <workItem from="1544638650141" duration="8719000" />
-      <workItem from="1544653851339" duration="961000" />
+      <workItem from="1544653851339" duration="1332000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="237961000" />
+    <option name="totallyTimeSpent" value="238332000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -685,13 +684,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/Scripts/LedgeGrabDirectional/NewLedgeGrab.cs</url>
-          <line>62</line>
+          <line>61</line>
           <properties documentPath="$PROJECT_DIR$/Assets/Scripts/LedgeGrabDirectional/NewLedgeGrab.cs" initialLine="60">
             <startOffsets>
-              <option value="1121" />
+              <option value="1066" />
             </startOffsets>
             <endOffsets>
-              <option value="1155" />
+              <option value="1100" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="4" />
@@ -951,31 +950,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/LedgeGrabDirectional/LedgeGrab.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
-          <folding>
-            <marker date="1544642003247" expanded="true" signature="6:97" ph="..." />
-            <marker date="1544642003247" expanded="true" signature="137:2421" ph="{...}" />
-            <marker date="1544642003247" expanded="true" signature="314:406" ph="{...}" />
-            <marker date="1544642003247" expanded="true" signature="461:487" ph="{...}" />
-            <marker date="1544642003247" expanded="true" signature="537:712" ph="{...}" />
-            <marker date="1544642003247" expanded="true" signature="564:709" ph="{...}" />
-            <marker date="1544642003247" expanded="true" signature="606:705" ph="{...}" />
-            <marker date="1544642003247" expanded="true" signature="761:877" ph="{...}" />
-            <marker date="1544642003247" expanded="true" signature="801:874" ph="{...}" />
-            <marker date="1544642003247" expanded="true" signature="903:1711" ph="{...}" />
-            <marker date="1544642003247" expanded="true" signature="930:1708" ph="{...}" />
-            <marker date="1544642003247" expanded="true" signature="958:1704" ph="{...}" />
-            <marker date="1544642003247" expanded="true" signature="1019:1699" ph="{...}" />
-            <marker date="1544642003247" expanded="true" signature="1662:1692" ph="{...}" />
-            <marker date="1544642003247" expanded="true" signature="1735:2419" ph="{...}" />
-            <marker date="1544642003247" expanded="true" signature="1741:1921" ph="/* player.transform.position = ledge.GetComponent&lt;Ledge&gt;().getUpPos.position; ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/LedgeGrabDirectional/LedgeRight.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -1091,48 +1065,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/LedgeGrabDirectional/NewLedgeGrab.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/LedgeGrabDirectional/Mantle.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="566">
-          <caret line="109" selection-start-line="109" selection-end-line="109" />
+        <state relative-caret-position="736">
+          <caret line="49" column="54" selection-start-line="49" selection-start-column="54" selection-end-line="49" selection-end-column="54" />
           <folding>
-            <marker date="1544654313157" expanded="false" signature="6:178" ph="..." />
-            <marker date="1544654313157" expanded="true" signature="221:2642" ph="{...}" />
-            <marker date="1544654313157" expanded="true" signature="421:555" ph="{...}" />
-            <marker date="1544654313157" expanded="true" signature="610:766" ph="{...}" />
-            <marker date="1544654313157" expanded="true" signature="660:763" ph="{...}" />
-            <marker date="1544654313157" expanded="true" signature="735:759" ph="{...}" />
-            <marker date="1544654313157" expanded="true" signature="816:1007" ph="{...}" />
-            <marker date="1544654313157" expanded="true" signature="843:1004" ph="{...}" />
-            <marker date="1544654313157" expanded="true" signature="885:1000" ph="{...}" />
-            <marker date="1544654313157" expanded="true" signature="1056:1240" ph="{...}" />
-            <marker date="1544654313157" expanded="true" signature="1113:1237" ph="{...}" />
-            <marker date="1544654313157" expanded="false" signature="1155:1233" ph="{...}" />
-            <marker date="1544654313157" expanded="true" signature="1266:2097" ph="{...}" />
-            <marker date="1544654313157" expanded="true" signature="1293:2094" ph="{...}" />
-            <marker date="1544654313157" expanded="true" signature="1321:2090" ph="{...}" />
-            <marker date="1544654313157" expanded="true" signature="1382:2085" ph="{...}" />
-            <marker date="1544654313157" expanded="true" signature="2048:2078" ph="{...}" />
-            <marker date="1544654313157" expanded="true" signature="2121:2640" ph="{...}" />
-            <marker date="1544654313157" expanded="true" signature="2360:2623" ph="/* player.transform.position = ledge.GetComponent&lt;Ledge&gt;().getUpPos.position; ... */" />
+            <marker date="1544654888997" expanded="false" signature="6:97" ph="..." />
+            <marker date="1544654888997" expanded="true" signature="129:1710" ph="{...}" />
+            <marker date="1544654888997" expanded="true" signature="168:1708" ph="{...}" />
+            <marker date="1544654888997" expanded="true" signature="427:701" ph="{...}" />
+            <marker date="1544654888997" expanded="true" signature="755:764" ph="{...}" />
+            <marker date="1544654888997" expanded="true" signature="809:1200" ph="{...}" />
+            <marker date="1544654888997" expanded="true" signature="1044:1196" ph="/* cameraControl.FocusCamera(vCam); ... */" />
+            <marker date="1544654888997" expanded="true" signature="1226:1705" ph="{...}" />
+            <marker date="1544654888997" expanded="true" signature="1267:1345" ph="/* vCam.m_Follow = this.transform; ... */" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/LedgeGrabDirectional/Mantle.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/LedgeGrabDirectional/LedgeGrab.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="592">
-          <caret line="49" column="12" lean-forward="true" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
+        <state relative-caret-position="256">
+          <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
           <folding>
-            <marker date="1544654799936" expanded="false" signature="6:97" ph="..." />
-            <marker date="1544654799936" expanded="true" signature="129:1650" ph="{...}" />
-            <marker date="1544654799936" expanded="true" signature="168:1648" ph="{...}" />
-            <marker date="1544654799936" expanded="true" signature="427:701" ph="{...}" />
-            <marker date="1544654799936" expanded="true" signature="755:764" ph="{...}" />
-            <marker date="1544654799936" expanded="true" signature="809:1140" ph="{...}" />
-            <marker date="1544654799936" expanded="true" signature="984:1136" ph="/* cameraControl.FocusCamera(vCam); ... */" />
-            <marker date="1544654799936" expanded="true" signature="1166:1645" ph="{...}" />
-            <marker date="1544654799936" expanded="true" signature="1207:1285" ph="/* vCam.m_Follow = this.transform; ... */" />
+            <marker date="1544642003247" expanded="false" signature="6:97" ph="..." />
+            <marker date="1544642003247" expanded="true" signature="137:2421" ph="{...}" />
+            <marker date="1544642003247" expanded="true" signature="314:406" ph="{...}" />
+            <marker date="1544642003247" expanded="true" signature="461:487" ph="{...}" />
+            <marker date="1544642003247" expanded="true" signature="537:712" ph="{...}" />
+            <marker date="1544642003247" expanded="true" signature="564:709" ph="{...}" />
+            <marker date="1544642003247" expanded="true" signature="606:705" ph="{...}" />
+            <marker date="1544642003247" expanded="true" signature="761:877" ph="{...}" />
+            <marker date="1544642003247" expanded="true" signature="801:874" ph="{...}" />
+            <marker date="1544642003247" expanded="true" signature="903:1711" ph="{...}" />
+            <marker date="1544642003247" expanded="true" signature="930:1708" ph="{...}" />
+            <marker date="1544642003247" expanded="true" signature="958:1704" ph="{...}" />
+            <marker date="1544642003247" expanded="true" signature="1019:1699" ph="{...}" />
+            <marker date="1544642003247" expanded="true" signature="1662:1692" ph="{...}" />
+            <marker date="1544642003247" expanded="true" signature="1735:2419" ph="{...}" />
+            <marker date="1544642003247" expanded="true" signature="1741:1921" ph="/* player.transform.position = ledge.GetComponent&lt;Ledge&gt;().getUpPos.position; ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/LedgeGrabDirectional/NewLedgeGrab.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="60" column="8" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
+          <folding>
+            <marker date="1544655182696" expanded="false" signature="6:178" ph="..." />
+            <marker date="1544655182696" expanded="true" signature="221:2586" ph="{...}" />
+            <marker date="1544655182696" expanded="true" signature="421:555" ph="{...}" />
+            <marker date="1544655182696" expanded="true" signature="610:766" ph="{...}" />
+            <marker date="1544655182696" expanded="true" signature="660:763" ph="{...}" />
+            <marker date="1544655182696" expanded="true" signature="735:759" ph="{...}" />
+            <marker date="1544655182696" expanded="true" signature="816:1007" ph="{...}" />
+            <marker date="1544655182696" expanded="true" signature="843:1004" ph="{...}" />
+            <marker date="1544655182696" expanded="true" signature="885:1000" ph="{...}" />
+            <marker date="1544655182696" expanded="true" signature="1056:1184" ph="{...}" />
+            <marker date="1544655182696" expanded="true" signature="1100:1178" ph="{...}" />
+            <marker date="1544655182696" expanded="true" signature="1210:2041" ph="{...}" />
+            <marker date="1544655182696" expanded="true" signature="1237:2038" ph="{...}" />
+            <marker date="1544655182696" expanded="true" signature="1265:2034" ph="{...}" />
+            <marker date="1544655182696" expanded="true" signature="1326:2029" ph="{...}" />
+            <marker date="1544655182696" expanded="true" signature="1992:2022" ph="{...}" />
+            <marker date="1544655182696" expanded="true" signature="2065:2584" ph="{...}" />
+            <marker date="1544655182696" expanded="true" signature="2304:2567" ph="/* player.transform.position = ledge.GetComponent&lt;Ledge&gt;().getUpPos.position; ... */" />
           </folding>
         </state>
       </provider>
