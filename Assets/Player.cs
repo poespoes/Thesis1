@@ -46,6 +46,9 @@ public class Player : MonoBehaviour {
 
     public bool noLeaf;
 
+    public bool canGrab;
+    public bool isGrabbing;
+
     void Start() {
         targetPos = transform.position.x;
         WalkingState = this.GetComponent<PlayerAnimation>().WalkingState;

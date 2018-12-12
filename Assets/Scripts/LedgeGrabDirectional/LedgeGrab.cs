@@ -26,7 +26,7 @@ public class LedgeGrab : MonoBehaviour
 	void Update () {
 		
 		
-		GrabEdge();
+		//GrabEdge();
 	}
 
 	private void OnTriggerEnter2D(Collider2D other)

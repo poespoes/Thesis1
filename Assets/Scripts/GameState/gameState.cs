@@ -32,6 +32,13 @@ public class gameState : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.R)) {
             Invoke("Restart", 1);
         }
+
+		if (interactive == false)
+		{
+			player.GetComponent<Rigidbody2D>().constraints =
+				RigidbodyConstraints2D.FreezePositionY | RigidbodyConstraints2D.FreezePositionX |
+				RigidbodyConstraints2D.FreezeRotation;
+		}
 	}
 
     void Restart() {
