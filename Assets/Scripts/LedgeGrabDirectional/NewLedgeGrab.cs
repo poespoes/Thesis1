@@ -62,13 +62,6 @@ public class NewLedgeGrab : MonoBehaviour
 	private void OnTriggerExit2D(Collider2D other)
 	{
 		
-			if (other.CompareTag("grabLedge"))
-			{
-				Debug.Log("Left Edge");
-				canGrab = false;
-
-				ledge = null;
-			}
 		
 
 	}
@@ -109,11 +102,11 @@ public class NewLedgeGrab : MonoBehaviour
 	private void PullUp()
 	{
 		
-		isGrabbing = false;
+		//isGrabbing = false;
 		player.GetComponent<Mantle>().MantleStart(ledge.GetComponent<Ledge>().getUpPos);
 		//GameObject.Find("GameManager").GetComponent<gameState>().interactive = true;
-		canGrab = false;
-		ledge = null;
+		//canGrab = false;
+		//ledge = null;
 		
 		
 		

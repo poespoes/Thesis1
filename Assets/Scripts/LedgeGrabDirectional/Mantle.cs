@@ -18,6 +18,8 @@ namespace Cinemachine.Examples
 
 		public AnimationClip pullUpClip;
 
+		public NewLedgeGrab NewLedge;
+
 		// Use this for initialization
 		void Start()
 		{
@@ -26,6 +28,8 @@ namespace Cinemachine.Examples
 			cameraControl = GameObject.Find("GameManager").GetComponent<CameraControl>();
 
 			//vCam = GameObject.Find("CM Vcam1").GetComponent<CinemachineVirtualCamera>();
+
+			NewLedge = GameObject.Find("GrabHand").GetComponent<NewLedgeGrab>();
 		}
 
 		// Update is called once per frame
@@ -65,6 +69,10 @@ namespace Cinemachine.Examples
 			player.GetComponent<PlayerAnimation>().WalkingState = 0;
 			player.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.None;
 			player.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeRotation;
+
+			NewLedge.canGrab = false;
+			NewLedge.ledge = null;
+			NewLedge.isGrabbing = false;
 
 			//player.transform.position = playerPos.position;
 		}
