@@ -18,14 +18,17 @@ public class PositionMove : MonoBehaviour
 	
 	// Update is called once per frame
 	void Update () {
-		if (Input.GetAxisRaw("Horizontal")<0||player.GetComponent<Rigidbody2D>().velocity.x<0)
+		if (this.GetComponent<NewLedgeGrab>().isGrabbing == false)
 		{
-			this.transform.position = left.transform.position;
-		}
-		
-		if (Input.GetAxisRaw("Horizontal")>0||player.GetComponent<Rigidbody2D>().velocity.x>0)
-		{
-			this.transform.position = right.transform.position;
+			if (Input.GetAxisRaw("Horizontal") < 0 || player.GetComponent<Rigidbody2D>().velocity.x < 0)
+			{
+				this.transform.position = left.transform.position;
+			}
+
+			if (Input.GetAxisRaw("Horizontal") > 0 || player.GetComponent<Rigidbody2D>().velocity.x > 0)
+			{
+				this.transform.position = right.transform.position;
+			}
 		}
 	}
 }
