@@ -75,7 +75,8 @@ public class NewLedgeGrab : MonoBehaviour
 				if (player.GetComponent<Player>().canJump == false)
 				{
 					isGrabbing = true;
-
+					player.GetComponent<Player>().canJump = false;
+					
 					player.GetComponent<Animator>().Play("MimLedgeGrab");
 					player.GetComponent<PlayerAnimation>().WalkingState = 6;
 
