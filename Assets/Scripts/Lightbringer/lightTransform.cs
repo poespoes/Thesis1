@@ -12,8 +12,11 @@ public class lightTransform : MonoBehaviour
 	void Start ()
 	{
 
-		newLight = GameObject.Find("MimLight").GetComponent<NewLight>();
-		
+		if (newLight == null)
+		{
+			newLight = GameObject.Find("MimLight").GetComponent<NewLight>();
+		}
+
 	}
 	
 	// Update is called once per frame

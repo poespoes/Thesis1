@@ -16,6 +16,8 @@ namespace Cinemachine.Examples
 
 		public CameraControl cameraControl;
 
+		public AnimationClip pullUpClip;
+
 		// Use this for initialization
 		void Start()
 		{
@@ -39,10 +41,13 @@ namespace Cinemachine.Examples
 			
 			player.GetComponent<Animator>().Play("MimLedgeGrabUp");
 			
+		
 			
 			//vCam.m_Follow = target;
 
 			playerPos = target;
+
+			player.transform.DOMove(playerPos.position, pullUpClip.length);
 
 			//cameraControl.FocusCamera(vCam);
 
@@ -61,7 +66,7 @@ namespace Cinemachine.Examples
 			player.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.None;
 			player.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeRotation;
 
-			player.transform.position = playerPos.position;
+			//player.transform.position = playerPos.position;
 		}
 	}
 }

@@ -58,12 +58,15 @@ public class NewLedgeGrab : MonoBehaviour
 
 	private void OnTriggerExit2D(Collider2D other)
 	{
-		if (other.CompareTag("grabLedge"))
+		if (player.GetComponent<Player>().canJump == false)
 		{
-			Debug.Log("Left Edge");
-			canGrab = false;
+			if (other.CompareTag("grabLedge"))
+			{
+				Debug.Log("Left Edge");
+				canGrab = false;
 
-			ledge = null;
+				ledge = null;
+			}
 		}
 	}
 
