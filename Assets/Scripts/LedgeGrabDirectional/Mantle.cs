@@ -8,7 +8,7 @@ namespace Cinemachine.Examples
 	public class Mantle : MonoBehaviour
 	{
 
-		public CinemachineVirtualCamera vCam;
+		//public CinemachineVirtualCamera vCam;
 		public gameState GameState;
 		public GameObject player;
 
@@ -40,11 +40,11 @@ namespace Cinemachine.Examples
 			player.GetComponent<Animator>().Play("MimLedgeGrabUp");
 			
 			
-			vCam.m_Follow = target;
+			//vCam.m_Follow = target;
 
 			playerPos = target;
 
-			cameraControl.FocusCamera(vCam);
+			//cameraControl.FocusCamera(vCam);
 
 			//vCam.transform.DOMove(new Vector3(transform.position.x,transform.position.y,vCam.transform.position.z),0.25f) ;
 		}
@@ -54,7 +54,7 @@ namespace Cinemachine.Examples
 			GameState.interactive = true;
 			//vCam.m_Follow = this.transform;
 			
-			cameraControl.ReturnToPrevCamera();
+			//cameraControl.ReturnToPrevCamera();
 			
 			player.GetComponent<Animator>().SetBool("MimLedgeGrab",false);
 			player.GetComponent<PlayerAnimation>().WalkingState = 0;
