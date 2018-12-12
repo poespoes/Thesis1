@@ -64,8 +64,9 @@ public class Player : MonoBehaviour {
 
         isLIt = true;
         invulnerable = false;
+
     }
-    
+
     void Update()
     {
      
@@ -293,7 +294,6 @@ public class Player : MonoBehaviour {
         }
         
         playerAnimator.SetBool("MimClimbing",isClimbing);
-       
     }
 
     public void Say() {
