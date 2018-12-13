@@ -369,6 +369,7 @@
         <e p="Scenes" t="Include">
           <e p="CutsceneScripts" t="Include">
             <e p="cinematicCameraTween.cs" t="Include" />
+            <e p="sceneTransition.cs" t="Include" />
           </e>
         </e>
         <e p="Scripts" t="Include">

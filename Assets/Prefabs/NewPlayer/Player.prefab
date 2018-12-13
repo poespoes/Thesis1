@@ -709,8 +709,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1150035870667502}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -218.9, y: 13.7, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -250.6, y: 96.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4236361575379050}
@@ -1115,7 +1115,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.5489205, y: 0.31101263}
+  m_Offset: {x: 0.49428096, y: 0.31101263}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -1126,7 +1126,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3.1482794, y: 2.8696635}
+  m_Size: {x: 1.9465129, y: 2.8696635}
   m_EdgeRadius: 0
 --- !u!61 &61211407806968562
 BoxCollider2D:
@@ -1918,7 +1918,7 @@ MonoBehaviour:
   canDie: 0
   respawnTime: 3
   VineChase: {fileID: 0}
-  noLeaf: 0
+  noLeaf: 1
   canGrab: 0
   isGrabbing: 0
   isDying: 0

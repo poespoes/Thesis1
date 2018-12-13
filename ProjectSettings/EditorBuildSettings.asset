@@ -23,7 +23,13 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Week11Scene3.unity
     guid: d94abd3dd00815c4ebd0bf22996f04b5
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Week15Mostafa.unity
     guid: 7a27135492d972548a7fae7281b88af3
+  - enabled: 1
+    path: Assets/Scenes/Intro/IntroMilestone2.unity
+    guid: 8311aa296641ffd4dabda6066abfa906
+  - enabled: 1
+    path: Assets/Scenes/MilestoneOneScene1.unity
+    guid: 42571f183e191a14aafc0adf3af3ec69
   m_configObjects: {}
