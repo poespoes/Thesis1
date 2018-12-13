@@ -4254,9 +4254,37 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
+  - time: 0.33333334
+    functionName: PlaySound
+    data: event:/Mim/Emotes/Wonder
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 4.4666667
+    functionName: PlaySound
+    data: event:/Mim/Emotes/Scared
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 7.7
+    functionName: PlaySound
+    data: event:/Mim/Emotes/Sad
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
   - time: 11.8
     functionName: Leafeon
     data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 11.933333
+    functionName: PlaySound
+    data: event:/Light/Glow
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
