@@ -632,6 +632,7 @@
             </e>
           </e>
         </e>
+        <e p="SpriteRendererON.cs" t="Include" />
         <e p="vineAttack.cs" t="Include" />
         <e p="VineFadeSound.cs" t="Include" />
         <e p="VirtualMouse.cs" t="Include" />
