@@ -392,6 +392,7 @@
             <e p="IntroController_0.cs" t="Include" />
             <e p="LetThereBeLeaf.cs" t="Include" />
             <e p="OneOffScripts" t="Include">
+              <e p="AnyKeyToStart.cs" t="Include" />
               <e p="MimLightEmoji.cs" t="Include" />
               <e p="VineSpawnScript.cs" t="Include" />
             </e>
@@ -592,6 +593,7 @@
                 <e p="{d5fb9bce-e303-4640-91cc-778896ebe7dd}.xml" t="Include" />
                 <e p="{ddbb75c5-d1bf-49e2-840a-f1b43458758c}.xml" t="Include" />
                 <e p="{e20fbb43-64f7-49e1-8aa0-5f2dbb87770c}.xml" t="Include" />
+                <e p="{e29035db-586e-4a3e-9987-17dec5f3083d}.xml" t="Include" />
                 <e p="{e938c130-e105-42ab-9d86-b9cc1820cd77}.xml" t="Include" />
                 <e p="{f2b19a62-724c-43a5-a30d-0f21e5569947}.xml" t="Include" />
                 <e p="{f4233425-b5e4-4daa-8742-8a442981be15}.xml" t="Include" />

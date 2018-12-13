@@ -124,6 +124,7 @@ GameObject:
   - component: {fileID: 67467805}
   - component: {fileID: 67467807}
   - component: {fileID: 67467808}
+  - component: {fileID: 67467809}
   m_Layer: 0
   m_Name: IntroAnimation
   m_TagString: Untagged
@@ -187,6 +188,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c00908f1f80357c4cb246728b83a03a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &67467809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 67467804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d0d3dc3aced8264597f608df7339ea2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anim: {fileID: 0}
 --- !u!1 &88174248
 GameObject:
   m_ObjectHideFlags: 0
