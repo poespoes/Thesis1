@@ -13,7 +13,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EditorBanks:
   - {fileID: 114421845935159226}
+<<<<<<< HEAD
   - {fileID: 114810731439606838}
+=======
+  - {fileID: 114854012098011482}
+>>>>>>> poebranch
   EditorEvents:
   - {fileID: 114164907182660860}
   - {fileID: 114650235364987478}
@@ -49,10 +53,16 @@ MonoBehaviour:
   - {fileID: 114332731394680082}
   MasterBanks:
   - {fileID: 114854012098011482}
+<<<<<<< HEAD
   - {fileID: 114810731439606838}
   StringsBanks:
   - {fileID: 114421845935159226}
   stringsBankWriteTime: 636802323430428706
+=======
+  StringsBanks:
+  - {fileID: 114421845935159226}
+  stringsBankWriteTime: 636802309756951357
+>>>>>>> poebranch
   cacheVersion: 3
 --- !u!114 &114030919375195582
 MonoBehaviour:
@@ -68,7 +78,11 @@ MonoBehaviour:
   Path: event:/Mim/Emotes/death
   guid: 629ab1f24c72a543a30d0f21e5569947
   Banks:
+<<<<<<< HEAD
   - {fileID: 114810731439606838}
+=======
+  - {fileID: 114854012098011482}
+>>>>>>> poebranch
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -90,7 +104,11 @@ MonoBehaviour:
   Path: event:/Mim/Emotes/Surprised
   guid: 7ee604b853c8f548b44fdd5a6b49c626
   Banks:
+<<<<<<< HEAD
   - {fileID: 114810731439606838}
+=======
+  - {fileID: 114854012098011482}
+>>>>>>> poebranch
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -112,7 +130,11 @@ MonoBehaviour:
   Path: event:/Test
   guid: 6ffac302177b3d4f902d19f97d290c2a
   Banks:
+<<<<<<< HEAD
   - {fileID: 114810731439606838}
+=======
+  - {fileID: 114854012098011482}
+>>>>>>> poebranch
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
@@ -121,6 +143,7 @@ MonoBehaviour:
   MaxDistance: 20
   Length: 82390
 --- !u!114 &114097635567214862
+<<<<<<< HEAD
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -143,6 +166,8 @@ MonoBehaviour:
   MaxDistance: 0
   Length: 0
 --- !u!114 &114154691548418908
+=======
+>>>>>>> poebranch
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -153,19 +178,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   Path: event:/BGMusic (2)
   guid: 28cbfd39a865be468cafc27602571a0f
   Banks:
   - {fileID: 114810731439606838}
   IsStream: 1
+=======
+  Path: event:/Vine/VineAttack
+  guid: 43bb0fe2f764e1498aa05f2dbb87770c
+  Banks:
+  - {fileID: 114854012098011482}
+  IsStream: 0
+>>>>>>> poebranch
   Is3D: 0
   IsOneShot: 0
   Parameters:
   - {fileID: 114923000086099696}
   MinDistance: 0
   MaxDistance: 0
+<<<<<<< HEAD
   Length: 90219
 --- !u!114 &114164907182660860
+=======
+  Length: 0
+--- !u!114 &114154691548418908
+>>>>>>> poebranch
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -176,6 +214,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   Path: event:/Vine/VineMovement
   guid: 050f850653e50947978651ed2aa1dd5c
   Banks:
@@ -188,21 +227,21 @@ MonoBehaviour:
   MaxDistance: 0
   Length: 2713
 --- !u!114 &114165345685603734
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Name: pan
-  Min: 0
-  Max: 1
-  Default: 0
---- !u!114 &114185642219015322
+=======
+  Path: event:/BGMusic (2)
+  guid: 28cbfd39a865be468cafc27602571a0f
+  Banks:
+  - {fileID: 114854012098011482}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 114732747813777158}
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 90219
+--- !u!114 &114164907182660860
+>>>>>>> poebranch
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -213,6 +252,37 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
+  Name: pan
+  Min: 0
+  Max: 1
+  Default: 0
+--- !u!114 &114185642219015322
+=======
+  Path: event:/Vine/VineMovement
+  guid: 050f850653e50947978651ed2aa1dd5c
+  Banks:
+  - {fileID: 114854012098011482}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2713
+--- !u!114 &114165345685603734
+>>>>>>> poebranch
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+<<<<<<< HEAD
   Path: event:/Mim/Locomotion/FootstepsNormal
   guid: c575bbddbfd1e249840af1b43458758c
   Banks:
@@ -226,6 +296,13 @@ MonoBehaviour:
   MaxDistance: 20
   Length: 400
 --- !u!114 &114200679682765386
+=======
+  Name: pan
+  Min: 0
+  Max: 1
+  Default: 0
+--- !u!114 &114185642219015322
+>>>>>>> poebranch
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -236,6 +313,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   Path: event:/Mim/Emotes/Wonder
   guid: 41a7e94287b9694d87568ec88698913a
   Banks:
@@ -248,6 +326,21 @@ MonoBehaviour:
   MaxDistance: 0
   Length: 3600
 --- !u!114 &114208133953772894
+=======
+  Path: event:/Mim/Locomotion/FootstepsNormal
+  guid: c575bbddbfd1e249840af1b43458758c
+  Banks:
+  - {fileID: 114854012098011482}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 114630442598203322}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 400
+--- !u!114 &114200679682765386
+>>>>>>> poebranch
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -258,16 +351,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   Path: event:/Mim/Emotes/MimPant
   guid: 34128021a3810d45a29e6f1f9f3bf761
   Banks:
   - {fileID: 114810731439606838}
+=======
+  Path: event:/Mim/Emotes/Wonder
+  guid: 41a7e94287b9694d87568ec88698913a
+  Banks:
+  - {fileID: 114854012098011482}
+>>>>>>> poebranch
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
+<<<<<<< HEAD
   Length: 2173
 --- !u!114 &114242676380012798
 MonoBehaviour:
@@ -292,6 +393,10 @@ MonoBehaviour:
   MaxDistance: 0
   Length: 5000
 --- !u!114 &114332731394680082
+=======
+  Length: 3600
+--- !u!114 &114208133953772894
+>>>>>>> poebranch
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -302,33 +407,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   Path: event:/Misc/Sticks
   guid: fd17e6b3a5214746960b742845b96e76
   Banks:
   - {fileID: 114810731439606838}
   IsStream: 1
+=======
+  Path: event:/Mim/Emotes/MimPant
+  guid: 34128021a3810d45a29e6f1f9f3bf761
+  Banks:
+  - {fileID: 114854012098011482}
+  IsStream: 0
+>>>>>>> poebranch
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
+<<<<<<< HEAD
   Length: 26279
 --- !u!114 &114344253626163584
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Name: pan
-  Min: 0
-  Max: 1
-  Default: 0
---- !u!114 &114397475862254830
+=======
+  Length: 2173
+--- !u!114 &114242676380012798
+>>>>>>> poebranch
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -339,18 +442,61 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
+  Name: pan
+  Min: 0
+  Max: 1
+  Default: 0
+--- !u!114 &114397475862254830
+=======
+  Path: event:/Mim/Locomotion/Climb
+  guid: d11a46d41c80874582747878498514d2
+  Banks:
+  - {fileID: 114854012098011482}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 5000
+--- !u!114 &114332731394680082
+>>>>>>> poebranch
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+<<<<<<< HEAD
   Path: event:/Mim/Locomotion/Jumpup
   guid: 5650761429955c43a96b3fe7375efda3
   Banks:
   - {fileID: 114810731439606838}
   IsStream: 0
+=======
+  Path: event:/Misc/Sticks
+  guid: fd17e6b3a5214746960b742845b96e76
+  Banks:
+  - {fileID: 114854012098011482}
+  IsStream: 1
+>>>>>>> poebranch
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
+<<<<<<< HEAD
   Length: 1080
 --- !u!114 &114421845935159226
+=======
+  Length: 26279
+--- !u!114 &114344253626163584
+>>>>>>> poebranch
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -361,6 +507,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   Path: Assets\Sound\Thesis1AudioFMOD\Build\Desktop\Master Bank.strings.bank
   lastModified: 636802323430428706
   LoadResult: 0
@@ -369,6 +516,13 @@ MonoBehaviour:
     Value: 2092
   Exists: 1
 --- !u!114 &114463796420947986
+=======
+  Name: pan
+  Min: 0
+  Max: 1
+  Default: 0
+--- !u!114 &114397475862254830
+>>>>>>> poebranch
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -379,6 +533,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   Path: event:/Vine/Vine
   guid: e3dde13a695fa04e963b280188673ca5
   Banks:
@@ -391,6 +546,20 @@ MonoBehaviour:
   MaxDistance: 20
   Length: 2713
 --- !u!114 &114465926072900142
+=======
+  Path: event:/Mim/Locomotion/Jumpup
+  guid: 5650761429955c43a96b3fe7375efda3
+  Banks:
+  - {fileID: 114854012098011482}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1080
+--- !u!114 &114421845935159226
+>>>>>>> poebranch
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -398,6 +567,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
+<<<<<<< HEAD
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -413,6 +583,19 @@ MonoBehaviour:
   MaxDistance: 20
   Length: 400
 --- !u!114 &114479381597460922
+=======
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: Assets\Sound\Thesis1AudioFMOD\Build\Desktop\Master Bank.strings.bank
+  lastModified: 636802309756951357
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 2092
+  Exists: 1
+--- !u!114 &114463796420947986
+>>>>>>> poebranch
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -420,13 +603,60 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   Name: pan
   Min: 0
   Max: 1
   Default: 0
+--- !u!114 &114514110399785448
+=======
+  Path: event:/Vine/Vine
+  guid: e3dde13a695fa04e963b280188673ca5
+  Banks:
+  - {fileID: 114854012098011482}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2713
+--- !u!114 &114465926072900142
+>>>>>>> poebranch
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+<<<<<<< HEAD
+  Path: event:/Mim/Emotes/hmm
+  guid: f90acb2c8d3f7b4cac1f1815f64bf5ed
+  Banks:
+  - {fileID: 114810731439606838}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+=======
+  Path: event:/Mim/Locomotion/FootstepsScared
+  guid: ee6a1b4b638e5641b1f6730d7bcf4fa3
+  Banks:
+  - {fileID: 114854012098011482}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 400
 --- !u!114 &114514110399785448
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -441,11 +671,12 @@ MonoBehaviour:
   Path: event:/Mim/Emotes/hmm
   guid: f90acb2c8d3f7b4cac1f1815f64bf5ed
   Banks:
-  - {fileID: 114810731439606838}
+  - {fileID: 114854012098011482}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters: []
+>>>>>>> poebranch
   MinDistance: 0
   MaxDistance: 0
   Length: 1520
@@ -463,7 +694,11 @@ MonoBehaviour:
   Path: event:/BGtwo
   guid: 414dfd1fd1e099498127c2f8004f0a9a
   Banks:
+<<<<<<< HEAD
   - {fileID: 114810731439606838}
+=======
+  - {fileID: 114854012098011482}
+>>>>>>> poebranch
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -500,7 +735,11 @@ MonoBehaviour:
   Path: event:/Mim/Locomotion/FootstepsVeryScared
   guid: 30c138e905e1ab429d86b9cc1820cd77
   Banks:
+<<<<<<< HEAD
   - {fileID: 114810731439606838}
+=======
+  - {fileID: 114854012098011482}
+>>>>>>> poebranch
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -522,7 +761,11 @@ MonoBehaviour:
   Path: event:/Mim/Emotes/MimFear
   guid: 0b965180ca471b439f279575594eeffa
   Banks:
+<<<<<<< HEAD
   - {fileID: 114810731439606838}
+=======
+  - {fileID: 114854012098011482}
+>>>>>>> poebranch
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -544,7 +787,11 @@ MonoBehaviour:
   Path: event:/Mim/Locomotion/JumpDowm
   guid: ec5c4e52683b5440a5089747c94dc09f
   Banks:
+<<<<<<< HEAD
   - {fileID: 114810731439606838}
+=======
+  - {fileID: 114854012098011482}
+>>>>>>> poebranch
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -566,7 +813,11 @@ MonoBehaviour:
   Path: event:/BGMusic
   guid: ce9bfbd503e3404691cc778896ebe7dd
   Banks:
+<<<<<<< HEAD
   - {fileID: 114810731439606838}
+=======
+  - {fileID: 114854012098011482}
+>>>>>>> poebranch
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
@@ -588,7 +839,11 @@ MonoBehaviour:
   Path: event:/Mom
   guid: 2a83fa263493914e9b3e10b979f8b085
   Banks:
+<<<<<<< HEAD
   - {fileID: 114810731439606838}
+=======
+  - {fileID: 114854012098011482}
+>>>>>>> poebranch
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
@@ -610,7 +865,11 @@ MonoBehaviour:
   Path: event:/Mim/Emotes/SadScared
   guid: cdf30a726100b84a9f55f1a88585b9dd
   Banks:
+<<<<<<< HEAD
   - {fileID: 114810731439606838}
+=======
+  - {fileID: 114854012098011482}
+>>>>>>> poebranch
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -647,7 +906,11 @@ MonoBehaviour:
   Path: event:/Vine/VineApproach
   guid: 8096958c7f744c4eb75190cdbe26e8af
   Banks:
+<<<<<<< HEAD
   - {fileID: 114810731439606838}
+=======
+  - {fileID: 114854012098011482}
+>>>>>>> poebranch
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -669,7 +932,11 @@ MonoBehaviour:
   Path: event:/Mim/Locomotion/PassRocks
   guid: 3a8a44674c747845aa928a06b713751f
   Banks:
+<<<<<<< HEAD
   - {fileID: 114810731439606838}
+=======
+  - {fileID: 114854012098011482}
+>>>>>>> poebranch
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -678,6 +945,8 @@ MonoBehaviour:
   MaxDistance: 0
   Length: 750
 --- !u!114 &114754894015414826
+<<<<<<< HEAD
+=======
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -691,7 +960,7 @@ MonoBehaviour:
   Path: event:/Light/LightSwitch
   guid: 228c4b16c117a943ad83182c34b201cb
   Banks:
-  - {fileID: 114810731439606838}
+  - {fileID: 114854012098011482}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -700,6 +969,7 @@ MonoBehaviour:
   MaxDistance: 0
   Length: 3000
 --- !u!114 &114789298584651352
+>>>>>>> poebranch
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -710,19 +980,72 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
+  Path: event:/Light/LightSwitch
+  guid: 228c4b16c117a943ad83182c34b201cb
+  Banks:
+  - {fileID: 114810731439606838}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 3000
+--- !u!114 &114789298584651352
+=======
   Path: event:/Misc/Mouse
   guid: 1d8779b9865b1b4ca3794fb7b11138f4
   Banks:
-  - {fileID: 114810731439606838}
+  - {fileID: 114854012098011482}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
   Parameters:
+  - {fileID: 114165345685603734}
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 11154
+--- !u!114 &114816113942889776
+>>>>>>> poebranch
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+<<<<<<< HEAD
+  Path: event:/Misc/Mouse
+  guid: 1d8779b9865b1b4ca3794fb7b11138f4
+  Banks:
+  - {fileID: 114810731439606838}
+=======
+  Path: event:/Misc/Insects
+  guid: 3f97bcf977ada04c94482e69a0a7c951
+  Banks:
+  - {fileID: 114854012098011482}
+>>>>>>> poebranch
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+<<<<<<< HEAD
   - {fileID: 114945588165928494}
   MinDistance: 0
   MaxDistance: 0
   Length: 11154
 --- !u!114 &114810177035866608
+=======
+  - {fileID: 114344253626163584}
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 51254
+--- !u!114 &114846954620905408
+>>>>>>> poebranch
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -730,14 +1053,29 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   Name: pan
   Min: 0
   Max: 1
   Default: 0
 --- !u!114 &114810731439606838
+=======
+  Path: event:/BGone
+  guid: 1017b99ac3c98d43a813969ea2c506ff
+  Banks:
+  - {fileID: 114854012098011482}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 197381
+--- !u!114 &114848516802261260
+>>>>>>> poebranch
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -745,6 +1083,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
+<<<<<<< HEAD
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -757,6 +1096,23 @@ MonoBehaviour:
     Value: 13122624
   Exists: 1
 --- !u!114 &114816113942889776
+=======
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/Misc/Ambience
+  guid: a16b2d1d64c75e43ab731954c2931c8f
+  Banks:
+  - {fileID: 114854012098011482}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 441835
+--- !u!114 &114854012098011482
+>>>>>>> poebranch
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -764,6 +1120,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
+<<<<<<< HEAD
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -780,6 +1137,20 @@ MonoBehaviour:
   MaxDistance: 0
   Length: 51254
 --- !u!114 &114846954620905408
+=======
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: D:\ThesisProto\Thesis1\Assets\Sound\Thesis1AudioFMOD\Build\Desktop\Master
+    Bank.bank
+  lastModified: 636802309758757561
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 13122624
+  Exists: 1
+--- !u!114 &114902206686376300
+>>>>>>> poebranch
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -790,6 +1161,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   Path: event:/BGone
   guid: 1017b99ac3c98d43a813969ea2c506ff
   Banks:
@@ -843,6 +1215,20 @@ MonoBehaviour:
     Value: 13122624
   Exists: 0
 --- !u!114 &114902206686376300
+=======
+  Path: event:/Light/LightSwitchOff
+  guid: bb7aafaf94c0534f97bb901fc8efb475
+  Banks:
+  - {fileID: 114854012098011482}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2500
+--- !u!114 &114947341029068328
+>>>>>>> poebranch
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -853,16 +1239,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   Path: event:/Light/LightSwitchOff
   guid: bb7aafaf94c0534f97bb901fc8efb475
   Banks:
   - {fileID: 114810731439606838}
+=======
+  Path: event:/Mim/Emotes/Scared
+  guid: 8360a68e2d7aed4084ee024fedef8e82
+  Banks:
+  - {fileID: 114854012098011482}
+>>>>>>> poebranch
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
+<<<<<<< HEAD
   Length: 2500
 --- !u!114 &114923000086099696
 MonoBehaviour:
@@ -895,6 +1289,10 @@ MonoBehaviour:
   Max: 1
   Default: 0
 --- !u!114 &114947341029068328
+=======
+  Length: 3173
+--- !u!114 &114950805791880344
+>>>>>>> poebranch
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -905,16 +1303,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   Path: event:/Mim/Emotes/Scared
   guid: 8360a68e2d7aed4084ee024fedef8e82
   Banks:
   - {fileID: 114810731439606838}
+=======
+  Path: event:/Mim/Locomotion/Slide
+  guid: 62f3e472f4582749bc979ce6c5d7fe82
+  Banks:
+  - {fileID: 114854012098011482}
+>>>>>>> poebranch
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
+<<<<<<< HEAD
   Length: 3173
 --- !u!114 &114950805791880344
 MonoBehaviour:
@@ -937,4 +1343,6 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
+=======
+>>>>>>> poebranch
   Length: 0
