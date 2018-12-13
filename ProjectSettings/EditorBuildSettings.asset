@@ -30,6 +30,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Intro/IntroMilestone2.unity
     guid: 8311aa296641ffd4dabda6066abfa906
   - enabled: 1
+    path: Assets/Scenes/FinalTutorial.unity
+    guid: 13fe14f1faafa714bb4a4592044395b7
+  - enabled: 1
     path: Assets/Scenes/MilestoneOneScene1.unity
     guid: 42571f183e191a14aafc0adf3af3ec69
   m_configObjects: {}

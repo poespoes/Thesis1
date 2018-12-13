@@ -372,6 +372,7 @@
             <e p="OneOffScripts" t="Include">
               <e p="vineSpawn.cs" t="Include" />
             </e>
+            <e p="sceneEnd.cs" t="Include" />
             <e p="sceneTransition.cs" t="Include" />
           </e>
         </e>
