@@ -13,7 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EditorBanks:
   - {fileID: 114532378819281160}
-  - {fileID: 114914698569168952}
+  - {fileID: 114334236428351232}
   EditorEvents:
   - {fileID: 114088840439306928}
   - {fileID: 114495712303613364}
@@ -59,8 +59,23 @@ MonoBehaviour:
   - {fileID: 114914698569168952}
   StringsBanks:
   - {fileID: 114532378819281160}
-  stringsBankWriteTime: 636803101990226090
+  stringsBankWriteTime: 636803146678364055
   cacheVersion: 3
+--- !u!114 &114007084329519000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: pan
+  Min: 0
+  Max: 1
+  Default: 0
 --- !u!114 &114022095763491214
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -75,7 +90,7 @@ MonoBehaviour:
   Path: event:/Mim/Emotes/question
   guid: 1122f3c01f0f164ab9bc93e049aecd6f
   Banks:
-  - {fileID: 114914698569168952}
+  - {fileID: 114334236428351232}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -221,7 +236,7 @@ MonoBehaviour:
   Path: event:/Vine/VineMovement
   guid: 050f850653e50947978651ed2aa1dd5c
   Banks:
-  - {fileID: 114914698569168952}
+  - {fileID: 114334236428351232}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -264,7 +279,7 @@ MonoBehaviour:
   Path: event:/Mom
   guid: 2a83fa263493914e9b3e10b979f8b085
   Banks:
-  - {fileID: 114914698569168952}
+  - {fileID: 114334236428351232}
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
@@ -272,6 +287,21 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 39600
+--- !u!114 &114114400555610566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: transition
+  Min: 0
+  Max: 1
+  Default: 0
 --- !u!114 &114126560649920070
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -316,7 +346,7 @@ MonoBehaviour:
   Path: event:/Mim/Emotes/death
   guid: 629ab1f24c72a543a30d0f21e5569947
   Banks:
-  - {fileID: 114914698569168952}
+  - {fileID: 114334236428351232}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -338,7 +368,7 @@ MonoBehaviour:
   Path: event:/Mim/Emotes/Sleep
   guid: 6f4778e452069a4da724f4169576b096
   Banks:
-  - {fileID: 114914698569168952}
+  - {fileID: 114334236428351232}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -360,7 +390,7 @@ MonoBehaviour:
   Path: event:/Mim/Locomotion/PassRocks
   guid: 3a8a44674c747845aa928a06b713751f
   Banks:
-  - {fileID: 114914698569168952}
+  - {fileID: 114334236428351232}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -397,7 +427,7 @@ MonoBehaviour:
   Path: event:/Mim/Emotes/Sad
   guid: 0f9cc02b0012664b878ca26c1de438fb
   Banks:
-  - {fileID: 114914698569168952}
+  - {fileID: 114334236428351232}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -494,7 +524,7 @@ MonoBehaviour:
   Path: event:/Mim/Emotes/SadScared
   guid: cdf30a726100b84a9f55f1a88585b9dd
   Banks:
-  - {fileID: 114914698569168952}
+  - {fileID: 114334236428351232}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -516,12 +546,12 @@ MonoBehaviour:
   Path: event:/BGMusic (2)
   guid: 28cbfd39a865be468cafc27602571a0f
   Banks:
-  - {fileID: 114914698569168952}
+  - {fileID: 114334236428351232}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: 114068422330848348}
+  - {fileID: 114114400555610566}
   MinDistance: 0
   MaxDistance: 0
   Length: 90219
@@ -573,7 +603,7 @@ MonoBehaviour:
   Path: event:/Vine/VineApproach
   guid: 8096958c7f744c4eb75190cdbe26e8af
   Banks:
-  - {fileID: 114914698569168952}
+  - {fileID: 114334236428351232}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -676,7 +706,7 @@ MonoBehaviour:
   Path: event:/Mim/Locomotion/Jumpup
   guid: 5650761429955c43a96b3fe7375efda3
   Banks:
-  - {fileID: 114914698569168952}
+  - {fileID: 114334236428351232}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -698,7 +728,7 @@ MonoBehaviour:
   Path: event:/Mim/Emotes/Wonder
   guid: 41a7e94287b9694d87568ec88698913a
   Banks:
-  - {fileID: 114914698569168952}
+  - {fileID: 114334236428351232}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -736,6 +766,25 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
+--- !u!114 &114334236428351232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: D:\GitKrakenClones\Mim\Thesis1\Assets\Sound\Thesis1AudioFMOD\Build\Desktop\Master
+    Bank.bank
+  lastModified: 636803146679790230
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 15074592
+  Exists: 1
 --- !u!114 &114339361785293506
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -780,7 +829,7 @@ MonoBehaviour:
   Path: event:/Mim/Emotes/MimPant
   guid: 34128021a3810d45a29e6f1f9f3bf761
   Banks:
-  - {fileID: 114914698569168952}
+  - {fileID: 114334236428351232}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -802,7 +851,7 @@ MonoBehaviour:
   Path: event:/BGMusic
   guid: ce9bfbd503e3404691cc778896ebe7dd
   Banks:
-  - {fileID: 114914698569168952}
+  - {fileID: 114334236428351232}
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
@@ -839,7 +888,7 @@ MonoBehaviour:
   Path: event:/Light/Glow
   guid: e12c6a1fd7797149a21d610639c0cd2b
   Banks:
-  - {fileID: 114914698569168952}
+  - {fileID: 114334236428351232}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -927,12 +976,12 @@ MonoBehaviour:
   Path: event:/Misc/Insects
   guid: 3f97bcf977ada04c94482e69a0a7c951
   Banks:
-  - {fileID: 114914698569168952}
+  - {fileID: 114334236428351232}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
   Parameters:
-  - {fileID: 114800857626580862}
+  - {fileID: 114710086479189526}
   MinDistance: 0
   MaxDistance: 0
   Length: 51254
@@ -980,7 +1029,7 @@ MonoBehaviour:
   Path: event:/Test
   guid: 6ffac302177b3d4f902d19f97d290c2a
   Banks:
-  - {fileID: 114914698569168952}
+  - {fileID: 114334236428351232}
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
@@ -1077,7 +1126,7 @@ MonoBehaviour:
   Path: event:/Mim/Emotes/MimFear
   guid: 0b965180ca471b439f279575594eeffa
   Banks:
-  - {fileID: 114914698569168952}
+  - {fileID: 114334236428351232}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1157,7 +1206,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Path: Assets\Sound\Thesis1AudioFMOD\Build\Desktop\Master Bank.strings.bank
-  lastModified: 636803101990226090
+  lastModified: 636803146678364055
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -1207,7 +1256,7 @@ MonoBehaviour:
   Path: event:/Vine/VineAttack
   guid: 43bb0fe2f764e1498aa05f2dbb87770c
   Banks:
-  - {fileID: 114914698569168952}
+  - {fileID: 114334236428351232}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1215,6 +1264,21 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
+--- !u!114 &114592181640912752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: pan
+  Min: 0
+  Max: 1
+  Default: 0
 --- !u!114 &114612620337562334
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1289,7 +1353,7 @@ MonoBehaviour:
   Path: event:/Mim/Emotes/hmm
   guid: f90acb2c8d3f7b4cac1f1815f64bf5ed
   Banks:
-  - {fileID: 114914698569168952}
+  - {fileID: 114334236428351232}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1347,7 +1411,7 @@ MonoBehaviour:
   Path: event:/Mim/Emotes/Surprised
   guid: 7ee604b853c8f548b44fdd5a6b49c626
   Banks:
-  - {fileID: 114914698569168952}
+  - {fileID: 114334236428351232}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1355,6 +1419,21 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 1141
+--- !u!114 &114710086479189526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: pan
+  Min: 0
+  Max: 1
+  Default: 0
 --- !u!114 &114711545697387888
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1369,7 +1448,7 @@ MonoBehaviour:
   Path: event:/BGtwo
   guid: 414dfd1fd1e099498127c2f8004f0a9a
   Banks:
-  - {fileID: 114914698569168952}
+  - {fileID: 114334236428351232}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -1406,12 +1485,12 @@ MonoBehaviour:
   Path: event:/Mim/Locomotion/FootstepsNormal
   guid: c575bbddbfd1e249840af1b43458758c
   Banks:
-  - {fileID: 114914698569168952}
+  - {fileID: 114334236428351232}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
   Parameters:
-  - {fileID: 114472683689433454}
+  - {fileID: 114007084329519000}
   MinDistance: 1
   MaxDistance: 20
   Length: 400
@@ -1495,7 +1574,7 @@ MonoBehaviour:
   Path: event:/Light/LightSwitch
   guid: 228c4b16c117a943ad83182c34b201cb
   Banks:
-  - {fileID: 114914698569168952}
+  - {fileID: 114334236428351232}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1517,7 +1596,7 @@ MonoBehaviour:
   Path: event:/Light/LightSwitchOff
   guid: bb7aafaf94c0534f97bb901fc8efb475
   Banks:
-  - {fileID: 114914698569168952}
+  - {fileID: 114334236428351232}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1603,7 +1682,7 @@ MonoBehaviour:
   Path: event:/BGone
   guid: 1017b99ac3c98d43a813969ea2c506ff
   Banks:
-  - {fileID: 114914698569168952}
+  - {fileID: 114334236428351232}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -1625,7 +1704,7 @@ MonoBehaviour:
   Path: event:/Mim/Locomotion/Slide
   guid: 62f3e472f4582749bc979ce6c5d7fe82
   Banks:
-  - {fileID: 114914698569168952}
+  - {fileID: 114334236428351232}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1647,7 +1726,7 @@ MonoBehaviour:
   Path: event:/Mim/Locomotion/JumpDowm
   guid: ec5c4e52683b5440a5089747c94dc09f
   Banks:
-  - {fileID: 114914698569168952}
+  - {fileID: 114334236428351232}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1690,7 +1769,7 @@ MonoBehaviour:
   Path: event:/Mim/Locomotion/FootstepsVeryScared
   guid: 30c138e905e1ab429d86b9cc1820cd77
   Banks:
-  - {fileID: 114914698569168952}
+  - {fileID: 114334236428351232}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -1727,7 +1806,7 @@ MonoBehaviour:
   Path: event:/Worm
   guid: cb3828fdc92c97409e0131691353154a
   Banks:
-  - {fileID: 114914698569168952}
+  - {fileID: 114334236428351232}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -1815,7 +1894,7 @@ MonoBehaviour:
   Path: event:/Mim/Locomotion/Climb
   guid: d11a46d41c80874582747878498514d2
   Banks:
-  - {fileID: 114914698569168952}
+  - {fileID: 114334236428351232}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -1837,7 +1916,7 @@ MonoBehaviour:
   Path: event:/Misc/Sticks
   guid: fd17e6b3a5214746960b742845b96e76
   Banks:
-  - {fileID: 114914698569168952}
+  - {fileID: 114334236428351232}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -1863,7 +1942,7 @@ MonoBehaviour:
   FileSizes:
   - Name: Desktop
     Value: 15074592
-  Exists: 1
+  Exists: 0
 --- !u!114 &114917749557229842
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1878,12 +1957,12 @@ MonoBehaviour:
   Path: event:/Misc/Mouse
   guid: 1d8779b9865b1b4ca3794fb7b11138f4
   Banks:
-  - {fileID: 114914698569168952}
+  - {fileID: 114334236428351232}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
   Parameters:
-  - {fileID: 114612620337562334}
+  - {fileID: 114592181640912752}
   MinDistance: 0
   MaxDistance: 0
   Length: 11154
@@ -1916,7 +1995,7 @@ MonoBehaviour:
   Path: event:/BGthree
   guid: db3590e26e583e4a998717dec5f3083d
   Banks:
-  - {fileID: 114914698569168952}
+  - {fileID: 114334236428351232}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -1938,7 +2017,7 @@ MonoBehaviour:
   Path: event:/Mim/Locomotion/FootstepsScared
   guid: ee6a1b4b638e5641b1f6730d7bcf4fa3
   Banks:
-  - {fileID: 114914698569168952}
+  - {fileID: 114334236428351232}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -1960,7 +2039,7 @@ MonoBehaviour:
   Path: event:/Mim/Emotes/Scared
   guid: 8360a68e2d7aed4084ee024fedef8e82
   Banks:
-  - {fileID: 114914698569168952}
+  - {fileID: 114334236428351232}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1997,7 +2076,7 @@ MonoBehaviour:
   Path: event:/Vine/Vine
   guid: e3dde13a695fa04e963b280188673ca5
   Banks:
-  - {fileID: 114914698569168952}
+  - {fileID: 114334236428351232}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -2019,7 +2098,7 @@ MonoBehaviour:
   Path: event:/Misc/Ambience
   guid: a16b2d1d64c75e43ab731954c2931c8f
   Banks:
-  - {fileID: 114914698569168952}
+  - {fileID: 114334236428351232}
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
