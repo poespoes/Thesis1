@@ -369,6 +369,9 @@
         <e p="Scenes" t="Include">
           <e p="CutsceneScripts" t="Include">
             <e p="cinematicCameraTween.cs" t="Include" />
+            <e p="OneOffScripts" t="Include">
+              <e p="vineSpawn.cs" t="Include" />
+            </e>
             <e p="sceneTransition.cs" t="Include" />
           </e>
         </e>
@@ -388,6 +391,10 @@
             <e p="freezePlayerBehaviour.cs" t="Include" />
             <e p="IntroController_0.cs" t="Include" />
             <e p="LetThereBeLeaf.cs" t="Include" />
+            <e p="OneOffScripts" t="Include">
+              <e p="MimLightEmoji.cs" t="Include" />
+              <e p="VineSpawnScript.cs" t="Include" />
+            </e>
             <e p="TimedAnimationPlay.cs" t="Include" />
           </e>
           <e p="death.cs" t="Include" />

@@ -4261,8 +4261,22 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
+  - time: 13
+    functionName: StartEmojiHint
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
   - time: 15.4
     functionName: EndCutScene
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 15.4
+    functionName: Spawn
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
