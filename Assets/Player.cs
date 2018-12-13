@@ -42,12 +42,15 @@ public class Player : MonoBehaviour {
     public bool invulnerable;
 
     public bool canDie;
+    public float respawnTime;
     public GameObject VineChase;
 
     public bool noLeaf;
 
     public bool canGrab;
     public bool isGrabbing;
+
+    public bool isDying;
 
     void Start() {
         targetPos = transform.position.x;
@@ -369,7 +372,7 @@ public class Player : MonoBehaviour {
     {
         if (canDie == false)
        {
-           Invoke("Restart", 2);
+           Invoke("Restart", respawnTime);
            this.GetComponent<Animator>().SetBool("MimDying",true);
 
             gameState gamestate = GameObject.Find("GameManager").GetComponent<gameState>();
@@ -383,13 +386,17 @@ public class Player : MonoBehaviour {
             }
 
             canDie = true;
-        }
+           isDying = true;
+           
+       }
     }
 
     public void Restart()
     {
         //SceneManager.LoadScene(SceneManager.GetActiveScene().name);
 
+        
+        
         if (VineChase != null)
         {
             VineChase.GetComponent<VineReset>().Reset();
@@ -409,6 +416,8 @@ public class Player : MonoBehaviour {
 
         canDie = false;
         this.GetComponent<Animator>().SetBool("MimDying",false);
+
+        isDying = false;
     }
     
     
