@@ -2626,7 +2626,7 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 1854633570}
+  - {fileID: 389226341}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -8135,7 +8135,7 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 1854633570}
+  - {fileID: 389226341}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9737,7 +9737,7 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 1854633570}
+  - {fileID: 389226341}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -14690,6 +14690,39 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 385026033}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!21 &389226341
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Sprites/Default
+  m_Shader: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - PixelSnap: 0
+    - _EnableExternalAlpha: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Flip: {r: 1, g: 1, b: 1, a: 1}
+    - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &396916455
 GameObject:
   m_ObjectHideFlags: 0
@@ -18766,6 +18799,7 @@ GameObject:
   - component: {fileID: 494760300}
   - component: {fileID: 494760302}
   - component: {fileID: 494760301}
+  - component: {fileID: 494760303}
   m_Layer: 2
   m_Name: MimLeaf
   m_TagString: Untagged
@@ -18820,6 +18854,17 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &494760303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 494760299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c00908f1f80357c4cb246728b83a03a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &496391918
 GameObject:
   m_ObjectHideFlags: 0
@@ -22843,7 +22888,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.6802139, y: 0.2584877}
+  m_Offset: {x: 0.5489205, y: 0.31101263}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -22854,7 +22899,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.3604279, y: 2.1343231}
+  m_Size: {x: 3.1482794, y: 2.8696635}
   m_EdgeRadius: 0
 --- !u!114 &619450032
 MonoBehaviour:
@@ -41140,7 +41185,7 @@ MonoBehaviour:
   invulnerable: 0
   canDie: 0
   VineChase: {fileID: 1641184379}
-  noLeaf: 1
+  noLeaf: 0
   canGrab: 0
   isGrabbing: 0
 --- !u!114 &1103675529
@@ -41159,6 +41204,7 @@ MonoBehaviour:
   playerPos: {fileID: 0}
   cameraControl: {fileID: 0}
   pullUpClip: {fileID: 7400000, guid: 616df9d375fd1f04bb7fd0f0862a5860, type: 2}
+  NewLedge: {fileID: 0}
 --- !u!114 &1103675530
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47265,7 +47311,7 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 1854633570}
+  - {fileID: 389226341}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -56301,7 +56347,7 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 1854633570}
+  - {fileID: 389226341}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -63099,7 +63145,7 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 1854633570}
+  - {fileID: 389226341}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -69397,39 +69443,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!21 &1854633570
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: Sprites/Default
-  m_Shader: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _AlphaTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - PixelSnap: 0
-    - _EnableExternalAlpha: 0
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Flip: {r: 1, g: 1, b: 1, a: 1}
-    - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &1856152696
 Transform:
   m_ObjectHideFlags: 0
