@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.01.10.00">
     <object class="Event" id="{1f6a2ce1-79d7-4971-a21d-610639c0cd2b}">
         <property name="name">
-            <value>Glow</value>
+            <value>Glow1</value>
         </property>
         <property name="outputFormat">
             <value>5</value>
@@ -104,7 +104,7 @@
     </object>
     <object class="EventMixerGroup" id="{b3c4f6ad-b726-4c34-81e8-7b37b7a79394}">
         <property name="volume">
-            <value>-2</value>
+            <value>7.5</value>
         </property>
         <property name="name">
             <value>Audio 1</value>
@@ -124,7 +124,14 @@
             <destination>{03c2695c-8949-497f-bfc5-4de875acf182}</destination>
         </relationship>
     </object>
-    <object class="MixerBusPanner" id="{13bcce0d-e93e-49d9-8b97-dbcfde866e88}"/>
+    <object class="MixerBusPanner" id="{13bcce0d-e93e-49d9-8b97-dbcfde866e88}">
+        <property name="surroundPanDirection">
+            <value>-60.2551193</value>
+        </property>
+        <property name="surroundPanExtent">
+            <value>325.052124</value>
+        </property>
+    </object>
     <object class="MixerBusFader" id="{59ec115c-31b0-45d5-8380-38d05a5562a2}"/>
     <object class="FadeCurve" id="{3b15fce4-2d9d-4a27-864c-cea78f0e9314}">
         <relationship name="startPoint">
